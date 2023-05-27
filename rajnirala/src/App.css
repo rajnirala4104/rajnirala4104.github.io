@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Dancing+Script&family=Libre+Franklin:wght@200&family=Montserrat:wght@300&family=Playfair&display=swap');
+
+:root {
+  --litCoursive: 'Dancing Script', cursive;
+  --strightFont: 'Montserrat', sans-serif;
+  --normalFont: 'Playfair', serif;
+  --bitter: 'Bitter', serif;
+  --libreFranklin: 'Libre Franklin', sans-serif;
+}
+
+
 .App {
   text-align: center;
 }
 
-.myWebAppContainer{
-  border: 2px solid black;
+body {
+  overflow: hidden;
 }
 
+.myWebAppContainer {
+  /* border: 2px solid black; */
+  /* border-left: 1px solid black;
+  border-right: 1px solid black; */
+  /* box-shadow: 0px 0px 1px .5px black; */
+}
