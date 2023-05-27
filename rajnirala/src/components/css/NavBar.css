@@ -4,5 +4,25 @@
 }
 
 .navbar{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-self: center !important;
 }
+
+.logo{
+    /* border: 1px solid blue; */
+}
+
+#navbarSupportedContent{
+    /* border: 1px solid green; */
+    width: 50% !important;
+}
+
+#navbarSupportedContent ul{
+    display: flex !important;
+    justify-content: right !important;
+    align-self: center !important;
+}
+
+

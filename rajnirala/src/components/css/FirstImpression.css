@@ -1,0 +1,15 @@
+.firstImpressionContainer{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.firstImpressionLeftSectionContent{
+    border: 2px solid green;
+}
+
+.firstImpressionRightSectionContent{
+    border: 2px solid blue;
+}
