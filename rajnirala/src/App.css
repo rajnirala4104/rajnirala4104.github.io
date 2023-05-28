@@ -8,6 +8,7 @@
   --bitter: 'Bitter', serif;
   --libreFranklin: 'Libre Franklin', sans-serif;
   --poppinFont: font-family: 'Poppins', sans-serif;
+  --textColor : rgb(91, 91, 91);
 }
 
 
@@ -17,11 +18,4 @@
 
 body {
   overflow: hidden;
-}
-
-.myWebAppContainer {
-  /* border: 2px solid black; */
-  /* border-left: 1px solid black;
-  border-right: 1px solid black; */
-  /* box-shadow: 0px 0px 1px .5px black; */
 }

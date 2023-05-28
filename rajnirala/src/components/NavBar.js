@@ -4,7 +4,7 @@ function NavBar(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="logo">
-                <Link className="navbar-brand" to="/">Raj Nirala</Link>
+                <Link className="navbar-brand" to="/">R<span className='logoDesign'>aj</span> N<span className='logoDesign'>irala</span></Link>
             </div>
             <div className=" navMenus" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
@@ -12,7 +12,7 @@ function NavBar(props) {
                         <Link className={`nav-link ${props.activeStatus === '/' ? 'active' : ""}`} to="/">Home <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-link ${props.activeStatus === '/whoami' ? 'active' : ""}` } to="/whoami">WhoAmI</Link>
+                        <Link className={`nav-link ${props.activeStatus === '/whoami' ? 'active' : ""}`} to="/whoami">WhoAmI</Link>
                     </li>
                     <li className="nav-item">
                         <Link className={`nav-link ${props.activeStatus === '/moreaboutme' ? 'active' : ""}`} to="/moreaboutme">MoreAboutMe</Link>

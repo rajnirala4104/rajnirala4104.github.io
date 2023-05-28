@@ -1,6 +1,6 @@
 import './css/FirstImpression.css'
 
-function FirstImpression(props) {
+export default function FirstImpression(props) {
     return (
         <>
             <div className="firstImpressionContainer">
@@ -22,5 +22,3 @@ function FirstImpression(props) {
         </>
     )
 }
-
-export default FirstImpression;

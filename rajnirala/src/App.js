@@ -10,17 +10,16 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route exact path="/" Component={Home} />
-        <Route exact path="/*" Component={NoPage} />
-        <Route exact path="/whoami" Component={WhoAmI} />
-        <Route exact path="/moreaboutme" Component={MoreAboutMe} />
-        <Route exact path="/education" Component={Education} />
-        <Route exact path="/expertise" Component={Expertise} />
-        <Route exact path="/projects" Component={Projects} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route exact path="/" Component={Home} />
+      <Route exact path="/*" Component={NoPage} />
+      <Route exact path="/whoami" Component={WhoAmI} />
+      <Route exact path="/moreaboutme" Component={MoreAboutMe} />
+      <Route exact path="/education" Component={Education} />
+      <Route exact path="/expertise" Component={Expertise} />
+      <Route exact path="/projects" Component={Projects} />
+    </Routes>
+
   );
 }
 
