@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Dancing+Script&family=Libre+Franklin:wght@200&family=Montserrat:wght@300&family=Playfair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Dancing+Script&family=Libre+Franklin:wght@200&family=Montserrat:wght@300&family=Playfair&family=Poppins:wght@100;200&display=swap');
+
 
 :root {
   --litCoursive: 'Dancing Script', cursive;
@@ -6,6 +7,7 @@
   --normalFont: 'Playfair', serif;
   --bitter: 'Bitter', serif;
   --libreFranklin: 'Libre Franklin', sans-serif;
+  --poppinFont: font-family: 'Poppins', sans-serif;
 }
 
 
