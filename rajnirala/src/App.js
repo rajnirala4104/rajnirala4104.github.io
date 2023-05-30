@@ -19,7 +19,6 @@ function App() {
       <Route exact path="/expertise" Component={Expertise} />
       <Route exact path="/projects" Component={Projects} />
     </Routes>
-
   );
 }
 

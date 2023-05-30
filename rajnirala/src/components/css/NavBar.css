@@ -8,8 +8,8 @@
     display: flex !important;
     justify-content: center !important;
     align-self: center !important;
-    border-bottom: 1px solid black;
-    
+    border-bottom: 1px solid rgb(142, 142, 142);
+     
 }
 
 .logo {
