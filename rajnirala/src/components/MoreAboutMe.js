@@ -48,6 +48,18 @@ function MoreAboutMe(props) {
                         <div className="cardRightContent">
                             <div className="text">
 
+                                <h3>Book Lover</h3>
+                               <p>
+                               My interest in making friends stems from my desire to gain diverse perspectives on the world. I believe that every individual has a unique way of viewing the world, and I am eager to learn from and appreciate these different perspectives.
+                               </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="moreAboutMeCard">
+                        <img src={require('./images/friendlyNature.jpg')} alt="Oops!!" />
+                        <div className="cardRightContent">
+                            <div className="text">
+
                                 <h3>Friendly Nature</h3>
                                <p>
                                My interest in making friends stems from my desire to gain diverse perspectives on the world. I believe that every individual has a unique way of viewing the world, and I am eager to learn from and appreciate these different perspectives.

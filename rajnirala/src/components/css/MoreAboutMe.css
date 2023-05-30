@@ -1,13 +1,19 @@
-.moreAboutMeContainer{
+.moreAboutMeContainer {
     /* border: 2px solid red; */
 }
 
-.moreAboutMeContent{
+.moreAboutMeContent {
     /* border: 2px solid green; */
-    margin: 22px 0px;
+    margin: 10px 0px;
+    padding: 4px;
+    overflow-x: hidden;
+    width: 100%;
+    height: 89vh;
+    overflow-y: auto;
+    text-align: justify;
 }
 
-.moreAboutMeCard{
+.moreAboutMeCard {
     /* border: 2px solid blue; */
     display: flex;
     justify-content: space-around;
@@ -16,55 +22,58 @@
     height: 27vh;
 }
 
-.moreAboutMeCard img{
+.moreAboutMeCard img {
     width: 10rem;
     /* border: 1px solid green; */
     filter: saturate(40%);
     border-radius: 10px;
 }
-.moreAboutMeCard img:hover{
+
+.moreAboutMeCard img:hover {
     width: 10rem;
     /* border: 1px solid green; */
     filter: saturate(100%);
 }
 
-.cardRightContent{
+.cardRightContent {
     /* border: 1px solid black; */
     /* text-align: justify; */
     width: 80%;
     padding: 0px 5px;
 }
-.text{
+
+.text {
     /* border: 2px solid green; */
     width: 80%;
     padding: 0px 5px;
 }
-.moreAboutMeCard:nth-of-type(even){
-	text-align: right;
+
+.moreAboutMeCard:nth-of-type(even) {
+    text-align: right;
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
     width: 100%;
 }
-.moreAboutMeCard:nth-of-type(even) .cardRightContent{
-	text-align: right;
+
+.moreAboutMeCard:nth-of-type(even) .cardRightContent {
+    text-align: right;
     /* border: 2px solid rgb(0, 0, 0); */
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
     width: 96%;
 }
-.moreAboutMeCard:nth-of-type(even) .cardRightContent .text{
-	width: 77%;
+
+.moreAboutMeCard:nth-of-type(even) .cardRightContent .text {
+    width: 77%;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.moreAboutMeCard:nth-of-type(even) .cardRightContent .text p{
-	text-align: left;
+.moreAboutMeCard:nth-of-type(even) .cardRightContent .text p {
+    text-align: left;
 }
-
-
