@@ -1,14 +1,12 @@
 import NavBar from "./NavBar";
 import { useLocation } from "react-router-dom";
 
-function Projects(props) {
-    const location = useLocation();
-    return(
+export default function Contact(props) {
+    const location = useLocation()
+    return (
         <>
             <NavBar activeStatus={location.pathname}/>
-            These all are my Project 
+            This is My Contact page
         </>
     )
 }
-
-export default Projects;

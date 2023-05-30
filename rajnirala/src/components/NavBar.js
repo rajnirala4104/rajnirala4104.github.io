@@ -26,6 +26,9 @@ function NavBar(props) {
                     <li className="nav-item">
                         <Link className={`nav-link ${props.activeStatus === '/projects' ? 'active' : ""}`} to="/projects">Projects</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className={`nav-link ${props.activeStatus === '/contact' ? 'active' : ""}`} to="/contact">Contact</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

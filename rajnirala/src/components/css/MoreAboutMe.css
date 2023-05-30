@@ -1,5 +1,6 @@
 .moreAboutMeContainer {
     /* border: 2px solid red; */
+    /* width: 200vh; */
 }
 
 .moreAboutMeContent {
@@ -100,5 +101,6 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #747474; 
   }
+
 
 

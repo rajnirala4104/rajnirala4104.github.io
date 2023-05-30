@@ -13,18 +13,20 @@
     font-family: var(--poppinFont);
     font-size: 20px;
     color: rgb(92, 92, 92);
-    width:80vh;
+    width: 84vh;
+    z-index: 2;
 }
 
 .myImage{
     /* border: 2px solid blue; */
-    width: 70vh;
+    /* width: 70vh; */
 }
 
 .myImage img{
     width: 85vh;
     height:85vh;
-    filter: saturate(10%);
+    filter: saturate(0%);
+    object-fit: fill;
 }
 
 /* ------------- responsive ---------- */
