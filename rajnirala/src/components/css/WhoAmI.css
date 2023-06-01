@@ -25,7 +25,7 @@
 .myImage img{
     width: 85vh;
     height:85vh;
-    filter: saturate(0%);
+    filter: saturate(10%);
     object-fit: fill;
 }
 
