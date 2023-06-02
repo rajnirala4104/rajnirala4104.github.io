@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import { useLocation } from "react-router-dom";
 import './css/Expertise.css'
+import SkillRange from "./SkillRange";
 
 function Expertise(props) {
     const location = useLocation();
@@ -9,25 +10,10 @@ function Expertise(props) {
             <NavBar activeStatus={location.pathname} />
             <div className="container ExpertiesContainer">
                 <div className="MySkillsContainer">
-
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    80%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-                        <defs>
-                            <linearGradient id="GradientColor">
-                                <stop offset="0%" stop-color="#e91e63" />
-                                <stop offset="100%"stop-color="#673ab7" />
-                            </linearGradient>
-                        </defs>
-                        <circle cx="80" cy="80" r="60" stroke-linecap="round" />
-                    </svg>
+                    <SkillRange rangeValue={80} howMuchRotate={"rotate80"}/>
+                    <SkillRange rangeValue={30} howMuchRotate={"rotate30"}/>
+                    <SkillRange rangeValue={50} howMuchRotate={"rotate50"}/>
+                    <SkillRange rangeValue={10} howMuchRotate={"rotate10"}/>
                 </div>
             </div>
         </>

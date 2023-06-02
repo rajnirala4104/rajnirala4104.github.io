@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .skill{
@@ -54,23 +54,33 @@
 }
 
 circle{
-    fill: none;
-    stroke: rgb(88, 88, 88);
-    stroke-width: 15px;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 472; 
-    animation: rotate 2s linear forwards;
+    
 }
 
 svg{
     position: relative;
     top: -10.5rem;
-    left: 1px;
+    left: 9px;
 }
 
-@keyframes rotate {
+@keyframes rotate80 {
     100%{
         stroke-dashoffset: 150;
+    }
+}
+@keyframes rotate30 {
+    100%{
+        stroke-dashoffset: 250;
+    }
+}
+@keyframes rotate50 {
+    100%{
+        stroke-dashoffset: 280;
+    }
+}
+@keyframes rotate10 {
+    100%{
+        stroke-dashoffset: 420;
     }
 }
 
