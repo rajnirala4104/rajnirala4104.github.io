@@ -1,3 +1,6 @@
+import './Js/skillRange'
+
+
 export default function SkillRange(props) {
     return (
         <div className="skillRange">

@@ -78,13 +78,13 @@
 
 svg{
     position: relative;
-    top: 0rem;
-    left:-10.5rem
+    top: -0.4px;
+    left:-167px;
 }
 
 @keyframes rotate80 {
     100%{
-        stroke-dashoffset: 145;
+        stroke-dashoffset: 165;
     }
 }
 

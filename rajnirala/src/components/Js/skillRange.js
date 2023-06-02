@@ -1,0 +1,1 @@
+console.log("Hello This is Skill Range Page")
