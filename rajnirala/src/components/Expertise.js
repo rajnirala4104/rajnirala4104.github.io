@@ -10,10 +10,13 @@ function Expertise(props) {
             <NavBar activeStatus={location.pathname} />
             <div className="container ExpertiesContainer">
                 <div className="MySkillsContainer">
-                    <SkillRange rangeValue={80} howMuchRotate={"rotate80"}/>
-                    <SkillRange rangeValue={30} howMuchRotate={"rotate30"}/>
-                    <SkillRange rangeValue={50} howMuchRotate={"rotate50"}/>
-                    <SkillRange rangeValue={10} howMuchRotate={"rotate10"}/>
+                    <SkillRange rangeValue={87} skillName={"JavaScript"} howMuchRotate={"rotate80"}/>
+                    <SkillRange rangeValue={78} skillName={"Python"} howMuchRotate={"rotate78"}/>
+                    <SkillRange rangeValue={60} skillName={"Node Js"} howMuchRotate={"rotate60"}/>
+                    <SkillRange rangeValue={50} skillName={"React Js"} howMuchRotate={"rotate50"}/>
+                    <SkillRange rangeValue={50} skillName={"C"} howMuchRotate={"rotate50"}/>
+                    <SkillRange rangeValue={30} skillName={"Java"} howMuchRotate={"rotate30"}/>
+                    <SkillRange rangeValue={20} skillName={"PHP"} howMuchRotate={"rotate20"}/>
                 </div>
             </div>
         </>

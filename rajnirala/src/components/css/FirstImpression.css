@@ -52,7 +52,7 @@
 
 .liBitAboutMe .me{
     font-size: 2.5rem;
-    font-weight: 100;
+    font-weight: 300;
     font-family: var(--poppinFont);
     color: var(--textColor);
 }
@@ -64,7 +64,7 @@
 }
 .liBitAboutMe .developer{
     font-size: 2.5rem;
-    font-weight: 100;
+    font-weight: 300;
     font-family: var(--poppinFont);
     color: var(--textColor);
 }

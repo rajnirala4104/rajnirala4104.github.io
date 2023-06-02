@@ -5,7 +5,13 @@ export default function SkillRange(props) {
                 <div className="outer">
                     <div className="inner">
                         <div id="number">
-                            {props.rangeValue}
+                            <span className="skillKaNaam">
+                                {props.skillName}
+                            </span>
+                            <br />
+                            <span className="skillPercentage">
+                                {props.rangeValue}%
+                            </span>
                         </div>
                     </div>
                 </div>
