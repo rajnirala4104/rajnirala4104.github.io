@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: rgb(223, 223, 223); 
+    background: rgb(240, 240, 240); 
 }
 
 .outer{
@@ -78,7 +78,7 @@
 
 svg{
     position: relative;
-    top: -0.4px;
+    top: 1.5px;
     left:-167px;
 }
 
@@ -118,6 +118,12 @@ svg{
 @keyframes rotate20 {
     100%{
         stroke-dashoffset: 390;
+    }
+}
+
+@keyframes rotate46 {
+    100%{
+        stroke-dashoffset: 300;
     }
 }
 
