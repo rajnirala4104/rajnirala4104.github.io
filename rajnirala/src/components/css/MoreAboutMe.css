@@ -12,6 +12,7 @@
     height: 89vh;
     overflow-y: auto;
     /* text-align: justify; */
+    
 }
 
 .moreAboutMeCard {
@@ -27,7 +28,7 @@
     width: 10rem;
     /* border: 1px solid green; */
     filter: saturate(60%);
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .moreAboutMeCard img:hover {
@@ -49,7 +50,13 @@
     width: 80%;
     padding: 0px 5px;
 }
-
+.text h3{
+    font-weight: 400;
+}
+.text p{
+    font-family: var(--poppinFont);
+    font-weight: 600;
+}
 .moreAboutMeCard:nth-of-type(even) {
     text-align: right;
     /* border: 2px solid red; */
