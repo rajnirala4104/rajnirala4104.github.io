@@ -1,26 +1,26 @@
-.contectContent{
+.contactContent{
     /* border: 2px solid rgb(50, 50, 50); */
     border-right: 1px solid black;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex ;
+    justify-content: center ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
     height: 60vh;
-    margin: 9% auto;
+    margin: 9% 2%;
 }
 .leftSection{
     /* border: 2px solid green; */
-    width: 90vh;
+    width: 50%;
     background: var(--backgroundColor);
     /* color: rgb(63, 63, 63); */
     color: var(--textColor);
     font-weight: 600;
     padding: 5px 15px;
+    /* height: 100vh; */
 }
 .leftSectionContent{
     /* border: 2px solid yellow; */
-    width: 80vh;
+    /* width: 80vh; */
 }
 .leftSection h2{
     font-family: var(--litCoursive);
@@ -44,9 +44,9 @@
 
 /* ------------ rightSection ----------  */
 .rightSection{
-    /* border: 2px solid blue;. */
+    /* border: 2px solid blue; */
     background: rgb(234, 234, 234) !important;
-    width: 64vh;
+    width: 50%;
     padding: 5px 10px;
 
 }

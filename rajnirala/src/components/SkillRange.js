@@ -1,18 +1,6 @@
 
 
 export default function SkillRange(props) {
-    // var couneter = 0
-    // setInterval(() => {
-    //     let skillPercentage = document.querySelector('.skillPercentage');
-    //     if(couneter === props.rangeValue){
-    //         clearInterval()
-    //     }else{
-    //         couneter += 1
-    //         console.log(couneter, props.rangeValue) 
-    //         skillPercentage.innerHTML = couneter + "%"
-    //     }
-
-    // }, 20);
 
     return (
         <div className="skillRange">
