@@ -6,6 +6,13 @@
     height: 100vh;
 }
 
+.myWebAppContainer{
+    /* border: 2px solid red; */
+    width: 86%;
+    margin: auto;
+}
+
+
 /* -------- left section --------- */
 
 .firstImpressionLeftSectionContent {
@@ -110,6 +117,11 @@
 @media only screen and (max-width: 800px) {
     body {
         overflow-x: hidden;
+    }
+
+    .myWebAppContainer{
+        /* border: 2px solid black; */
+        width: 100%;
     }
 
     .firstImpressionContainer {

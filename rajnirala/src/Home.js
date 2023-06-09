@@ -8,9 +8,9 @@ function Home() {
     return (
         <div className="App">
             <NavBar activeStatus={location.pathname}/>
-            {/* <div className="container myWebAppContainer"> */}
+            <div className="myWebAppContainer">
                 {<FirstImpression />}
-            {/* </div> */}
+            </div>
         </div>
     );
 }
