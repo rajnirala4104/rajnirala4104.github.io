@@ -1,21 +1,20 @@
 .contactContent{
     /* border: 2px solid rgb(50, 50, 50); */
-    border-right: 1px solid black;
     display: flex ;
     justify-content: center ;
     flex-direction: row ;
     flex-wrap: wrap ;
     height: 60vh;
-    margin: 9% 2%;
+    margin: 10% 2%;
 }
 .leftSection{
     /* border: 2px solid green; */
-    width: 50%;
+    width: 70vh;
     background: var(--backgroundColor);
     /* color: rgb(63, 63, 63); */
     color: var(--textColor);
     font-weight: 600;
-    padding: 5px 15px;
+    padding: 10px 15px;
     /* height: 100vh; */
 }
 .leftSectionContent{
@@ -46,8 +45,9 @@
 .rightSection{
     /* border: 2px solid blue; */
     background: rgb(234, 234, 234) !important;
-    width: 50%;
+    width: 70vh;
     padding: 5px 10px;
+    border-right: 3px solid var(--backgroundColor);
 
 }
 

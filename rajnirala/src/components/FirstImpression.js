@@ -13,8 +13,8 @@ export default function FirstImpression(props) {
                         <span className='developer'>A Fullstack Developer</span>
                     </div>
                     <div className="firstImpressionLeftSectionBtns">
-                        <Link type="button" to='/contact' className="btn btn-secondary ">Let's Work</Link>
-                        <Link type="button" className="btn btn-outline-secondary ">Download CV</Link>
+                        <Link type="button" to='/contact' className="btn bg-dark border-dark letsWorkBtn">Let's Work</Link>
+                        <Link type="button" className="btn cvBtn">Download CV</Link>
                     </div>
                 </div>
                 <div className="firstImpressionRightSectionContent">

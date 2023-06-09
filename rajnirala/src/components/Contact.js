@@ -9,11 +9,11 @@ export default function Contact(props) {
     <>
       <NavBar activeStatus={location.pathname} />
       <div className="container">
-        <div className="contactContent container flex-wrap">
+        <div className="contactContent container d-flex flex-wrap">
           <section className="leftSection">
             <div className="leftSectionContent">
               <h2>Hey There...</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quos ullam tempora expedita fuga possimus minus laboriosam odio totam voluptate fugit, quo voluptatum officia iste quas, iusto nihil ab perspiciatis!</p>
+              <p>As a passionate full stack developer, I thrive on crafting seamless digital experiences that engage and inspire. With expertise in front-end and back-end technologies, I bring ideas to life through clean code and intuitive design. Let's collaborate and create something remarkable together.</p>
               <div className="socialIcons">
                 <a href="https://www.linkedin.com/in/raj-nirala/" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-linkedin"></i>

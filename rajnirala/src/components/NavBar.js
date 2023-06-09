@@ -4,7 +4,7 @@ function NavBar(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="logo">
-                <Link className="navbar-brand" to="/">R<span className='logoDesign'>aj</span> N<span className='logoDesign'>irala</span></Link>
+                <Link className="navbar-brand" to="/">Raj Nirala</Link>
             </div>
             <div className=" navMenus" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
