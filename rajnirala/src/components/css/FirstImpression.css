@@ -1,4 +1,4 @@
-.firstImpressionContainer{
+.firstImpressionContainer {
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-evenly;
@@ -8,14 +8,14 @@
 
 /* -------- left section --------- */
 
-.firstImpressionLeftSectionContent{
+.firstImpressionLeftSectionContent {
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
 }
 
-.liBitAboutMe{
+.liBitAboutMe {
     /* border: 2px solid green; */
     display: flex;
     justify-content: center;
@@ -23,15 +23,16 @@
     line-height: 3rem;
     text-align: left;
 }
-.firstImpressionLeftSectionBtns{
+
+.firstImpressionLeftSectionBtns {
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    width:64%;
+    width: 64%;
     margin: 20px 0px;
 }
 
-.liBitAboutMe .hi{
+.liBitAboutMe .hi {
     font-size: 2rem;
     text-align: left;
     font-family: var(--litCoursive);
@@ -43,54 +44,75 @@
     width: 50%;
 }
 
-.hi hr{
+.hi hr {
     color: black;
     border: .2px solid var(--textColor);
     width: 95%;
     margin: 0px 7px;
 }
 
-.liBitAboutMe .me{
+.liBitAboutMe .me {
     font-size: 2.5rem;
     font-weight: 300;
     font-family: var(--poppinFont);
     color: var(--textColor);
 }
-.liBitAboutMe .me span{
+
+.liBitAboutMe .me span {
     font-family: var(--poppinFont);
     font-weight: 600;
     color: black;
 
 }
-.liBitAboutMe .developer{
+
+.liBitAboutMe .developer {
     font-size: 2.5rem;
     font-weight: 300;
     font-family: var(--poppinFont);
     color: var(--textColor);
 }
 
+.letsWorkBtn {
+    color: white;
+}
 
+.letsWorkBtn:hover {
+    color: white;
+}
+
+.cvBtn {
+    border: 1px solid black;
+}
+
+.cvBtn:hover {
+    background: rgb(52 58 64);
+    /* box-shadow: 0px 0px 10px black; */
+    border: none;
+    color: white;
+}
 
 /* -------right section --------- */
-.firstImpressionRightSectionContent{
+.firstImpressionRightSectionContent {
     /* border: 2px solid blue;  */
     width: 50%;
 }
-.firstImpressionRightSectionContent img{
+
+.firstImpressionRightSectionContent img {
     border-radius: 10px;
     /* border: 2px solid red; */
     filter: saturate(90%);
-    filter:  brightness(93%);
+    filter: brightness(93%);
     width: 100%;
     height: 100%;
 }
 
 
 @media only screen and (max-width: 800px) {
-    body{
+    body {
         overflow-x: hidden;
     }
-    .firstImpressionContainer{
+
+    .firstImpressionContainer {
         /* border: 2px solid red; */
         display: flex;
         justify-content: center;
@@ -99,39 +121,43 @@
         ;
         background-attachment: fixed;
         filter: blur(0px);
-  /* -webkit-filter: blur(2px); */
+        /* -webkit-filter: blur(2px); */
         width: 100;
         /* height: 100vh; */
         z-index: -10;
     }
-    
-    .firstImpressionLeftSectionContent{
+
+    .firstImpressionLeftSectionContent {
         /* border: 2px solid green; */
         padding: 4px 8px;
         /* -webkit-filter: blur(0px); */
-        background-color: rgba(84, 84, 84, 0.310); /* Black w/opacity/see-through */
-        
+        background-color: rgba(84, 84, 84, 0.310);
+        /* Black w/opacity/see-through */
+
     }
-    .firstImpressionLeftSectionContent span{
+
+    .firstImpressionLeftSectionContent span {
         color: rgb(16, 16, 16) !important;
     }
 
-    .letsWorkBtn{
-        color: #bbbbbb !important;
-        
+    .letsWorkBtn {
+        color: #bbbbbb;
+
     }
-    .cvBtn{
+
+    .cvBtn {
         color: #bbbbbb;
         /* border: 1px solid rgb(65, 65, 65); */
     }
-    .cvBtn:hover{
+
+    .cvBtn:hover {
         background: rgb(52 58 64);
         /* box-shadow: 0px 0px 10px black; */
         border: none;
         color: white;
     }
 
-    .firstImpressionRightSectionContent{
+    .firstImpressionRightSectionContent {
         border: 2px solid rgb(106, 106, 106);
         border-radius: 50%;
         box-shadow: 0px 0px 10px black;
@@ -141,8 +167,3 @@
     }
 
 }
-
-
-
-
-
