@@ -1,0 +1,10 @@
+.projectCard{
+    border: 2px solid red;
+    width: 20rem;
+
+}
+
+.projectCard img{
+    width: 10rem;
+    height: 10rem;
+}
