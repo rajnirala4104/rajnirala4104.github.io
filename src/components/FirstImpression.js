@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './css/FirstImpression.css'
+import '../pages/css/FirstImpression.css'
 
 
 export default function FirstImpression(props) {
@@ -14,11 +14,11 @@ export default function FirstImpression(props) {
                     </div>
                     <div className="firstImpressionLeftSectionBtns">
                         <Link type="button" to='/contact' className="btn bg-dark border-dark letsWorkBtn">Let's Work</Link>
-                        <Link type="button" className="btn cvBtn">Download CV</Link>
+                        <Link type="button" className="btncvBtn">Download CV</Link>
                     </div>
                 </div>
                 <div className="firstImpressionRightSectionContent">
-                    <img src={require('./images/rajnirala.png')} alt="raj nirala" /> 
+                    <img src={require('../Asserts/images/rajnirala.png')} alt="raj nirala" /> 
                 </div>
             </div>
         </>

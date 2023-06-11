@@ -1,8 +1,8 @@
-import NavBar from "./NavBar";
+import NavBar from "../shared/NavBar";
 import { useLocation } from "react-router-dom";
 import './css/Contect.css'
 
-export default function Contact(props) {
+export const Contact = (props) => {
   const location = useLocation();
 
   return (

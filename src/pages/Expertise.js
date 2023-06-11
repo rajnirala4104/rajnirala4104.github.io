@@ -1,9 +1,9 @@
-import NavBar from "./NavBar";
+import NavBar from "../shared/NavBar";
 import { useLocation } from "react-router-dom";
 import './css/Expertise.css'
-import SkillRange from "./SkillRange";
+import SkillRange from '../components/SkillRange';
 
-function Expertise(props) {
+export const Expertise = (props)=>{
     const location = useLocation();
     return (
         <>

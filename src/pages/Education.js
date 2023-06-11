@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
-import NavBar from "./NavBar";
+import NavBar from "../shared/NavBar";
 
-function Education(props) {
+export const Education = (props)=>{
     const location = useLocation();
     return(
         <>
@@ -10,5 +10,3 @@ function Education(props) {
         </>
     )
 }
-
-export default Education;

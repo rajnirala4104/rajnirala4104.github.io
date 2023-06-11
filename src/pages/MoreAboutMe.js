@@ -1,8 +1,8 @@
-import NavBar from "./NavBar";
+import NavBar from "../shared/NavBar";
 import { useLocation } from "react-router-dom";
 import './css/MoreAboutMe.css'
 
-function MoreAboutMe(props) {
+export const MoreAboutMe = function MoreAboutMe(props) {
     const location = useLocation();
     return (
         <>
@@ -10,7 +10,7 @@ function MoreAboutMe(props) {
             <div className="container moreAboutMeContainer">
                 <div className="moreAboutMeContent container">
                     <div className="moreAboutMeCard">
-                        <img className="shadow" src={require('./images/music2.png')} alt="Oops!!" />
+                        <img className="shadow" src={require('../Asserts/images/music2.png')} alt="Oops!!" />
                         <div className="cardRightContent">
                             <div className="text">
                                 <h3>Music Enthusiast</h3>
@@ -22,7 +22,7 @@ function MoreAboutMe(props) {
                     </div>
                     <div className="moreAboutMeCard">
                         <div className="cardRightContent">
-                            <img className="shadow" src={require('./images/travelerRaj2.jpg')} alt="Oops!!" />
+                            <img className="shadow" src={require('../Asserts/images/travelerRaj2.jpg')} alt="Oops!!" />
                             <div className="text">
                                 <h3>Hodophile</h3>
                                 <p>
@@ -32,7 +32,7 @@ function MoreAboutMe(props) {
                         </div>
                     </div>
                     <div className="moreAboutMeCard">
-                        <img className="shadow" src={require('./images/bookLover.jpg')} alt="Oops!!" />
+                        <img className="shadow" src={require('../Asserts/images/bookLover.jpg')} alt="Oops!!" />
                         <div className="cardRightContent">
                             <div className="text">
 
@@ -44,7 +44,7 @@ function MoreAboutMe(props) {
                         </div>
                     </div>
                     <div className="moreAboutMeCard">
-                        <img className="shadow" src={require('./images/friendlyNature.jpg')} alt="Oops!!" />
+                        <img className="shadow" src={require('../Asserts/images/friendlyNature.jpg')} alt="Oops!!" />
                         <div className="cardRightContent">
                             <div className="text">
 
@@ -56,7 +56,7 @@ function MoreAboutMe(props) {
                         </div>
                     </div>
                     <div className="moreAboutMeCard">
-                        <img className="shadow" src={require('./images/problemSolverRaj.jpg')} alt="Oops!!" />
+                        <img className="shadow" src={require('../Asserts/images/problemSolverRaj.jpg')} alt="Oops!!" />
                         <div className="cardRightContent">
                             <div className="text">
                                 <h3>Problem Solver</h3>
@@ -71,5 +71,3 @@ function MoreAboutMe(props) {
         </>
     )
 }
-
-export default MoreAboutMe;
