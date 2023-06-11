@@ -1,12 +1,12 @@
-import NavBar from "../shared/NavBar";
-import { useLocation } from "react-router-dom";
+// import NavBar from "../shared/NavBar";
+// import { useLocation } from "react-router-dom";
 import './css/MoreAboutMe.css'
 
 export const MoreAboutMe = function MoreAboutMe(props) {
-    const location = useLocation();
+    // const location = useLocation();
     return (
         <>
-            <NavBar activeStatus={location.pathname} />
+            {/* <NavBar activeStatus={location.pathname} /> */}
             <div className="container moreAboutMeContainer">
                 <div className="moreAboutMeContent container">
                     <div className="moreAboutMeCard">

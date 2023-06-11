@@ -14,7 +14,7 @@ export default function FirstImpression(props) {
                     </div>
                     <div className="firstImpressionLeftSectionBtns">
                         <Link type="button" to='/contact' className="btn bg-dark border-dark letsWorkBtn">Let's Work</Link>
-                        <Link type="button" className="btncvBtn">Download CV</Link>
+                        <Link type="button" className="btncvBtn btn text-dark bg-outline-dark border-dark letsWorkBtn">Download CV</Link>
                     </div>
                 </div>
                 <div className="firstImpressionRightSectionContent">

@@ -1,13 +1,13 @@
-import NavBar from "../shared/NavBar";
-import { useLocation } from "react-router-dom";
+// import NavBar from "../shared/NavBar";
+// import { useLocation } from "react-router-dom";
 import './css/Contect.css'
 
 export const Contact = (props) => {
-  const location = useLocation();
+  // const location = useLocation();
 
   return (
     <>
-      <NavBar activeStatus={location.pathname} />
+      {/* <NavBar activeStatus={location.pathname} /> */}
       <div className="container">
         <div className="contactContent container d-flex flex-wrap">
           <section className="leftSection">

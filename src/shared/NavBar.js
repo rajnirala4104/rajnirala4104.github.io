@@ -1,33 +1,33 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../shared/NavBar.css'
 function NavBar(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="logo">
-                <Link className="navbar-brand" to="/">Raj Nirala</Link>
+                <a className="navbar-brand" href="/">Raj Nirala</a>
             </div>
             <div className=" navMenus" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className={`nav-item ${props.activeStatus}`}>
-                        <Link className={`nav-link ${props.activeStatus === '/' ? 'active' : ""}`} to="/">Home <span className="sr-only">(current)</span></Link>
+                        <a className={`nav-a ${props.activeStatus === '/' ? 'active' : ""}`} href="/">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-link ${props.activeStatus === '/whoami' ? 'active' : ""}`} to="/whoami">WhoAmI</Link>
+                        <a className={`nav-a ${props.activeStatus === '/whoami' ? 'active' : ""}`} href="/whoami">WhoAmI</a>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-link ${props.activeStatus === '/moreaboutme' ? 'active' : ""}`} to="/moreaboutme">MoreAboutMe</Link>
+                        <a className={`nav-a ${props.activeStatus === '/moreaboutme' ? 'active' : ""}`} href="/moreaboutme">MoreAboutMe</a>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-link ${props.activeStatus === '/education' ? 'active' : ""}`} to="/education">Education</Link>
+                        <a className={`nav-a ${props.activeStatus === '/education' ? 'active' : ""}`} href="/education">Education</a>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-link ${props.activeStatus === '/expertise' ? 'active' : ""}`} to="/expertise">Expertise</Link>
+                        <a className={`nav-a ${props.activeStatus === '/expertise' ? 'active' : ""}`} href="/expertise">Expertise</a>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-link ${props.activeStatus === '/projects' ? 'active' : ""}`} to="/projects">Projects</Link>
+                        <a className={`nav-a ${props.activeStatus === '/projects' ? 'active' : ""}`} href="/projects">Projects</a>
                     </li>
                     <li className="nav-item ">
-                        <Link className={`nav-link ${props.activeStatus === '/contact' ? 'active' : ""}`} to="/contact">Contact</Link>
+                        <a className={`nav-a ${props.activeStatus === '/contact' ? 'active' : ""}`} href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -1,14 +1,14 @@
-import { useLocation } from "react-router-dom";
-import NavBar from "../shared/NavBar";
+// import { useLocation } from "react-router-dom";
+// import NavBar from "../shared/NavBar";
 import './css/WhoAmI.css'
 
 export const WhoAmI =  (props)=>{
 
-    const location = useLocation()
-    console.log(location.pathname)
+    // const location = useLocation()
+    // console.log(location.pathname)
     return (
         <>
-            <NavBar activeStatus={location.pathname}/>
+            {/* <NavBar activeStatus={location.pathname}/> */}
             {/* <div className="container"> */}
                 <div className="WhoAmIContent">
                     <div className="AboutMe">

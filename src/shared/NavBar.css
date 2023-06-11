@@ -16,16 +16,26 @@
     /* border: 1px solid blue; */
 }
 
-#navbarSupportedContent {
-    /* border: 1px solid green; */
+.navMenus {
+    border: 1px solid green;
     width: 73% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
 }
 
-#navbarSupportedContent ul {
+.navMenus ul {
     display: flex ;
-    justify-content: right ;
-    align-self: center ;
+    justify-content: space-between ;
+    /* align-items: right; */
+    border: 1px solid red;
+    width: 90vh;
+  }
+  
+#navbarSupportedContent ul li a {
+    color: black;
 }
+
 
 
 /* ------------- responsive ---------- */

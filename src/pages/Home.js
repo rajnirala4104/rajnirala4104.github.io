@@ -1,14 +1,14 @@
 import '../App.css';
 import FirstImpression from '../components/FirstImpression';
-import NavBar from "../shared/NavBar";
-import { useLocation } from "react-router-dom";
+// import NavBar from "../shared/NavBar";
+// import { useLocation } from "react-router-dom";
 
 export const Home = ()=>{
 
-    const location = useLocation();
+    // const location = useLocation();
     return (
         <div className="App">
-            <NavBar activeStatus={location.pathname}/>
+            {/* <NavBar activeStatus={location.pathname}/> */}
             <div className="myWebAppContainer">
                 {<FirstImpression />}
             </div>

@@ -1,13 +1,13 @@
-import NavBar from "../shared/NavBar";
-import { useLocation } from "react-router-dom";
+// import NavBar from "../shared/NavBar";
+// import { useLocation } from "react-router-dom";
 import './css/Expertise.css'
 import SkillRange from '../components/SkillRange';
 
 export const Expertise = (props)=>{
-    const location = useLocation();
+    // const location = useLocation();
     return (
         <>
-            <NavBar activeStatus={location.pathname} />
+            {/* <NavBar activeStatus={location.pathname} /> */}
             <div className="container ExpertiesContainer">
                 <div className="MySkillsContainer">
                     <SkillRange rangeValue={87} skillName={"JavaScript"} howMuchRotate={"rotate80"}/>
