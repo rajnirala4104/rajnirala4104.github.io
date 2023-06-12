@@ -1,7 +1,7 @@
 import './App.css';
 import {createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home, WhoAmI, MoreAboutMe, Education, Expertise, Contact, Projects, NoPage } from './pages/index'
-import NavBar from './shared/NavBar';
+import NavBar from './shared/components/NavBar';
 
 function App() {
 
@@ -35,22 +35,12 @@ function App() {
       element: <Projects />
     },
     {
-      path: '/**',
+      path: '/*',
       element: <NoPage />
     }
   ])
 
   return (
-    // <Routes>
-    //   <Route exact path="/" Component={Home} />
-    //   <Route exact path="/**" Component={NoPage} />
-    //   <Route exact path="/whoami" Component={WhoAmI} />
-    //   <Route exact path="/moreaboutme" Component={MoreAboutMe} />
-    //   <Route exact path="/education" Component={Education} />
-    //   <Route exact path="/expertise" Component={Expertise} />
-    //   <Route exact path="/projects" Component={Projects} />
-    //   <Route exact path="/contact" Component={Contact} />
-    // </Routes>
     <>
       <NavBar />
       <RouterProvider router={router} />

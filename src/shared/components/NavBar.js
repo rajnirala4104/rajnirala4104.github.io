@@ -1,5 +1,5 @@
 // import { Link } from 'react-router-dom';
-import '../shared/NavBar.css'
+import '../css/NavBar.css'
 function NavBar(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -7,7 +7,7 @@ function NavBar(props) {
                 <a className="navbar-brand" href="/">Raj Nirala</a>
             </div>
             <div className=" navMenus" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
+                <ul className="navbar-nav fluid">
                     <li className={`nav-item ${props.activeStatus}`}>
                         <a className={`nav-a ${props.activeStatus === '/' ? 'active' : ""}`} href="/">Home <span className="sr-only">(current)</span></a>
                     </li>
