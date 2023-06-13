@@ -1,13 +1,16 @@
 .projectCard{
-    border: 2px solid red;
+    border: none;
+    /* border: 2px solid red; */
     width: 20rem;
-    margin: 5px 0px;
+    margin: 8px 0px;
 }
 
 .projectCard img{
-    width: 10rem;
-    height: 10rem;
+    width: 19.8rem;
+    height: 20rem;
 }
+
+
 .projectCardContainer{
     /* border: 2px solid black; */
     display: flex;
