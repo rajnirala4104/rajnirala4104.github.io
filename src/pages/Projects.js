@@ -1,12 +1,23 @@
 import ProjectCard from "../components/ProjectCard";
 import './css/Project.css'
+import data from '../Data/ProjectCardData/projectCardData.json'
+
 
 export const Projects = (props) => {
-    // const location = useLocation();
-    return(
+    return (
         <>
-            <div className="container">
-                <ProjectCard projectTitle={"this is project Name or Title"} projectDescription={"This is project Description"} projectGitHubLink={"https://www.github.com/rajnirala4104/"} projectHintImage={require('../Asserts/images/NoteApplicationProject.png')}/>
+            <div className="container projectCardContainer">
+                {
+                    data.map(details => 
+                        <ProjectCard
+                            // projectTitle={details.projectTitle}
+                            // projectDescription={details.projectDescription}
+                            // projectGitHubLink={details.projectGitHubLink}
+                            // projectHintImage={require('../Asserts/images/NoteApplicationProject.png')}
+                            {...details}
+                        />
+                    )
+                }
             </div>
         </>
     )
