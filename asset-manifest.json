@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1fd8054d.css",
-    "main.js": "/static/js/main.dab44c3e.js",
+    "main.css": "/static/css/main.f7f958b3.css",
+    "main.js": "/static/js/main.feca142f.js",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/rajniralasvg.png": "/static/media/rajniralasvg.c8dc229c306ccf241a6b.png",
     "static/media/travelerRaj2.jpg": "/static/media/travelerRaj2.09fa07383692a9f48f13.jpg",
@@ -9,12 +9,13 @@
     "static/media/rajnirala.png": "/static/media/rajnirala.82a0ae478799a55532bf.png",
     "static/media/problemSolverRaj.jpg": "/static/media/problemSolverRaj.d77cce5db6a9ea36a3f1.jpg",
     "static/media/music2.png": "/static/media/music2.2687c0da861f78e90a15.png",
+    "static/media/NoteApplicationProject.png": "/static/media/NoteApplicationProject.9bb2fc6312c01c558bb2.png",
     "index.html": "/index.html",
-    "main.1fd8054d.css.map": "/static/css/main.1fd8054d.css.map",
-    "main.dab44c3e.js.map": "/static/js/main.dab44c3e.js.map"
+    "main.f7f958b3.css.map": "/static/css/main.f7f958b3.css.map",
+    "main.feca142f.js.map": "/static/js/main.feca142f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fd8054d.css",
-    "static/js/main.dab44c3e.js"
+    "static/css/main.f7f958b3.css",
+    "static/js/main.feca142f.js"
   ]
 }
