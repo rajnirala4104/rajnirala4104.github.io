@@ -7,27 +7,27 @@ function NavBar(props) {
                 <Link className="navbar-brand" to="/">Raj Nirala</Link>
             </div>
             <div className=" navMenus" id="navbarSupportedContent">
-                <ul className="navbar-nav fluid">
-                    <li className={`nav-item ${window.location.pathname}`}>
-                        <Link className={`nav-a active`} to="/">Home <span className="sr-only">(current)</span></Link>
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link className= {`nav-a ${props.pathname === '/' ? "isActive":""}`} to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-a ${window.location.pathname === '/whoami' ? 'active' : ""}`} to="/whoami">WhoAmI</Link>
+                        <Link className={`nav-a ${props.pathname === '/whoami' ? 'isActive' : ""}`} to="/whoami">WhoAmI</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-a ${window.location.pathname === '/moreaboutme' ? 'active' : ""}`} to="/moreaboutme">MoreAboutMe</Link>
+                        <Link className={`nav-a ${props.pathname === '/moreaboutme' ? 'isActive' : ""}`} to="/moreaboutme">MoreAboutMe</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-a ${window.location.pathname === '/education' ? 'active' : ""}`} to="/education">Education</Link>
+                        <Link className={`nav-a ${props.pathname === '/education' ? 'isActive' : ""}`} to="/education">Education</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-a ${window.location.pathname === '/expertise' ? 'active' : ""}`} to="/expertise">Expertise</Link>
+                        <Link className={`nav-a ${props.pathname === '/expertise' ? 'isActive' : ""}`} to="/expertise">Expertise</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className={`nav-a ${window.location.pathname === '/projects' ? 'active' : ""}`} to="/projects">Projects</Link>
+                        <Link className={`nav-a ${props.pathname === '/projects' ? 'isActive' : ""}`} to="/projects">Projects</Link>
                     </li>
                     <li className="nav-item ">
-                        <Link className={`nav-a ${window.location.pathname === '/contact' ? 'active' : ""}`} to="/contact">Contact</Link>
+                        <Link className={`nav-a ${props.pathname === '/contact' ? 'isActive' : ""}`} to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

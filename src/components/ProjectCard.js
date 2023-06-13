@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
                 </div>
                 <div className="projectCardOtherContentContainer p-2">
                     <div className="projectDetails">
-                        <h3>{props.projectTitle}</h3>
+                        <h4>{props.projectTitle}</h4>
                         <p>{props.projectDescription}</p>
                     </div>
                     <div className="projectCardBtns">
