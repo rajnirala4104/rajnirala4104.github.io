@@ -1,8 +1,7 @@
-export default function ProjectCard(props) {
 
+export default function ProjectCard(props) {
     return (
         <>
-
             <div className="projectCard card shadow">
                 <div className="imageSection">
                     <img src={props.projectHintImage} alt={props.projectTitle} />
@@ -18,7 +17,6 @@ export default function ProjectCard(props) {
                     </div>
                 </div>
             </div>
-            {/* Hello world!!! This is raj */}
         </>
     )
 }

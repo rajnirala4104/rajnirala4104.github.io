@@ -61,7 +61,7 @@ export const Contact = (props) => {
                   placeholder="Describe that Message"
                 ></textarea>
               </div>
-              <button type="button" class="btn btn-secondary">Send Message</button>
+              <button type="button" className="btn btn-secondary">Send Message</button>
             </form>
           </section>
         </div>

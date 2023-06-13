@@ -8,8 +8,9 @@ export const Projects = (props) => {
         <>
             <div className="container projectCardContainer">
                 {
-                    data.map(details => 
+                    data.map((details, key) => 
                         <ProjectCard
+                            key={key}
                             projectTitle={details.projectTitle}
                             projectDescription={details.projectDescription}
                             projectGitHubLink={details.projectGitHubLink}

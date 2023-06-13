@@ -1,33 +1,33 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../css/NavBar.css'
 function NavBar(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="logo">
-                <a className="navbar-brand" href="/">Raj Nirala</a>
+                <Link className="navbar-brand" to="/">Raj Nirala</Link>
             </div>
             <div className=" navMenus" id="navbarSupportedContent">
                 <ul className="navbar-nav fluid">
-                    <li className={`nav-item ${props.activeStatus}`}>
-                        <a className={`nav-a ${props.activeStatus === '/' ? 'active' : ""}`} href="/">Home <span className="sr-only">(current)</span></a>
+                    <li className={`nav-item ${window.location.pathname}`}>
+                        <Link className={`nav-a active`} to="/">Home <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className={`nav-a ${props.activeStatus === '/whoami' ? 'active' : ""}`} href="/whoami">WhoAmI</a>
+                        <Link className={`nav-a ${window.location.pathname === '/whoami' ? 'active' : ""}`} to="/whoami">WhoAmI</Link>
                     </li>
                     <li className="nav-item">
-                        <a className={`nav-a ${props.activeStatus === '/moreaboutme' ? 'active' : ""}`} href="/moreaboutme">MoreAboutMe</a>
+                        <Link className={`nav-a ${window.location.pathname === '/moreaboutme' ? 'active' : ""}`} to="/moreaboutme">MoreAboutMe</Link>
                     </li>
                     <li className="nav-item">
-                        <a className={`nav-a ${props.activeStatus === '/education' ? 'active' : ""}`} href="/education">Education</a>
+                        <Link className={`nav-a ${window.location.pathname === '/education' ? 'active' : ""}`} to="/education">Education</Link>
                     </li>
                     <li className="nav-item">
-                        <a className={`nav-a ${props.activeStatus === '/expertise' ? 'active' : ""}`} href="/expertise">Expertise</a>
+                        <Link className={`nav-a ${window.location.pathname === '/expertise' ? 'active' : ""}`} to="/expertise">Expertise</Link>
                     </li>
                     <li className="nav-item">
-                        <a className={`nav-a ${props.activeStatus === '/projects' ? 'active' : ""}`} href="/projects">Projects</a>
+                        <Link className={`nav-a ${window.location.pathname === '/projects' ? 'active' : ""}`} to="/projects">Projects</Link>
                     </li>
                     <li className="nav-item ">
-                        <a className={`nav-a ${props.activeStatus === '/contact' ? 'active' : ""}`} href="/contact">Contact</a>
+                        <Link className={`nav-a ${window.location.pathname === '/contact' ? 'active' : ""}`} to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

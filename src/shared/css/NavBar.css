@@ -34,6 +34,7 @@
   
 #navbarSupportedContent ul li a {
     color: var(--textColor);
+    text-decoration: none;
 }
 
 

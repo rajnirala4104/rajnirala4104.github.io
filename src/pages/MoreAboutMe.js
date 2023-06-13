@@ -6,7 +6,6 @@ export const MoreAboutMe = function MoreAboutMe(props) {
     // const location = useLocation();
     return (
         <>
-            {/* <NavBar activeStatus={location.pathname} /> */}
             <div className="container moreAboutMeContainer">
                 <div className="moreAboutMeContent container">
                     <div className="moreAboutMeCard">
@@ -36,7 +35,7 @@ export const MoreAboutMe = function MoreAboutMe(props) {
                         <div className="cardRightContent">
                             <div className="text">
 
-                                <h3>Book Lover</h3>
+                                <h3>Books Lover</h3>
                                 <p>
                                     As a book enthusiast, I find immense joy in reading. Books offer unique perspectives, expanding our worldview and teaching us various skills, languages, and self-discovery. They serve as windows to diverse experiences, enriching our understanding of the world. Through reading, we uncover new dimensions of ourselves and gain invaluable knowledge.
                                 </p>
