@@ -1,10 +1,13 @@
 export default function ProjectCard(props) {
+
     return (
         <>
-            <div className="projectCard bg-light card shadow">
+
+        {/* Hello world this is raj.... */}
+            <div className="projectCard card shadow">
                 <div className="imageSection">
                     <img src={props.projectHintImage} alt={props.projectTitle} />
-                    <hr className="" />
+                    <hr className="MyHrBorder" />
                 </div>
                 <div className="projectCardOtherContentContainer p-2">
                     <div className="projectDetails">

@@ -1,13 +1,14 @@
 .projectCard{
     border: none;
     /* border: 2px solid red; */
-    width: 20rem;
-    margin: 8px 0px;
+    width: 19rem;
+    margin: 25px 0px;
+    background: rgb(236, 236, 236);
 }
 
 .projectCard img{
-    width: 19.8rem;
-    height: 20rem;
+    width: 18.8rem;
+    height: 19rem;
 }
 
 
@@ -18,8 +19,37 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 4px;
-    width: 250vh;
+    width: 150vh;
     height: 91vh;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+.projectCard:hover{
+    /* border: 2px solid black; */
+    color: rgb(90, 90, 90);
+    box-shadow: 0px 0px 10px;
+}
+.projectDetails p{
+    color: var(--textColor) !important;
+}
+
+
+.MyHrBorder{
+    border: 3px solid rgb(111, 111, 111);
+    position: relative;
+    top: -1rem;
+    width: 97%;    
+}
+
+
+/* -------media query----- */
+@media only screen and (max-width: 700px) {
+    .projectCardContainer{
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }
