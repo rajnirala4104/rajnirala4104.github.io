@@ -73,13 +73,14 @@
     text-align: right;
     /* border: 2px solid rgb(0, 0, 0); */
     display: flex;
+
     justify-content: space-around;
     flex-direction: row-reverse;
-    width: 96%;
+    width: 88%;
 }
 
 .moreAboutMeCard:nth-of-type(even) .cardRightContent .text {
-    width: 77%;
+    width: 90%;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
