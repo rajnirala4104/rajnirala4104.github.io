@@ -68,7 +68,7 @@
     }
 
     .navMenus{
-      width: 100vh;
+      width: 100% !important;
       /* border: 1px solid blue; */
       display: flex !important;
       justify-content: center !important;
