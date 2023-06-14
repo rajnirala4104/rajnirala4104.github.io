@@ -1,6 +1,6 @@
 import ProjectCard from "../components/ProjectCard";
 import './css/Project.css'
-import data from '../Data/ProjectCardData/projectCardData.json'
+import {data} from '../Data/ProjectCardData/projectCardData'
 
 
 export const Projects = (props) => {
@@ -11,11 +11,11 @@ export const Projects = (props) => {
                     data.map((details, key) => 
                         <ProjectCard
                             key={key}
-                            projectTitle={details.projectTitle}
-                            projectDescription={details.projectDescription}
-                            projectGitHubLink={details.projectGitHubLink}
-                            projectHintImage={require('../Asserts/images/NoteApplicationProject.png')}
-                            // {...details}
+                            // projectTitle={details.projectTitle}
+                            // projectDescription={details.projectDescription}
+                            // projectGitHubLink={details.projectGitHubLink}
+                            // projectHintImage={require('../Asserts/images/NoteApplicationProject.png')}
+                            {...details}
                         />
                     )
                 }
