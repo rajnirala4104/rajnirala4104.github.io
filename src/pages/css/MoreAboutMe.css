@@ -12,7 +12,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     /* text-align: justify; */
-    
+
 }
 
 .moreAboutMeCard {
@@ -50,13 +50,16 @@
     width: 80%;
     padding: 0px 5px;
 }
-.text h3{
+
+.text h3 {
     font-weight: 400;
 }
-.text p{
+
+.text p {
     font-family: var(--poppinFont);
     font-weight: 600;
 }
+
 .moreAboutMeCard:nth-of-type(even) {
     text-align: right;
     /* border: 2px solid red; */
@@ -90,24 +93,121 @@
 
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: rgb(223, 223, 223);
     border-radius: 3px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: rgb(160, 160, 160);
     border-radius: 3px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #747474; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #747474;
+}
+
+@media only screen and (max-width: 1000px) {
+    .moreAboutMeContainer {
+        /* border: 2px solid red; */
+    }
+
+    .moreAboutMeCard {
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: 70vh;
+        align-items: center;
+        /* padding: px !important; */
+    }
+
+    .moreAboutMeCard img {
+        display: none;
+        /* width: 100%;
+    height: 50vh; */
+    }
+
+    .moreAboutMeCard img:hover {
+        /* display: none; */
+        width: 100%;
+        height: 50vh;
+    }
+
+    .cardRightContent {
+        /* border: 2px solid green; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* box-shadow: 0px 0px 2px black; */
+        border-radius: 5px;
+    }
+    .cardRightContent:hover{
+        filter: saturate(80%);
+    }
+
+    .text {
+        /* border: 2px solid rgb(12, 12, 12); */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        height: 80%;
+        color: rgb(228, 228, 228);
+    }
+
+    .moreAboutMeCard:nth-of-type(even) .cardRightContent {
+        text-align: left;
+        /* border: 2px solid rgb(255, 0, 0); */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .moreAboutMeCard:nth-of-type(even) .cardRightContent .text p {
+        text-align: left;
+    }
+
+    .moreAboutMeCard:nth-of-type(even) .cardRightContent .text {
+        width: 80%;
+    }
+
+    /* -----------backgrounds----- */
+    .musicBackground {
+        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/music2.png') no-repeat center/cover;
+        background-attachment: fixed;
+        filter: saturate(10%);
+    }
+    .hodophileBackground {
+        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/travelerRaj2.jpg') no-repeat center/cover;
+        background-attachment: fixed;
+        filter: saturate(10%);
+    }
+    .bookBackground {
+        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/bookLover.jpg') no-repeat center/cover;
+        background-attachment: fixed;
+        filter: saturate(10%);
+    }
+
+    .friendlyBackground {
+        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/friendlyNature.jpg') no-repeat center/cover;
+        background-attachment: fixed;
+        filter: saturate(10%);
+    }
+
+    .problemBackground{
+        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/problemSolverRaj.jpg') no-repeat center/cover;
+        background-attachment: fixed;
+        filter: saturate(10%);
+    }
 
 
-
+}

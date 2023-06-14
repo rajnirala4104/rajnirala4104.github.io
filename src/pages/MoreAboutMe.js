@@ -9,19 +9,8 @@ export const MoreAboutMe = function MoreAboutMe(props) {
             <div className="container moreAboutMeContainer">
                 <div className="moreAboutMeContent container">
                     <div className="moreAboutMeCard">
-                        <img className="shadow" src={require('../Asserts/images/music2.png')} alt="Oops!!" />
-                        <div className="cardRightContent">
-                            <div className="text">
-                                <h3>Music Enthusiast</h3>
-                                <p>
-                                    As a music enthusiast, I value its ability to amplify my emotional and introspective awareness by resonating with my deepest feelings. It serves as a powerful catalyst for self-reflection and connection with my innermost emotions.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="moreAboutMeCard">
-                        <div className="cardRightContent">
-                            <img className="shadow" src={require('../Asserts/images/travelerRaj2.jpg')} alt="Oops!!" />
+                        <img className="shadow" src={require('../Asserts/images/travelerRaj2.jpg')} alt="Oops!!" />
+                        <div className="cardRightContent hodophileBackground">
                             <div className="text">
                                 <h3>Hodophile</h3>
                                 <p>
@@ -32,7 +21,7 @@ export const MoreAboutMe = function MoreAboutMe(props) {
                     </div>
                     <div className="moreAboutMeCard">
                         <img className="shadow" src={require('../Asserts/images/bookLover.jpg')} alt="Oops!!" />
-                        <div className="cardRightContent">
+                        <div className="cardRightContent bookBackground">
                             <div className="text">
 
                                 <h3>Books Lover</h3>
@@ -44,7 +33,7 @@ export const MoreAboutMe = function MoreAboutMe(props) {
                     </div>
                     <div className="moreAboutMeCard">
                         <img className="shadow" src={require('../Asserts/images/friendlyNature.jpg')} alt="Oops!!" />
-                        <div className="cardRightContent">
+                        <div className="cardRightContent friendlyBackground">
                             <div className="text">
 
                                 <h3>Friendly Nature</h3>
@@ -56,11 +45,22 @@ export const MoreAboutMe = function MoreAboutMe(props) {
                     </div>
                     <div className="moreAboutMeCard">
                         <img className="shadow" src={require('../Asserts/images/problemSolverRaj.jpg')} alt="Oops!!" />
-                        <div className="cardRightContent">
+                        <div className="cardRightContent problemBackground">
                             <div className="text">
                                 <h3>Problem Solver</h3>
                                 <p>
                                     I derive great satisfaction from being a problem solver. The joy of finding solutions is unparalleled; it's a unique thrill. There are countless paths to explore, numerous solutions to discover. The process of problem-solving is an exciting adventure that fuels my passion.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="moreAboutMeCard">
+                        <img className="shadow" src={require('../Asserts/images/music2.png')} alt="Oops!!" />
+                        <div className="cardRightContent musicBackground">
+                            <div className="text">
+                                <h3>Music Enthusiast</h3>
+                                <p>
+                                    As a music enthusiast, I value its ability to amplify my emotional and introspective awareness by resonating with my deepest feelings. It serves as a powerful catalyst for self-reflection and connection with my innermost emotions.
                                 </p>
                             </div>
                         </div>
