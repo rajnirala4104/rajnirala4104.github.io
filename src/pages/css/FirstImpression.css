@@ -16,10 +16,11 @@
 /* -------- left section --------- */
 
 .firstImpressionLeftSectionContent {
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: space-evenly;
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex !important;
+    justify-content: space-between;
     flex-direction: column;
+    height: 33vh;
 }
 
 .liBitAboutMe {
@@ -31,12 +32,27 @@
     text-align: left;
 }
 
+.fristImpressionSocialIcons{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    width: 40%;
+    padding: 0px 4px;
+}
+.fristImpressionSocialIcons a{
+    color: rgb(69, 69, 69);
+}
+.fristImpressionSocialIcons a:hover{
+    color: rgb(111, 111, 111);
+}
+
 .firstImpressionLeftSectionBtns {
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     width: 64%;
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
 }
 
 .liBitAboutMe .hi {
@@ -115,7 +131,7 @@
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     body {
         overflow-x: hidden;
     }
@@ -143,15 +159,32 @@
     .firstImpressionLeftSectionContent {
         /* border: 2px solid green; */
         padding: 4px 8px;
-        /* -webkit-filter: blur(0px); */
-        background-color: rgba(189, 189, 189, 0.31);
-        /* Black w/opacity/see-through */
-
+        height: 35%;
+        background-color: rgba(101, 101, 101, 0.31);
     }
+
+    .fristImpressionSocialIcons a{
+        color: rgb(48, 48, 48);
+    }   
+    .fristImpressionSocialIcons a:hover{
+        color: rgb(57, 57, 57);
+    }   
 
     .firstImpressionLeftSectionContent span {
         color: rgb(0, 0, 0) !important;
         text-shadow: 0px 0px 10px rgb(129, 129, 129);
+    }
+
+    .liBitAboutMe{
+        /* border: 2px solid red; */
+    }
+
+    .fristImpressionSocialIcons{
+        /* border: 2px solid blue; */
+    }
+
+    .firstImpressionLeftSectionBtns{
+        /* border: 2px solid yellow; */
     }
 
     .letsWorkBtn {
@@ -178,4 +211,11 @@
         display: none;
     }
 
+}
+
+@media only screen and (max-width: 490px){
+    .firstImpressionLeftSectionContent{
+        /* border: 2px solid red; */
+        height: 26vh;
+    }
 }
