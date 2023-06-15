@@ -183,29 +183,29 @@
 
     /* -----------backgrounds----- */
     .musicBackground {
-        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/music2.png') no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.074), rgba(0, 0, 0, 0.924)), url('../../Asserts/images/music2.png') no-repeat center/cover;
         background-attachment: fixed;
         filter: saturate(10%);
     }
     .hodophileBackground {
-        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/travelerRaj2.jpg') no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.074), rgba(0, 0, 0, 0.924)), url('../../Asserts/images/travelerRaj2.jpg') no-repeat center/cover;
         background-attachment: fixed;
         filter: saturate(10%);
     }
     .bookBackground {
-        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/bookLover.jpg') no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.074), rgba(0, 0, 0, 0.924)), url('../../Asserts/images/bookLover.jpg') no-repeat center/cover;
         background-attachment: fixed;
         filter: saturate(10%);
     }
 
     .friendlyBackground {
-        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/friendlyNature.jpg') no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.074), rgba(0, 0, 0, 0.924)), url('../../Asserts/images/friendlyNature.jpg') no-repeat center/cover;
         background-attachment: fixed;
         filter: saturate(10%);
     }
 
     .problemBackground{
-        background: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/problemSolverRaj.jpg') no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.074), rgba(0, 0, 0, 0.924)), url('../../Asserts/images/problemSolverRaj.jpg') no-repeat center/cover;
         background-attachment: fixed;
         filter: saturate(10%);
     }
