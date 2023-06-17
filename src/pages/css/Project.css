@@ -10,6 +10,8 @@
 .projectCard img{
     width: 19rem;
     height: 19rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 
@@ -27,13 +29,20 @@
     overflow-y: auto;
 }
 
+.projectCard{
+    color: var(--textColor);
+}
 .projectCard:hover{
     /* borde8r: 2px solid black; */
-    color: rgb(90, 90, 90);
+    color: rgb(0, 0, 0);
     box-shadow: 0px 0px 10px -2px black !important;
+}
+.projectCard h4{
+    font-family: var(--poppinFont);
 }
 .projectDetails p{
     color: var(--textColor) !important;
+    font-family: var(--poppinFont)
 }
 
 

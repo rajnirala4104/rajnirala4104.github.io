@@ -11,10 +11,6 @@ export const Projects = (props) => {
                     data.map((details, key) => 
                         <ProjectCard
                             key={key}
-                            // projectTitle={details.projectTitle}
-                            // projectDescription={details.projectDescription}
-                            // projectGitHubLink={details.projectGitHubLink}
-                            // projectHintImage={require('../Asserts/images/NoteApplicationProject.png')}
                             {...details}
                         />
                     )
