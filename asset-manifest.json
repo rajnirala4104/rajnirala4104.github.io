@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7666e791.css",
-    "main.js": "/static/js/main.a281ab9d.js",
+    "main.js": "/static/js/main.a138cf44.js",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/rajniralasvg.png": "/static/media/rajniralasvg.c8dc229c306ccf241a6b.png",
     "static/media/travelerRaj2.jpg": "/static/media/travelerRaj2.09fa07383692a9f48f13.jpg",
@@ -13,17 +13,16 @@
     "static/media/TTN_TellTheNewsCodeImage.png": "/static/media/TTN_TellTheNewsCodeImage.3245d6227b93f1a56937.png",
     "static/media/dotNewsProjectWebImage.png": "/static/media/dotNewsProjectWebImage.3c695ea73e7601c71760.png",
     "static/media/music2.png": "/static/media/music2.2687c0da861f78e90a15.png",
-    "static/media/_MyResume(2).pdf": "/static/media/_MyResume(2).faecedb65b4a1527b994.pdf",
     "static/media/NoteApplicationProject.png": "/static/media/NoteApplicationProject.9bb2fc6312c01c558bb2.png",
     "static/media/snakeGameWindowImage.png": "/static/media/snakeGameWindowImage.a466ca4bcc5ae37154bd.png",
     "static/media/e-libProjectPhoto.png": "/static/media/e-libProjectPhoto.926d3bcbf3787157ce49.png",
     "static/media/ToDoListWebImage.png": "/static/media/ToDoListWebImage.9cb7a7efdd1a56fb6286.png",
     "index.html": "/index.html",
     "main.7666e791.css.map": "/static/css/main.7666e791.css.map",
-    "main.a281ab9d.js.map": "/static/js/main.a281ab9d.js.map"
+    "main.a138cf44.js.map": "/static/js/main.a138cf44.js.map"
   },
   "entrypoints": [
     "static/css/main.7666e791.css",
-    "static/js/main.a281ab9d.js"
+    "static/js/main.a138cf44.js"
   ]
 }
