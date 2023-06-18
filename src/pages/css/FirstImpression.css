@@ -161,7 +161,7 @@
         /* border: 2px solid green; */
         padding: 4px 8px;
         width: 90%;
-        height: 27%;
+        height: 28%;
         border-radius: 6px;
         background-color: rgba(233, 233, 233, 0.31);
         box-shadow: 10px 10px 15px -9px  black;
@@ -189,6 +189,7 @@
 
     .firstImpressionLeftSectionBtns{
         /* border: 2px solid yellow; */
+        margin: 0px 0px 10px 0px;
     }
 
     .letsWorkBtn {
@@ -220,7 +221,7 @@
 @media only screen and (max-width: 400px){
     .firstImpressionLeftSectionContent{
         /* border: 2px solid red; */
-        height: 36vh;
+        height: 37vh;
         width: 94%;
     }
 
@@ -234,6 +235,8 @@
     .firstImpressionLeftSectionBtns{
         /* border: 2px solid red; */
         width: 72%;
+        /* border: 2px solid yellow; */
+        margin: 0px 0px 10px 0px;
     }
     .fristImpressionSocialIcons{
         /* border: 2px solid blue; */
