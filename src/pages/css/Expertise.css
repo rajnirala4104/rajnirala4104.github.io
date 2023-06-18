@@ -93,9 +93,17 @@ svg {
     }
 }
 
+
+
 @keyframes rotate30 {
     100% {
         stroke-dashoffset: 350;
+    }
+}
+
+@keyframes rotate70 {
+    100% {
+        stroke-dashoffset: 210;
     }
 }
 
@@ -161,14 +169,14 @@ svg {
         overflow-x: hidden;
     }
     .ExpertiesContainer {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
     }
     .MySkillsContainer{
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
     }
 
     .skillRange{
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
 }
