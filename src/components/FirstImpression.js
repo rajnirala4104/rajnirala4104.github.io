@@ -47,7 +47,7 @@ export default function FirstImpression(props) {
                     </div>
                     <div className="firstImpressionLeftSectionBtns">
                         <Link type="button" to='/contact' className="btn bg-dark border-dark letsWorkBtn">Let's Work</Link>
-                        <Link type="button" className="btn cvBtn bg-outline-dark border-dark ">Download CV</Link>
+                        <a type="button" href={require('../Asserts/extrenalFiles/_MyResume(2).pdf')} className="btn cvBtn bg-outline-dark border-dark ">Download CV</a>
                     </div>
                 </div>
                 <div className="firstImpressionRightSectionContent">
