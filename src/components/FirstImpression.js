@@ -12,7 +12,7 @@ export default function FirstImpression(props) {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['<i>Javascript</i> Enthusiast', "<i>Python</i> Enthusiast", " <i>Great</i> Learner" , "<i>Backend</i> Developer", 'FullStack Developer'],
+            strings: ['Javascript Enthusiast', "Python Enthusiast", "Great Learner" , "Backend Developer", 'FullStack Developer'],
             typeSpeed: 55,
         });
 
