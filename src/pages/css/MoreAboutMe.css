@@ -57,7 +57,6 @@
 
 .text p {
     font-family: var(--poppinFont);
-    font-weight: 600;
 }
 
 .moreAboutMeCard:nth-of-type(even) {
