@@ -8,7 +8,7 @@ export const MoreAboutMeSingleCard = (props) => {
         src={props.cardImage}
         alt="Oops!!"
       />
-      <div className="cardRightContent hodophileBackground">
+      <div className={`cardRightContent ${props.backgroundImage}`}>
         <div className="text">
           <h3>{props.cardTitle}</h3>
           <p>
