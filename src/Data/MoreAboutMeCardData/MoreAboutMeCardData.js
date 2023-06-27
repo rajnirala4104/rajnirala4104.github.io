@@ -15,7 +15,7 @@ export const moreAboutMeCardData = [
   },
   {
     cardTitle:"Friendly Nature",
-    cardAbout:"My interest in making friends stems from my desire to gain diverse perspectives on the world. I b elieve that every individual has a unique way of viewing the world, and I am eager to learn from and appreciate these different perspectives.",
+    cardAbout:"My interest in making friends stems from my desire to gain diverse perspectives on the world. I believe that every individual has a unique way of viewing the world, and I am eager to learn from and appreciate these different perspectives.",
     cardImage: require("../../Asserts/images/friendlyNature.jpg"),
     backgroundImage:"friendlyBackground"
   },
