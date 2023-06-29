@@ -28,7 +28,7 @@ export default function FirstImpression(props) {
                 <div className="firstImpressionLeftSectionContent">
                     <div className="liBitAboutMe">
                         <span className='hi'>Hii<hr /></span>
-                        <span className='me'>I'm<span> Raj Nirala</span></span>
+                        <span className='me'>I'm<span> Raj Nirala</span> a</span>
                         <span className='developer'><span ref={el}></span></span>
                     </div>
                     <div className="fristImpressionSocialIcons">
