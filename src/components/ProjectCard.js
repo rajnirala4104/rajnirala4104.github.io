@@ -12,6 +12,7 @@ export default function ProjectCard(props) {
                         <h4>{props.projectTitle}</h4>
                         <p>{props.projectDescription}</p>
                     </div>
+                    
                     <div className="projectCardBtns">
                         <a className="btn btn-secondary" target="_blank" rel="noreferrer" href={props.projectGitHubLink}>I want to see</a>
                     </div>
