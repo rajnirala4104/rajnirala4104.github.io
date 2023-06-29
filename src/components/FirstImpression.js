@@ -51,7 +51,7 @@ export default function FirstImpression(props) {
                     </div>
                 </div>
                 <div className="firstImpressionRightSectionContent">
-                    <img src={require('../Asserts/images/rajnirala.png')} alt="raj nirala" />
+                    <img loading="lazy" src={require('../Asserts/images/rajnirala.png')} alt="raj nirala" />
                 </div>
             </div>
         </>

@@ -7,6 +7,7 @@ export const MoreAboutMeSingleCard = (props) => {
         className="shadow"
         src={props.cardImage}
         alt="Oops!!"
+        loading="lazy"
       />
       <div className={`cardRightContent ${props.backgroundImage}`}>
         <div className="text">
