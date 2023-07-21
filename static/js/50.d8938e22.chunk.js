@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrajnirala=self.webpackChunkrajnirala||[]).push([[50],{9668:function(n,r,a){a.r(r),a.d(r,{NoPage:function(){return u}});var e=a(184),u=function(n){return(0,e.jsx)("h1",{children:"page not found"})}}}]);
+//# sourceMappingURL=50.d8938e22.chunk.js.map
