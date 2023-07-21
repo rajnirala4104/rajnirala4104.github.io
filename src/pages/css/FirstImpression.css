@@ -1,243 +1,238 @@
 .firstImpressionContainer {
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 100vh;
 }
 
-.myWebAppContainer{
-    /* border: 2px solid red; */
-    width: 86%;
-    margin: auto;
+.myWebAppContainer {
+   /* border: 2px solid red; */
+   width: 86%;
+   margin: auto;
 }
-
 
 /* -------- left section --------- */
 
 .firstImpressionLeftSectionContent {
-    /* border: 2px solid rgb(0, 0, 0); */
-    display: flex !important;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 62vh;
-    height: 35%;
+   /* border: 2px solid rgb(0, 0, 0); */
+   display: flex !important;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 62vh;
+   height: 35%;
 }
 
 .liBitAboutMe {
-    /* border: 2px solid green; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 3rem;
-    text-align: left;
+   /* border: 2px solid green; */
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   line-height: 3rem;
+   text-align: left;
 }
 
-.fristImpressionSocialIcons{
-    /* border: 2px solid blue; */
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.4rem;
-    width: 40%;
-    padding: 0px 4px;
+.fristImpressionSocialIcons {
+   /* border: 2px solid blue; */
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.4rem;
+   width: 40%;
+   padding: 0px 4px;
 }
-.fristImpressionSocialIcons a{
-    color: rgb(69, 69, 69);
+.fristImpressionSocialIcons a {
+   color: rgb(69, 69, 69);
 }
-.fristImpressionSocialIcons a:hover{
-    color: rgb(111, 111, 111);
+.fristImpressionSocialIcons a:hover {
+   color: rgb(111, 111, 111);
 }
 
 .firstImpressionLeftSectionBtns {
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    width: 64%;
-    /* margin: 20px 0px; */
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: space-between;
+   width: 64%;
+   /* margin: 20px 0px; */
 }
 
 .liBitAboutMe .hi {
-    font-size: 2rem;
-    text-align: left;
-    font-family: var(--litCoursive);
-    color: var(--textColor);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 1px solid red; */
-    width: 50%;
+   font-size: 2rem;
+   text-align: left;
+   font-family: var(--litCoursive);
+   color: var(--textColor);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* border: 1px solid red; */
+   width: 50%;
 }
 
 .hi hr {
-    color: black;
-    border: .2px solid var(--textColor);
-    width: 95%;
-    margin: 0px 7px;
+   color: black;
+   border: 0.2px solid var(--textColor);
+   width: 95%;
+   margin: 0px 7px;
 }
 
 .liBitAboutMe .me {
-    font-size: 2.5rem;
-    font-weight: 300;
-    font-family: var(--poppinFont);
-    color: var(--textColor);
+   font-size: 2.5rem;
+   font-weight: 300;
+   font-family: var(--poppinFont);
+   color: var(--textColor);
 }
 
 .liBitAboutMe .me span {
-    font-family: var(--poppinFont);
-    font-weight: 600;
-    color: black;
-
+   font-family: var(--poppinFont);
+   font-weight: 600;
+   color: black;
 }
 
 .liBitAboutMe .developer {
-    font-size: 2.5rem;
-    /* font-weight: 300; */
-    font-family: var(--poppinFont);
-    color: var(--textColor);
+   font-size: 2.5rem;
+   /* font-weight: 300; */
+   font-family: var(--poppinFont);
+   color: var(--textColor);
 }
 
 .letsWorkBtn {
-    color: white;
+   color: white;
 }
 
 .letsWorkBtn:hover {
-    color: white;
+   color: white;
 }
 
 .cvBtn {
-    /* border: 1px solid black; */
-    color: black !important;
+   /* border: 1px solid black; */
+   color: black !important;
 }
 
 .cvBtn:hover {
-    background: rgb(52 58 64);
-    /* box-shadow: 0px 0px 10px black; */
-    /* border: none; */
-    color: white !important;
+   background: rgb(52 58 64);
+   /* box-shadow: 0px 0px 10px black; */
+   /* border: none; */
+   color: white !important;
 }
 
 /* -------right section --------- */
 .firstImpressionRightSectionContent {
-    /* border: 2px solid blue;  */
-    width: 50%;
+   /* border: 2px solid blue;  */
+   width: 50%;
 }
 
 .firstImpressionRightSectionContent img {
-    border-radius: 10px;
-    /* border: 2px solid red; */
-    filter: saturate(100%);
-    filter: brightness(93%);
-    width: 100%;
-    height: 100%;
+   border-radius: 10px;
+   /* border: 2px solid red; */
+   filter: saturate(100%);
+   filter: brightness(93%);
+   width: 100%;
+   height: 100%;
 }
-
 
 @media only screen and (max-width: 1000px) {
-    body {
-        overflow-x: hidden;
-    }
+   body {
+      overflow-x: hidden;
+   }
 
-    .myWebAppContainer{
-        /* border: 2px solid black; */
-        width: 100%;
-    }
+   .myWebAppContainer {
+      /* border: 2px solid black; */
+      width: 100%;
+   }
 
-    .firstImpressionContainer {
-        /* border: 2px solid red; */
-        display: flex;
-        justify-content: center;
-        flex-direction: column-reverse;
-        background: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.422)), url('../../Asserts/images/rajnirala.png') no-repeat center/cover;
-        
-        background-attachment: fixed;
-        filter: blur(0px);
-        /* -webkit-filter: blur(2px); */
-        width: 100;
-        /* height: 100vh; */
-        z-index: -10;
-    }
+   .firstImpressionContainer {
+      /* border: 2px solid red; */
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      background: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.422)),
+         url("../../Asserts/images/rajnirala.png") no-repeat center/cover;
 
-    .firstImpressionLeftSectionContent {
-        /* border: 2px solid green; */
-        padding: 4px 8px;
-        border-radius: 6px;
-        background-color: rgba(233, 233, 233, 0.31);
-        box-shadow: 10px 10px 15px -9px  black;
-    }
+      background-attachment: fixed;
+      filter: blur(0px);
+      /* -webkit-filter: blur(2px); */
+      width: 100;
+      /* height: 100vh; */
+      z-index: -10;
+   }
 
-    .fristImpressionSocialIcons a{
-        color: rgb(48, 48, 48);
-    }   
-    .fristImpressionSocialIcons a:hover{
-        color: rgb(57, 57, 57);
-    }   
+   .firstImpressionLeftSectionContent {
+      /* border: 2px solid green; */
+      padding: 4px 8px;
+      border-radius: 6px;
+      background-color: rgba(233, 233, 233, 0.31);
+      box-shadow: 10px 10px 15px -9px black;
+   }
 
-    .firstImpressionLeftSectionContent span {
-        color: rgb(0, 0, 0) !important;
-        /* text-shadow: 0px 0px 10px rgb(129, 129, 129); */
-    }
+   .fristImpressionSocialIcons a {
+      color: rgb(48, 48, 48);
+   }
+   .fristImpressionSocialIcons a:hover {
+      color: rgb(57, 57, 57);
+   }
 
-    .liBitAboutMe{
-        /* border: 2px solid red; */
-    }
+   .firstImpressionLeftSectionContent span {
+      color: rgb(0, 0, 0) !important;
+      /* text-shadow: 0px 0px 10px rgb(129, 129, 129); */
+   }
 
-    .fristImpressionSocialIcons{
-        /* border: 2px solid blue; */
-    }
+   .liBitAboutMe {
+      /* border: 2px solid red; */
+   }
 
-    .firstImpressionLeftSectionBtns{
-        /* border: 2px solid yellow; */
-        margin: 0px 0px 10px 0px;
-    }
+   .fristImpressionSocialIcons {
+      /* border: 2px solid blue; */
+   }
 
-    .letsWorkBtn {
-        color: #bbbbbb;
+   .firstImpressionLeftSectionBtns {
+      /* border: 2px solid yellow; */
+      margin: 0px 0px 10px 0px;
+   }
 
-    }
+   .letsWorkBtn {
+      color: #bbbbbb;
+   }
 
-    .cvBtn {
-        color: #bbbbbb;
-        /* border: 1px solid rgb(65, 65, 65); */
-    }
+   .cvBtn {
+      color: #bbbbbb;
+      /* border: 1px solid rgb(65, 65, 65); */
+   }
 
-    .cvBtn:hover {
-        background: rgb(52 58 64);
-        /* box-shadow: 0px 0px 10px black; */
-        /* border: none; */
-        color: white;
-    }
+   .cvBtn:hover {
+      background: rgb(52 58 64);
+      /* box-shadow: 0px 0px 10px black; */
+      /* border: none; */
+      color: white;
+   }
 
-    .firstImpressionRightSectionContent {
-        /* border: 2px solid rgb(106, 106, 106); */
-        border-radius: 50%;
-        /* box-shadow: 0px 0px 10px black; */
-        display: none;
-    }
-
+   .firstImpressionRightSectionContent {
+      /* border: 2px solid rgb(106, 106, 106); */
+      border-radius: 50%;
+      /* box-shadow: 0px 0px 10px black; */
+      display: none;
+   }
 }
 
-@media only screen and (max-width: 600px){
-    .firstImpressionLeftSectionContent{
-        /* border: 2px solid red; */
-        width: 94%;
-    }
+@media only screen and (max-width: 600px) {
+   .firstImpressionLeftSectionContent {
+      /* border: 2px solid red; */
+      width: 94%;
+   }
 
-    .liBitAboutMe{
-        /* border: 2px solid blue; */
-    }
-    
-    .developer span{
-        font-size: 33px;
-    } 
-    .firstImpressionLeftSectionBtns{
-        width: 72%;
-        /* border: 2px solid yellow; */
-        margin: 0px 0px 10px 0px;
-    }
-    .fristImpressionSocialIcons{
-        /* border: 2px solid blue; */
-        font-size: 26px;
-        width: 47%;
-    }
+   .liBitAboutMe {
+      /* border: 2px solid blue; */
+   }
+
+   .developer span {
+      font-size: 33px;
+   }
+   .firstImpressionLeftSectionBtns {
+      width: 72%;
+      /* border: 2px solid yellow; */
+      margin: 0px 0px 10px 0px;
+   }
+   .fristImpressionSocialIcons {
+      /* border: 2px solid blue; */
+      font-size: 26px;
+      width: 47%;
+   }
 }
-

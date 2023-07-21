@@ -1,14 +1,16 @@
-import './App.css';
+import React, { Suspense } from "react";
 import { RouterProvider } from "react-router-dom";
-import { router } from './Routes';
+import "./App.css";
+import { router } from "./Routes";
 
 function App() {
-  return (
-    <>
-      {/* <NavBar /> */}
-      <RouterProvider router={router} />
-    </>
-  );
+   return (
+      <>
+         <Suspense fallback={<>Loadind....</>}>
+            <RouterProvider router={router} />
+         </Suspense>
+      </>
+   );
 }
 
 export default App;

@@ -1,5 +1,4 @@
-import './css/Contect.css'
-
+import "./css/Contect.css";
 export const Contact = (props) => {
   return (
     <>
@@ -8,18 +7,40 @@ export const Contact = (props) => {
           <section className="leftSection">
             <div className="leftSectionContent">
               <h2>Hey There...</h2>
-              <p>As a passionate full stack developer, I thrive on crafting seamless digital experiences that engage and inspire. With expertise in front-end and back-end technologies, I bring ideas to life through clean code and intuitive design. Let's collaborate and create something remarkable together.</p>
+              <p>
+                As a passionate full stack developer, I thrive on crafting
+                seamless digital experiences that engage and inspire. With
+                expertise in front-end and back-end technologies, I bring ideas
+                to life through clean code and intuitive design. Let's
+                collaborate and create something remarkable together.
+              </p>
               <div className="socialIcons">
-                <a href="https://www.linkedin.com/in/raj-nirala/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/raj-nirala/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="https://www.github.com/rajnirala4104/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.github.com/rajnirala4104/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <a href="https://www.instagram.com/_raj_nirala_/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/_raj_nirala_/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-instagram"></i>
                 </a>
-                <a href="https://wa.me/917827424823/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://wa.me/917827424823/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-whatsapp"></i>
                 </a>
               </div>
@@ -56,11 +77,13 @@ export const Contact = (props) => {
                   placeholder="Describe that Message"
                 ></textarea>
               </div>
-              <button type="button" className="btn btn-secondary">Send Message</button>
+              <button type="button" className="btn btn-secondary">
+                Send Message
+              </button>
             </form>
           </section>
         </div>
       </div>
     </>
   );
-}
+};

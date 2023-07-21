@@ -1,43 +1,69 @@
-import { Home, WhoAmI, MoreAboutMe, Education, Expertise, Contact, Projects, NoPage, Root } from "../pages"
 import { createBrowserRouter } from "react-router-dom";
-export const router = createBrowserRouter([
 
-    {
-        path: '/',
-        element: <Root />,
-        children: [
-            {
-                path: '/',
-                element: <Home />
+export const router = createBrowserRouter([
+   {
+      path: "/",
+      async lazy() {
+         let { Root } = await import("../pages/Root");
+         return { Component: Root };
+      },
+      children: [
+         {
+            path: "/",
+            async lazy() {
+               let { Home } = await import("../pages/Home");
+               return { Component: Home };
             },
-            {
-                path: '/whoami',
-                element: <WhoAmI />
+         },
+         {
+            path: "/whoami",
+            async lazy() {
+               let { WhoAmI } = await import("../pages/WhoAmI");
+               return { Component: WhoAmI };
             },
-            {
-                path: '/moreaboutme',
-                element: <MoreAboutMe />
+         },
+         {
+            path: "/moreaboutme",
+            async lazy() {
+               let { MoreAboutMe } = await import("../pages/MoreAboutMe");
+               return { Component: MoreAboutMe };
             },
-            {
-                path: '/education',
-                element: <Education />
+         },
+         {
+            path: "/education",
+            async lazy() {
+               let { Education } = await import("../pages/Education");
+               return { Component: Education };
             },
-            {
-                path: '/expertise',
-                element: <Expertise />
+         },
+         {
+            path: "/expertise",
+            async lazy() {
+               let { Expertise } = await import("../pages/Expertise");
+               return { Component: Expertise };
             },
-            {
-                path: '/contact',
-                element: <Contact />
+         },
+         {
+            path: "/contact",
+            async lazy() {
+               let { Contact } = await import("../pages/Contact");
+               return { Component: Contact };
             },
-            {
-                path: '/projects',
-                element: <Projects />
+         },
+         {
+            path: "/projects",
+            async lazy() {
+               let { Projects } = await import("../pages/Projects");
+               return { Component: Projects };
             },
-            {
-                path: '/*',
-                element: <NoPage />
-            }
-        ]
-    }
-])
+         },
+         {
+            path: "/*",
+            async lazy() {
+               let { noPage } = await import("../pages/noPage");
+               return { Component: noPage };
+            },
+         },
+      ],
+   },
+]);
