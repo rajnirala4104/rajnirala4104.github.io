@@ -1,8 +1,9 @@
+import { memo } from "react";
 import { moreAboutMeCardData } from "../Data/MoreAboutMeCardData/MoreAboutMeCardData";
 import { MoreAboutMeSingleCard } from "../components/";
 import "./css/MoreAboutMe.css";
 
-export const MoreAboutMe = function MoreAboutMe(props) {
+export const MoreAboutMe = memo(function MoreAboutMe(props) {
    // const location = useLocation();
    return (
       <>
@@ -15,4 +16,4 @@ export const MoreAboutMe = function MoreAboutMe(props) {
          </div>
       </>
    );
-};
+});

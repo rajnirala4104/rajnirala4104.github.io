@@ -1,9 +1,8 @@
-// import NavBar from "../shared/NavBar";
-// import { useLocation } from "react-router-dom";
+import { memo } from "react";
 import SkillRange from "../components/SkillRange";
 import "./css/Expertise.css";
 
-export const Expertise = (props) => {
+export const Expertise = memo((props) => {
    // const location = useLocation();
    return (
       <>
@@ -54,4 +53,4 @@ export const Expertise = (props) => {
          </div>
       </>
    );
-};
+});

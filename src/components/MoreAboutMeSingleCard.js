@@ -1,6 +1,6 @@
-import React from "react";
+import React, { memo } from "react";
 
-export default function MoreAboutMeSingleCard(props) {
+export default memo(function MoreAboutMeSingleCard(props) {
    return (
       <div className="moreAboutMeCard">
          <img
@@ -17,4 +17,4 @@ export default function MoreAboutMeSingleCard(props) {
          </div>
       </div>
    );
-}
+});
