@@ -8,7 +8,6 @@ export const Home = memo(() => {
    // const location = useLocation();
    return (
       <div className="App">
-         {/* <NavBar activeStatus={location.pathname}/> */}
          <div className="myWebAppContainer">{<FirstImpression />}</div>
       </div>
    );
