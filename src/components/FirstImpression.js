@@ -1,6 +1,7 @@
-import React, { memo } from "react";
+import React, { Fragment, memo, useContext } from "react";
 import { Link } from "react-router-dom";
 import Typed from "typed.js";
+import { ThemeContext } from "../App";
 import "../pages/css/FirstImpression.css";
 
 const FirstImpression = (props) => {
@@ -24,8 +25,11 @@ const FirstImpression = (props) => {
       };
    }, []);
 
+   const theme = useContext(ThemeContext);
+   console.log(`FirstImpre.. :- ${theme.theme} `);
+
    return (
-      <>
+      <Fragment>
          <div className="firstImpressionContainer">
             <div className="firstImpressionLeftSectionContent">
                <div className="liBitAboutMe">
@@ -97,7 +101,7 @@ const FirstImpression = (props) => {
                />
             </div>
          </div>
-      </>
+      </Fragment>
    );
 };
 

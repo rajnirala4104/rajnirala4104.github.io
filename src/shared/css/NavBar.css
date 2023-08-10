@@ -1,96 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
 
-.isActive{
-  color: rgb(0, 0, 0) !important;
-  /* text-shadow: 0px 0px 1px black; */
+.isActive {
+   color: rgb(0, 0, 0) !important;
+   /* text-shadow: 0px 0px 1px black; */
 }
 
 .navbar {
-    /* border: 1px solid red; */
-    display: flex !important;
-    justify-content: space-around !important;
-    align-self: center !important;
-    border-bottom: 1px solid rgb(142, 142, 142);
-
+   /* border: 1px solid red; */
+   display: flex !important;
+   justify-content: space-around !important;
+   align-self: center !important;
+   border-bottom: 1px solid rgb(142, 142, 142);
 }
 
 .logo {
-    /* border: 1px solid blue; */
+   /* border: 1px solid blue; */
 }
 
 .navMenus {
-    /* border: 1px solid green; */
-    width: 50% !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center;
+   /* border: 1px solid green; */
+   width: 50% !important;
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center;
 }
 
 .navMenus ul {
-    display: flex ;
-    justify-content: space-between ;
-    align-self: right;
-    /* border: 1px solid red; */
-    width: 90vh;
-  }
-  
-#navbarSupportedContent ul li a {
-    color: var(--textColor);
-    text-decoration: none;
+   display: flex;
+   justify-content: space-between;
+   align-self: right;
+   /* border: 1px solid red; */
+   width: 90vh;
 }
 
-
+#navbarSupportedContent ul li a {
+   color: var(--textColor);
+   text-decoration: none;
+}
+#navbarSupportedContent ul li a:hover {
+   color: black;
+}
 
 /* ------------- responsive ---------- */
 @media only screen and (max-width: 1000px) {
-    
-    nav{
-        /* display: none !important; */
-        /* border: 2px solid red; */
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-        /* height: 20vh; */
-    }
-    .logo{
+   nav {
+      /* display: none !important; */
+      /* border: 2px solid red; */
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      /* height: 20vh; */
+   }
+   .logo {
       /* border: 1px solid black; */
       /* display: none; */
-    }
-    .logo a{
+   }
+   .logo a {
       text-align: center !;
       font-size: 2rem;
+   }
 
-    }
-
-    .navMenus{
+   .navMenus {
       width: 100% !important;
       /* border: 1px solid blue; */
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
-    }
-    .navMenus ul{
+   }
+   .navMenus ul {
       display: flex !important;
       flex-direction: row !important;
       justify-content: center !important;
       align-items: center;
       /* border: 2px solid red; */
       flex-wrap: wrap;
-    }
-    .navMenus ul li{
-      margin: 0px 6px; 
+   }
+   .navMenus ul li {
+      margin: 0px 6px;
       text-align: center;
       /* border: .3px solid yellow; */
-    }
-
-
-
-
-  
-  }
-
+   }
+}
