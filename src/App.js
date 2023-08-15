@@ -1,22 +1,25 @@
-import React, { Fragment, Suspense, createContext, useState } from "react";
-import { RouterProvider } from "react-router-dom";
-import "./App.css";
-import { router } from "./Routes";
-import Loading from "./components/Loading";
-
-export const ThemeContext = createContext(null);
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-   const [theme, setTheme] = useState("light");
-   return (
-      <Fragment>
-         <Suspense fallback={Loading}>
-            <ThemeContext.Provider value={{ theme, setTheme }}>
-               <RouterProvider router={router} />
-            </ThemeContext.Provider>
-         </Suspense>
-      </Fragment>
-   );
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;

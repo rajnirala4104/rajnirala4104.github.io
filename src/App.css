@@ -1,28 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Dancing+Script&family=Libre+Franklin:wght@200&family=Montserrat:wght@300&family=Playfair&family=Poppins:wght@100;200&display=swap');
-
-
-:root {
-  --litCoursive: 'Dancing Script', cursive;
-  --strightFont: 'Montserrat', sans-serif;
-  --normalFont: 'Playfair', serif;
-  --bitter: 'Bitter', serif;
-  --libreFranklin: 'Libre Franklin', sans-serif;
-  --poppinFont: font-family: 'Poppins', sans-serif;
-  --textColor : rgb(91, 91, 91);
-  --backgroundColor: rgb(198, 198, 198);
-}
-
-
 .App {
-  text-align: center !important;
+  text-align: center;
 }
 
-body {
-  overflow: hidden;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-@media only screen and (max-width: 1000px) {
-    body{
-      overflow: scroll;
-    }
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
