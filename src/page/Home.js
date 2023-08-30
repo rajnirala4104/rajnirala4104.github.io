@@ -1,5 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { HeroComponents } from "../components";
 
 export const Home = () => {
-   return <div>Home</div>;
+   document.title = "Raj Nirala";
+   return (
+      <Fragment>
+         <HeroComponents />
+      </Fragment>
+   );
 };
