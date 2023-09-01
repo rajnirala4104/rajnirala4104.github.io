@@ -10,7 +10,8 @@ export const HeroComponents = () => {
          strings: [
             "Javascript Enthusiast",
             "Python Enthusiast",
-            "Great Learner",
+            "Curious Person",
+            "Greatx Learner",
             "Backend Developer",
             "FullStack Developer",
          ],
@@ -34,10 +35,12 @@ export const HeroComponents = () => {
                />
             </div>
             <div className=" flex flex-row justify-between">
-               <div className="nameAndAbout  py-3 pl-4 h-24">
-                  <h2 className="text-2xl">Raj Nirala</h2>
+               <div data-aos="fade-up" className="nameAndAbout py-3 pl-3 h-24">
+                  <h2 className="text-2xl">
+                     <strong>Raj Nirala</strong>
+                  </h2>
                   <p className="text-[17px] text-gray-600">
-                     A <span ref={el}></span>
+                     A <span ref={el} className="font-mono text-[15px]"></span>
                   </p>
                   <div className="icons flex justify-between w-28">
                      <a
@@ -72,6 +75,20 @@ export const HeroComponents = () => {
                      >
                         <i className="fa-brands fa-whatsapp"></i>
                      </a>
+                  </div>
+                  <div className="btns  flex justify-start py-2">
+                     <button
+                        onClick={() => alert("wow its working")}
+                        className="bg-gray-500 text-[12px] py-1 px-2 mr-2 text-white rounded"
+                     >
+                        Let's Work
+                     </button>
+                     <button
+                        onClick={() => alert("wow its working")}
+                        className="bg-gray-500 text-[12px] py-1 px-2 text-white rounded"
+                     >
+                        CV
+                     </button>
                   </div>
                </div>
                <div className="profilePic border-4 bg-white w-[40%] rounded-full border-gray-400 -translate-y-[5.4rem]">
