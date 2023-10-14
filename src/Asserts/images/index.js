@@ -3,4 +3,7 @@ export const allImages = {
    banneImage: require("../images/bannerImage.jpg"),
    bookLover: require("../images/bookLover.jpg"),
    musicLover: require("./musicEnthusiest.jpg"),
+   treveler: require("./travelerRaj2.jpg"),
+   friendlyNature: require("./friendlyNature.jpg"),
+   problemSolver: require("./problemSolverRaj.jpg"),
 };

@@ -1,7 +1,12 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { Fragment, Suspense } from "react";
-import { AboutSection, EducationSection, HeroComponents } from "../components";
+import {
+   AboutSection,
+   EducationSection,
+   HeroComponents,
+   MoreAboutMeSection,
+} from "../components";
 
 export const Home = () => {
    document.title = "Raj Nirala";
@@ -14,6 +19,7 @@ export const Home = () => {
             <HeroComponents />
             <AboutSection />
             <EducationSection />
+            <MoreAboutMeSection />
          </Suspense>
       </Fragment>
    );
