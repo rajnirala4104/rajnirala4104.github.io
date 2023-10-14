@@ -4,35 +4,35 @@ export const AboutSection = () => {
    return (
       <Fragment>
          <Suspense fallback="loading...">
-            <div className=" border-red-500 px-3">
-               <h2 className="text-2xl z-1 text-gray-900 px-2 sticky top-0 bg-gray-300 ">
+            <div className="px-3">
+               <h2 className="text-2xl text-gray-900 px-2 z-20 sticky top-0 bg-gray-300 ">
                   <strong>About Me</strong>
                </h2>
                <div
-                  className="aboutContent "
+                  className="aboutContent"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                >
-                  <p className="text-gray-600 my-2 text-justify ">
-                     I am a Full-Stack developer with 3 years of experience and
-                     proficiency in multiple programming languages and
-                     frameworks, including{" "}
+                  <p className="text-gray-600 my-2 text-justify">
+                     Hey there! 👋 I'm a full-stack developer with expertise in
+                     multiple languages and frameworks.
                      <strong>
                         {" "}
-                        HTML, CSS, JavaScript, Node.js, Express.js, React Js,
-                        Python, Flask, PHP, MySQL, MongoDB, SQLI, and Java
-                     </strong>
-                     . I am passionate about problem-solving and enjoy exploring
-                     new places through traveling. My long-term goal is to
-                     establish a successful tech business. With my expertise in
-                     web development and problem-solving skills,{" "}
+                        I specialized in JavaScript, Python and little bit in C,
+                        Java, and Php. I'm also experienced in working with
+                        popular frameworks like Flask, React.js, Express.js, and
+                        Node.js for backend.
+                     </strong>{" "}
+                     When it comes to databases, I'm well-versed in MongoDB. As
+                     a <strong>MERN developer </strong>, I love creating dynamic
+                     and interactive web applications. Can't wait to showcase my
+                     skills on my portfolio website! and one more thing i'll
+                     tell you,
                      <strong>
                         {" "}
                         I am confident that I can contribute to the growth and
                         development of any organization.
                      </strong>{" "}
-                     I am excited to continue learning and improving my skills
-                     while working towards achieving my career aspirations.
                   </p>
                </div>
             </div>

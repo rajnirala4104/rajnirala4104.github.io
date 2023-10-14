@@ -1,8 +1,10 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import Typed from "typed.js";
 import { allImages } from "../Asserts/images";
+import { CV_PopUp } from "./CV_PopUp";
 
 export const HeroComponents = () => {
+   const [popup, setPopup] = useState(false);
    const el = React.useRef(null);
 
    React.useEffect(() => {
@@ -11,7 +13,7 @@ export const HeroComponents = () => {
             "Javascript Enthusiast",
             "Python Enthusiast",
             "Curious Person",
-            "Greatx Learner",
+            "Great Learner",
             "Backend Developer",
             "FullStack Developer",
          ],
@@ -35,21 +37,21 @@ export const HeroComponents = () => {
                />
             </div>
             <div className=" flex flex-row justify-between">
-               <div data-aos="fade-up" className="nameAndAbout py-3 pl-3 h-24">
+               <div data-aos="fade-up" className="nameAndAbout py-3 pl-3 h-24 ">
                   <h2 className="text-2xl">
                      <strong>Raj Nirala</strong>
                   </h2>
-                  <p className="text-[17px] text-gray-600">
+                  <p className="text-[17px] text-gray-600 ">
                      A <span ref={el} className="font-mono text-[15px]"></span>
                   </p>
-                  <div className="icons flex justify-between w-28">
+                  <div className="icons flex justify-between w-36 ">
                      <a
                         href="https://www.linkedin.com/in/raj-nirala/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-gray-800"
                      >
-                        <i className="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands text-2xl fa-linkedin"></i>
                      </a>
                      <a
                         href="https://www.github.com/rajnirala4104/"
@@ -57,7 +59,7 @@ export const HeroComponents = () => {
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-gray-800"
                      >
-                        <i className="fa-brands fa-github"></i>
+                        <i className="fa-brands text-2xl fa-github"></i>
                      </a>
                      <a
                         href="https://www.instagram.com/_raj_nirala_/"
@@ -65,7 +67,7 @@ export const HeroComponents = () => {
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-gray-800"
                      >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa-brands text-2xl fa-instagram"></i>
                      </a>
                      <a
                         href="https://wa.me/917827424823/"
@@ -73,7 +75,7 @@ export const HeroComponents = () => {
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-gray-800"
                      >
-                        <i className="fa-brands fa-whatsapp"></i>
+                        <i className="fa-brands text-2xl fa-whatsapp"></i>
                      </a>
                   </div>
                   <div className="btns  flex justify-start py-2">
@@ -84,7 +86,7 @@ export const HeroComponents = () => {
                         Let's Work
                      </button>
                      <button
-                        onClick={() => alert("wow its working")}
+                        onClick={() => setPopup(!popup)}
                         className="bg-gray-500 text-[12px] py-1 px-2 text-white rounded"
                      >
                         CV
