@@ -16,7 +16,7 @@ export const data = [
    {
       cardTitle: "Friendly Nature",
       cardDescription:
-         "Traveling brings joy, solace, and a fresh perspective. Steppingbeyond comfort zones, embracing the world, and connecting with diverse people ignite happiness. Observing beauty, forging meaningful experiences, and seeking joy through human interaction make traveling an invaluable opportunity",
+         "My interest in making friends stems from my desire to gain diverse perspectives on the world. I believe that every individual has a unique way of viewing the world, and I am eager to learn from and appreciate these different perspectives.",
       cardImg: allImages.friendlyNature,
    },
    {
