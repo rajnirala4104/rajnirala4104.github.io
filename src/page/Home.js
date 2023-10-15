@@ -4,6 +4,7 @@ import React, { Fragment, Suspense } from "react";
 import {
    AboutSection,
    EducationSection,
+   ExpertiseSection,
    HeroComponents,
    MoreAboutMeSection,
 } from "../components";
@@ -20,6 +21,7 @@ export const Home = () => {
             <AboutSection />
             <EducationSection />
             <MoreAboutMeSection />
+            <ExpertiseSection />
          </Suspense>
       </Fragment>
    );
