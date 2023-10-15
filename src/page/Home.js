@@ -7,6 +7,7 @@ import {
    ExpertiseSection,
    HeroComponents,
    MoreAboutMeSection,
+   ProjectSection,
 } from "../components";
 
 export const Home = () => {
@@ -22,6 +23,7 @@ export const Home = () => {
             <EducationSection />
             <MoreAboutMeSection />
             <ExpertiseSection />
+            <ProjectSection />
          </Suspense>
       </Fragment>
    );
