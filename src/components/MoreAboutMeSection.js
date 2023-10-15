@@ -1,6 +1,6 @@
 import React, { Fragment, Suspense } from "react";
 import { data } from "../data/MoreAboutImgData";
-import { MoreAboutSecCard } from "./sub-components/MoreAboutSecCard";
+import { MoreAboutSecCard } from "./sub-components";
 
 export const MoreAboutMeSection = () => {
    console.log(data);
