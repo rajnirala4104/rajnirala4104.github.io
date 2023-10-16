@@ -28,13 +28,15 @@ export const EducationSection = () => {
                   <strong>Education</strong>
                </h2>
                <div className="educationContent text-gray-600  text-justify">
-                  {educationDetailsArr.map((singleData) => (
-                     <EducationCard
-                        cardTitle={singleData.title}
-                        whereInfo={singleData.whereInfo}
-                        description={singleData.description}
-                        duration={singleData.duration}
-                     />
+                  {educationDetailsArr.map((singleData, i) => (
+                     <Fragment key={i}>
+                        <EducationCard
+                           cardTitle={singleData.title}
+                           whereInfo={singleData.whereInfo}
+                           description={singleData.description}
+                           duration={singleData.duration}
+                        />
+                     </Fragment>
                   ))}
                </div>
             </div>

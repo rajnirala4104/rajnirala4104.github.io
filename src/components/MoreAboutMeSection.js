@@ -3,8 +3,6 @@ import { data } from "../data/MoreAboutImgData";
 import { MoreAboutSecCard } from "./sub-components";
 
 export const MoreAboutMeSection = () => {
-   console.log(data);
-
    return (
       <Fragment>
          <Suspense fallback="loading..">
@@ -13,8 +11,10 @@ export const MoreAboutMeSection = () => {
                   <strong>More About Me</strong>
                </h2>
                <div>
-                  {data.map((singleObject) => (
-                     <MoreAboutSecCard {...singleObject} />
+                  {data.map((singleObject, i) => (
+                     <Fragment key={i}>
+                        <MoreAboutSecCard {...singleObject} />
+                     </Fragment>
                   ))}
                </div>
             </section>

@@ -1,29 +1,26 @@
 import React, { Fragment, Suspense } from "react";
-import { allProjectImages } from "../../Asserts/images/projectsImages";
+import { Link } from "react-router-dom";
 
-export const ProjectsCard = () => {
+export const ProjectsCard = (props) => {
    return (
       <Fragment>
          <Suspense fallback="loading...">
             <div className=" border p-2 my-2 w-[100%] lg:w-[30%] lg:mx-2">
-               <img
-                  src={allProjectImages.eLibWebImage}
-                  className="my-2"
-                  alt=""
-               />
+               <img src={props.img} className="my-2" alt={props.projName} />
                <div className="projectCardContent">
-                  <h2 className="text-[23px] text-gray-700">E-library</h2>
-                  <p className="text-gray-700">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Maiores quis architecto nemo possimus quidem fugiat quam
-                     similique ab ipsum maxime quisquam facere beatae neque
-                     voluptas, a iusto qui necessitatibus. Porro.
-                  </p>
+                  <h2 className="text-[23px] text-gray-700">
+                     {props.ProjName}
+                  </h2>
+                  <p className="text-gray-700">{props.projDescription}</p>
                </div>
                <div className="btns mt-2">
-                  <button className="px-2 py-1 bg-gray-600 text-white rounded-[5px]">
+                  <Link
+                     to={props.codeLink}
+                     target="_blank"
+                     className="px-2 py-1 bg-gray-600 text-white rounded-[5px]"
+                  >
                      Code
-                  </button>
+                  </Link>
                </div>
             </div>
          </Suspense>

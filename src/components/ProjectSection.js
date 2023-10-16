@@ -1,4 +1,5 @@
 import React, { Fragment, Suspense } from "react";
+import { ProjectsData } from "../data/ProjectsData";
 import { ProjectsCard } from "./sub-components";
 
 export const ProjectSection = () => {
@@ -11,10 +12,11 @@ export const ProjectSection = () => {
                      <strong>Projects</strong>
                   </h2>
                   <div className="projectCardContainer flex lg:flex-row lg:flex-wrap flex-col justify-center items-center">
-                     <ProjectsCard />
-                     <ProjectsCard />
-                     <ProjectsCard />
-                     <ProjectsCard />
+                     {ProjectsData.map((DataKaSingleObject, i) => (
+                        <Fragment key={i}>
+                           <ProjectsCard {...DataKaSingleObject} />
+                        </Fragment>
+                     ))}
                   </div>
                </div>
             </section>
