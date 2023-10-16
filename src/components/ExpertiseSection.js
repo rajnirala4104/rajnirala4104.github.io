@@ -14,20 +14,26 @@ export const ExpertiseSection = () => {
                   <span className="text-[20px] font-semibold">
                      Programming Languages
                   </span>
-                  {programingSkils.map((singleObject) => (
-                     <SkillsProgressBar {...singleObject} />
+                  {programingSkils.map((singleObject, i) => (
+                     <Fragment key={i}>
+                        <SkillsProgressBar {...singleObject} />
+                     </Fragment>
                   ))}
                </div>
                <div className="skilsContainer my-5">
                   <span className="text-[20px] font-semibold">Frameworks</span>
-                  {frameworkSkils.map((singleObject) => (
-                     <SkillsProgressBar {...singleObject} />
+                  {frameworkSkils.map((singleObject, i) => (
+                     <Fragment key={i}>
+                        <SkillsProgressBar {...singleObject} />
+                     </Fragment>
                   ))}
                </div>
                <div className="skilsContainer my-5">
                   <span className="text-[20px] font-semibold">Database</span>
-                  {database.map((singleObject) => (
-                     <SkillsProgressBar {...singleObject} />
+                  {database.map((singleObject, i) => (
+                     <Fragment key={i}>
+                        <SkillsProgressBar {...singleObject} />
+                     </Fragment>
                   ))}
                </div>
             </section>
