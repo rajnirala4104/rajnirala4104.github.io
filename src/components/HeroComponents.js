@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from "react";
 import Typed from "typed.js";
 import { allImages } from "../Asserts/images";
-import { CV_PopUp } from "./CV_PopUp";
 
 export const HeroComponents = () => {
    const [popup, setPopup] = useState(false);

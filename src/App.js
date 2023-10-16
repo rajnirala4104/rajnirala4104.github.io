@@ -1,6 +1,6 @@
 import { Fragment, Suspense } from "react";
 import { RouterProvider } from "react-router-dom";
-import { _ROUTER } from "./router";
+import { _ROUTER } from "./router/index";
 
 function App() {
    return (

@@ -17,7 +17,7 @@ export const Home = () => {
    }, []);
    return (
       <Fragment>
-         <Suspense fallback="loading..s">
+         <Suspense fallback="loading..">
             <HeroComponents />
             <AboutSection />
             <EducationSection />
