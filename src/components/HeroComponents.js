@@ -26,7 +26,7 @@ export const HeroComponents = () => {
 
    return (
       <Fragment>
-         <div className="profile flex flex-col justify-center items-end lg:hidden">
+         <div className="profile flex flex-col justify-center items-end lg:hidden ">
             <div className="banner border-b-4 border-gray-400">
                <img
                   src={allImages.banneImage}
@@ -35,13 +35,20 @@ export const HeroComponents = () => {
                   loading="lazy"
                />
             </div>
-            <div className=" flex flex-row justify-between">
-               <div data-aos="fade-up" className="nameAndAbout py-3 pl-3 h-24 ">
-                  <h2 className="text-2xl">
+            <div className=" flex flex-row justify-between  w-full">
+               <div
+                  data-aos="fade-up"
+                  className="nameAndAbout py-3 pl-3  w-full h-full"
+               >
+                  <h2 className="text-2xl md:text-5xl">
                      <strong>Raj Nirala</strong>
                   </h2>
-                  <p className="text-[17px] text-gray-600 ">
-                     A <span ref={el} className="font-mono text-[15px]"></span>
+                  <p className="md:my-2 text-[17px] md:text-xl text-gray-600 ">
+                     A{" "}
+                     <span
+                        ref={el}
+                        className="font-mono md:text-xl text-[15px]"
+                     ></span>
                   </p>
                   <div className="icons flex justify-between w-36 ">
                      <a
@@ -80,13 +87,13 @@ export const HeroComponents = () => {
                   <div className="btns  flex justify-start py-2">
                      <button
                         onClick={() => alert("wow its working")}
-                        className="bg-gray-500 text-[12px] py-1 px-2 mr-2 text-white rounded"
+                        className="bg-gray-500 text-[12px] md:text-[15px] py-1 px-2 mr-2 text-white rounded"
                      >
                         Let's Work
                      </button>
                      <button
                         onClick={() => setPopup(!popup)}
-                        className="bg-gray-500 text-[12px] py-1 px-2 text-white rounded"
+                        className="bg-gray-500 text-[12px] md:text-[15px] py-1 px-2 text-white rounded"
                      >
                         CV
                      </button>

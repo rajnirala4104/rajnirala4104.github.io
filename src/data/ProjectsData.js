@@ -9,6 +9,13 @@ export const ProjectsData = [
       codeLink: "https://github.com/rajnirala4104/E-Lib",
    },
    {
+      img: allProjectImages.ula_LawFirm,
+      projName: "Universel Legal Areana (law firm)",
+      projDescription:
+         "This was the internship project where i developed a Website for Law Firm (Unversal Legal Arean)",
+      codeLink: "https://universallegalarena.com/",
+   },
+   {
       img: allProjectImages.dotNewsWebImage,
       projName: "Dot News",
       projDescription:
@@ -21,5 +28,33 @@ export const ProjectsData = [
       projDescription:
          "n this Website you can generate Random Dogs Image by their breeds - API Concept - PRACTICE PURPOSE ",
       codeLink: "https://github.com/rajnirala4104/DOGS",
+   },
+   {
+      img: allProjectImages.snakeGameWindow,
+      projName: "Snake Game",
+      projDescription:
+         "This is Just a Fun Game Nothing More. This game is made in python - FUN PURPOSE",
+      codeLink: "https://github.com/rajnirala4104/snake",
+   },
+   {
+      img: allProjectImages.tellTheNews,
+      projName: "TTN (Tell The News)",
+      projDescription:
+         "This is a Python program that fetches news from a news api and reads it to us in whatever language we want - PRACTICE PURPOSE",
+      codeLink: "https://github.com/rajnirala4104/TellTheNews",
+   },
+   {
+      img: allProjectImages.translatorWithGUI,
+      projName: "Translator",
+      projDescription:
+         "This GUI is made of Python and its Logic as well, whatever you type in it, it will speak it in any language whatever you want. - PRACTICE PURPOSE",
+      codeLink: "https://github.com/rajnirala4104/TellTheNews",
+   },
+   {
+      img: allProjectImages.ToDoListWebImage,
+      projName: "TODO Web-Application",
+      projDescription:
+         "This is the simple TODO web-application where you can manage you task that what you have done and what do you have to do ",
+      codeLink: "https://github.com/rajnirala4104/TODO_APPLICATION",
    },
 ];

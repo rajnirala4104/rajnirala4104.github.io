@@ -1,5 +1,4 @@
 import AOS from "aos";
-import "aos/dist/aos.css";
 import React, { Fragment, Suspense } from "react";
 import {
    AboutSection,

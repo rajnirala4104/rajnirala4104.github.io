@@ -9,4 +9,6 @@ export const allProjectImages = {
    translatorWithGUI: require("./TranslatorWithGUIProjectImage.png"),
    myProtfolioWebImage: require("./myProtfolioWebImage.png"),
    dogProject: require("./dogProject.png"),
+   todoWebApp: require("./TODO_web_App.png"),
+   ula_LawFirm: require("./ULA_Project.png"),
 };

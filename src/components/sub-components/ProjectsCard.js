@@ -9,7 +9,7 @@ export const ProjectsCard = (props) => {
                <img src={props.img} className="my-2" alt={props.projName} />
                <div className="projectCardContent">
                   <h2 className="text-[23px] text-gray-700">
-                     {props.ProjName}
+                     {props.projName}
                   </h2>
                   <p className="text-gray-700">{props.projDescription}</p>
                </div>
@@ -19,7 +19,9 @@ export const ProjectsCard = (props) => {
                      target="_blank"
                      className="px-2 py-1 bg-gray-600 text-white rounded-[5px]"
                   >
-                     Code
+                     {props.codeLink.split("/")[2] !== "universallegalarena.com"
+                        ? "Code"
+                        : "Show"}
                   </Link>
                </div>
             </div>
