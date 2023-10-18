@@ -1,5 +1,4 @@
 import AOS from "aos";
-import "aos/dist/aos.css";
 import React, { Fragment, Suspense } from "react";
 import {
    AboutSection,
@@ -17,7 +16,7 @@ export const Home = () => {
    }, []);
    return (
       <Fragment>
-         <Suspense fallback="loading..s">
+         <Suspense fallback="loading..">
             <HeroComponents />
             <AboutSection />
             <EducationSection />

@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 export const NavBar = () => {
    return (
       <Fragment>
-         <header className="hidden md:block">
+         <header className="hidden md:hidden ">
             <nav>
                <div className="logo">
                   <span>Raj Nirala</span>
