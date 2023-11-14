@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Typed from "typed.js";
 import { allImages } from "../Asserts/images";
 import { ImagePopupContext } from "../page/Home";
+import { Icons } from "./sub-components";
 
 export const HeroComponents = () => {
    const el = React.useRef(null);
@@ -34,7 +35,7 @@ export const HeroComponents = () => {
                <img
                   src={allImages.banneImage}
                   className="h-[11rem] w-screen"
-                  alt=""
+                  alt="raj nirala"
                   loading="lazy"
                />
             </div>
@@ -50,40 +51,10 @@ export const HeroComponents = () => {
                         className="font-mono md:text-xl text-[15px]"
                      ></span>
                   </p>
-                  <div className="icons flex justify-between w-36 ">
-                     <a
-                        href="https://www.linkedin.com/in/raj-nirala/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800"
-                     >
-                        <i className="fa-brands text-2xl fa-linkedin"></i>
-                     </a>
-                     <a
-                        href="https://www.github.com/rajnirala4104/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800"
-                     >
-                        <i className="fa-brands text-2xl fa-github"></i>
-                     </a>
-                     <a
-                        href="https://www.instagram.com/_raj_nirala_/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800"
-                     >
-                        <i className="fa-brands text-2xl fa-instagram"></i>
-                     </a>
-                     <a
-                        href="https://wa.me/917827424823/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-800"
-                     >
-                        <i className="fa-brands text-2xl fa-whatsapp"></i>
-                     </a>
-                  </div>
+
+                  {/* icons */}
+                  <Icons color={"white"} />
+
                   <div className="btns  flex justify-start py-2">
                      <button
                         onClick={() => alert("wow its working")}
