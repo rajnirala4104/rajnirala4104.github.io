@@ -6,7 +6,7 @@ export const Footer = () => {
       <Fragment>
          <Suspense fallback="loading..">
             <footer className="flex justify-center items-center w-full border bg-gray-600">
-               <div className="content flex flex-col justify-center items-center my-4">
+               <div className="content flex flex-col justify-center w-full items-center my-4">
                   <span className="text-white text-4xl font-bold">
                      Raj Nirala
                   </span>
