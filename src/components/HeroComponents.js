@@ -1,8 +1,8 @@
-import React, { Fragment, useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { Fragment, useContext } from "react";
 import Typed from "typed.js";
 import { allImages } from "../Asserts/images";
 import { ImagePopupContext } from "../page/Home";
+import { LargeHeroSection } from "./LargeHeroSection";
 import { Icons } from "./sub-components";
 
 export const HeroComponents = () => {
@@ -30,8 +30,8 @@ export const HeroComponents = () => {
 
    return (
       <Fragment>
-         <div className="profile flex flex-col justify-center items-end lg:hidden ">
-            <div className="banner border-b-4 border-gray-400">
+         <div className="profile flex flex-col justify-center items-end  lg:hidden ">
+            <div className="banner border-b-4 border-gray-400 lg:hidden">
                <img
                   src={allImages.banneImage}
                   className="h-[11rem] w-screen"
@@ -39,7 +39,7 @@ export const HeroComponents = () => {
                   loading="lazy"
                />
             </div>
-            <div className=" flex flex-row justify-between  ">
+            <div className=" flex flex-row justify-between ">
                <div data-aos="fade-up" className="nameAndAbout py-3 pl-3">
                   <h2 className="text-2xl md:text-5xl">
                      <strong>Raj Nirala</strong>
@@ -52,7 +52,6 @@ export const HeroComponents = () => {
                      ></span>
                   </p>
 
-                  {/* icons */}
                   <Icons color={"white"} />
 
                   <div className="btns  flex justify-start py-2">
@@ -81,6 +80,10 @@ export const HeroComponents = () => {
                   />
                </div>
             </div>
+         </div>
+         <div className="hidden lg:inline">
+            {/* ------- hero for desktop size screen ------------ */}
+            <LargeHeroSection />
          </div>
       </Fragment>
    );
