@@ -28,12 +28,12 @@ export const LargeHeroSection = () => {
       <Fragment>
          <Suspense fallback="loading..">
             <section id="home" className="h-[100vh] ">
-               <div className="content flex justify-evenly items-center  h-full">
+               <div className="content flex justify-evenly items-center  h-full border border-red-500">
                   <div
                      data-aos="fade-up"
-                     className="nameAndAbout py-3 pl-3 h-full w-[40%] flex flex-col justify-center  "
+                     className="nameAndAbout py-3 pl-3 h-full w-[40%] flex justify-end items-center  "
                   >
-                     <div className=" w-[80%] mx-auto px-[2rem]">
+                     <div className=" w-[75%] px-[2rem] ">
                         <span
                            style={{
                               fontFamily: "'Dancing Script', cursive",
