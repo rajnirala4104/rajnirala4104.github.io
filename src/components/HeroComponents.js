@@ -45,11 +45,7 @@ export const HeroComponents = () => {
                      <strong>Raj Nirala</strong>
                   </h2>
                   <p className="md:my-2 text-[17px] md:text-xl text-gray-600 ">
-                     A{" "}
-                     <span
-                        ref={el}
-                        className="font-mono md:text-xl text-[15px]"
-                     ></span>
+                     A <span ref={el} className="font-mono md:text-xl"></span>
                   </p>
 
                   <Icons color={"white"} />

@@ -4,8 +4,8 @@ export const AboutSection = () => {
    return (
       <Fragment>
          <Suspense fallback="loading...">
-            <div className="px-3">
-               <h2 className="text-2xl text-gray-900 px-2 z-20 sticky top-0 bg-gray-300 ">
+            <div id="aboutSection" className="px-3">
+               <h2 className="text-2xl text-gray-900 px-2 z-10 sticky top-0 lg:top-16 bg-gray-300 ">
                   <strong>About Me</strong>
                </h2>
                <div

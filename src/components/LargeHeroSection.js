@@ -27,8 +27,8 @@ export const LargeHeroSection = () => {
    return (
       <Fragment>
          <Suspense fallback="loading..">
-            <section id="home" className="h-[100vh] ">
-               <div className="content flex justify-evenly items-center  h-full border border-red-500">
+            <section id="home" className="h-[90.4vh] ">
+               <div className="content flex justify-evenly items-center  h-full ">
                   <div
                      data-aos="fade-up"
                      className="nameAndAbout py-3 pl-3 h-full w-[40%] flex justify-end items-center  "
@@ -55,11 +55,11 @@ export const LargeHeroSection = () => {
                            </span>
                            <strong> Raj Nirala</strong>
                         </h2>
-                        <p className="md:my-2 lg:my-2 lg:text-[20px] md:text-xl text-gray-600 ">
+                        <p className="md:my-2 lg:my-3 lg:text-[23px] md:text-xl text-gray-600 ">
                            A{" "}
                            <span
                               ref={el}
-                              className="font-mono md:text-xl lg:text-[20px]"
+                              className="font-mono md:text-xl lg:text-[23px]"
                            ></span>
                         </p>
                         <div className="my-3">
@@ -78,7 +78,7 @@ export const LargeHeroSection = () => {
                               href="https://docs.google.com/document/d/1erh9VMHEh4H6Aek61cXj5w_x0RAoFA_n03WCV0Y7LXA/edit?usp=sharing"
                               className="bg-gray-500 lg:text-[20px] md:text-[15px] py-1 px-2 text-white rounded"
                            >
-                              CV
+                              Resume
                            </a>
                         </div>
                      </div>
@@ -86,7 +86,7 @@ export const LargeHeroSection = () => {
                   <div className="profilePic  bg-white w-[50%] h-[100%] flex justify-center items-end ">
                      <img
                         src={allImages.rajProfileImage}
-                        className="cursor-pointer w-[83%]"
+                        className=" w-[83%]"
                         alt="raj nirala"
                         loading="lazy"
                      />
