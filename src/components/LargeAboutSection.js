@@ -1,11 +1,11 @@
 import React, { Fragment, Suspense } from "react";
-import { LargeAboutSection } from "./LargeAboutSection";
+import { allImages } from "../Asserts/images";
 
-export const AboutSection = () => {
+export const LargeAboutSection = () => {
   return (
     <Fragment>
       <Suspense fallback="loading...">
-        <div id="aboutSection" className="px-3 lg:hidden">
+        <div id="aboutSection" className="px-3 hidden lg:inline-block  ">
           <h2 className="text-2xl text-gray-900 px-2 z-10 sticky top-0 lg:top-16 bg-gray-300 ">
             <strong>About Me</strong>
           </h2>
@@ -14,7 +14,7 @@ export const AboutSection = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <p className="text-gray-600 my-2 text-[18px] text-justify">
+            <p className="text-gray-600 my-2 text-[18px] text-start leading-7  w-[48%]">
               Hey there! 👋 I'm a full-stack developer with expertise in
               multiple languages and frameworks.
               <strong>
@@ -33,9 +33,15 @@ export const AboutSection = () => {
                 development of any organization.
               </strong>{" "}
             </p>
+            <div className="img  w-[45%] mx-4 ">
+              <img
+                className=" w-full saturate-0 "
+                src={allImages.rajniralasvg}
+                alt=""
+              />
+            </div>
           </div>
         </div>
-        <LargeAboutSection />
       </Suspense>
     </Fragment>
   );

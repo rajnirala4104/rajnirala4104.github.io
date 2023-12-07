@@ -6,3 +6,4 @@ export * from "./LargeHeroSection";
 export * from "./MoreAboutMeSection";
 export * from "./Popup";
 export * from "./ProjectSection";
+export * from "./LargeAboutSection";
