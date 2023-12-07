@@ -27,7 +27,7 @@ export const EducationSection = () => {
           <h2 className="text-2xl text-gray-900 px-2 z-10 sticky top-0 lg:top-16 bg-gray-300 ">
             <strong>Education</strong>
           </h2>
-          <div className="educationContent text-gray-600  text-justify">
+          <div className="educationContent text-gray-600  text-justify my-3">
             {educationDetailsArr.map((singleData, i) => (
               <Fragment key={i}>
                 <EducationCard
