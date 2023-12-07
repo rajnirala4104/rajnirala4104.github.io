@@ -26,7 +26,7 @@ export const AboutSection = () => {
               When it comes to databases, I'm well-versed in MongoDB. As a{" "}
               <strong>MERN developer </strong>, I love creating dynamic and
               interactive web applications. Can't wait to showcase my skills on
-              my portfolio website! and one more thing i'll tell you,
+              my portfolio website! and one more thing i'll share with you,
               <strong>
                 {" "}
                 I am confident that I can contribute to the growth and
