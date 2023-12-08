@@ -33,12 +33,19 @@ export const LargeAboutSection = () => {
                 development of any organization.
               </strong>{" "}
             </p>
-            <div className="img  w-[45%] mx-4 ">
-              <img
+            <div
+              id="image"
+              className="img  w-[45%] h-[88vh]  mx-4 "
+              style={{
+                background: `url(${allImages.rajniralasvg2}) center/cover`,
+                backgroundAttachment: "fixed",
+              }}
+            >
+              {/* <img
                 className=" w-full saturate-0 "
                 src={allImages.rajniralasvg}
                 alt=""
-              />
+              /> */}
             </div>
           </div>
         </div>

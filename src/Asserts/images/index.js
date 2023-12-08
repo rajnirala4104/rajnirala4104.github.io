@@ -7,4 +7,5 @@ export const allImages = {
   friendlyNature: require("./friendlyNature.jpg"),
   problemSolver: require("./problemSolverRaj.jpg"),
   rajniralasvg: require("./rajniralasvg.png"),
+  rajniralasvg2: require("./rajniralasvg2.png"),
 };
