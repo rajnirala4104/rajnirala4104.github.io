@@ -5,7 +5,7 @@ export const EducationCard = (props) => {
     <Fragment>
       <div
         // data-aos="fade-up"
-        className="relative -z-10 flex flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-lg mb-3"
+        className="relative -z-10 lg:w-[80%] flex flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-lg m-3"
       >
         <div className="p-6">
           <div className="-space-y-2 my-2">

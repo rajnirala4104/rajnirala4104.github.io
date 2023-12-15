@@ -10,7 +10,7 @@ export const AboutSection = () => {
             <strong>About Me</strong>
           </h2>
           <div
-            className="aboutContent flex justify-center items-center"
+            className="aboutContent flex justify-center items-center mx-2"
             data-aos="fade-up"
             data-aos-duration="1000"
           >

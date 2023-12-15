@@ -23,11 +23,11 @@ export const EducationSection = () => {
   return (
     <Fragment>
       <Suspense fallback="loading...">
-        <div id="educationSection" className="px-3 ">
+        <div id="educationSection" className=" ">
           <h2 className="text-2xl text-gray-900 px-2 z-10 sticky top-0 lg:top-16 bg-gray-300 ">
             <strong>Education</strong>
           </h2>
-          <div className="educationContent text-gray-600  text-justify my-3">
+          <div className="educationContent text-gray-600  text-justify my-3 mx-2 lg:flex justify-between items-center">
             {educationDetailsArr.map((singleData, i) => (
               <Fragment key={i}>
                 <EducationCard

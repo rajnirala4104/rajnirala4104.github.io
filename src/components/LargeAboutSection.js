@@ -18,13 +18,7 @@ export const LargeAboutSection = () => {
               backgroundAttachment: "fixed",
             }}
           >
-            <div
-              style={{
-                background:
-                  "linear-gradient( 90deg, rgba(128, 128, 128, 0.310),transparent)",
-              }}
-              className="h-[88vh] w-[55%] backdrop-blur-2xl flex justify-center items-center px-4   "
-            >
+            <div className="h-[88vh] w-[55%] backdrop-blur-2xl flex justify-center items-center px-4   ">
               <p className="text-slate-800 bg-transparent text-[18px] text-start leading-7 ml-4 ">
                 Hey there! 👋 I'm a full-stack developer with expertise in
                 multiple languages and frameworks.
