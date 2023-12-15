@@ -14,7 +14,7 @@ export const data = [
     cardDescription:
       "As a book enthusiast, I find immense joy in reading. Books offer unique perspectives, expanding our worldview and teaching us various skills, languages, and self-discovery.They serve as windows to diverse experiences, enriching our understanding of the world. Through reading, we uncover new dimensions of ourselves and gain invaluable knowledge",
     cardImg: allImages.bookLover,
-    voiceSound: extrenalFils.sound,
+    voiceSound: extrenalFils.sound2,
   },
   {
     cardTitle: "Friendly Nature",
