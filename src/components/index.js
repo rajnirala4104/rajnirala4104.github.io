@@ -7,3 +7,4 @@ export * from "./MoreAboutMeSection";
 export * from "./Popup";
 export * from "./ProjectSection";
 export * from "./LargeAboutSection";
+export * from './ContactPopup'

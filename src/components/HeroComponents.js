@@ -1,7 +1,7 @@
 import React, { Fragment, useContext } from "react";
 import Typed from "typed.js";
 import { allImages } from "../Asserts/images";
-import { ImagePopupContext } from "../page/Home";
+import { ContactPopupContext, ImagePopupContext } from "../page/Home";
 import { LargeHeroSection } from "./LargeHeroSection";
 import { Icons } from "./sub-components";
 
@@ -27,9 +27,11 @@ export const HeroComponents = () => {
    }, []);
 
    const { onPopup, setOnPopup } = useContext(ImagePopupContext);
+   const { contactPopup, setContactPopup } = useContext(ContactPopupContext)
 
    return (
       <Fragment>
+
          <div className="profile flex flex-col justify-center items-end  lg:hidden ">
             <div className="banner border-b-4 border-gray-400 lg:hidden">
                <img
@@ -52,7 +54,7 @@ export const HeroComponents = () => {
 
                   <div className="btns  flex justify-start py-2">
                      <button
-                        onClick={() => alert("wow its working")}
+                        onClick={() => setContactPopup(true)}
                         className="bg-gray-500 text-[12px] md:text-[15px] py-1 px-2 mr-2 text-white rounded"
                      >
                         Let's Work
