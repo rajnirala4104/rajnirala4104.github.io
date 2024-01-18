@@ -19,7 +19,7 @@ export const Home = () => {
   }, []);
 
   const [onPopup, setOnPopup] = useState(false);
-  const [contactPopup, setContactPopup] = useState(true);
+  const [contactPopup, setContactPopup] = useState(false);
   return (
     <Fragment>
       <Suspense fallback="loading..">
