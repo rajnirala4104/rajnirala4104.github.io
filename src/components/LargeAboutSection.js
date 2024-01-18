@@ -1,5 +1,5 @@
 import React, { Fragment, Suspense } from "react";
-import { allImages } from "../Asserts/images";
+import { allImages } from "../assets/images";
 
 export const LargeAboutSection = () => {
   return (

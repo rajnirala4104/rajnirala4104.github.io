@@ -1,4 +1,5 @@
-import { allProjectImages } from "../Asserts/images/projectsImages";
+import { allProjectImages } from "../assets/images/projectsImages";
+
 
 export const ProjectsData = [
    {
