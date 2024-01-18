@@ -1,9 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ec2318d.css",
-    "main.js": "/static/js/main.7fa9377e.js",
-    "static/media/sound1.mp3": "/static/media/sound1.ece35ae39e0732780178.mp3",
-    "static/media/sound2.mp3": "/static/media/sound2.2c473a6d583be23c3470.mp3",
+    "main.css": "/static/css/main.b426a446.css",
+    "main.js": "/static/js/main.84d3fd66.js",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/musicEnthusiest.jpg": "/static/media/musicEnthusiest.37c36293d09255dacb29.jpg",
     "static/media/rajniralasvg.png": "/static/media/rajniralasvg.c8dc229c306ccf241a6b.png",
@@ -19,18 +17,17 @@
     "static/media/dotNewsProjectWebImage.png": "/static/media/dotNewsProjectWebImage.3c695ea73e7601c71760.png",
     "static/media/rajniralasvg2.png": "/static/media/rajniralasvg2.95e94d66438533387f2a.png",
     "static/media/ULA_Project.png": "/static/media/ULA_Project.474d693db558de154a0b.png",
-    "static/media/resume.pdf": "/static/media/resume.faecedb65b4a1527b994.pdf",
     "static/media/NoteApplicationProject.png": "/static/media/NoteApplicationProject.9bb2fc6312c01c558bb2.png",
     "static/media/TODO_web_App.png": "/static/media/TODO_web_App.3e4a00344539d92c796c.png",
     "static/media/snakeGameWindowImage.png": "/static/media/snakeGameWindowImage.a466ca4bcc5ae37154bd.png",
     "static/media/e-libProjectPhoto.png": "/static/media/e-libProjectPhoto.926d3bcbf3787157ce49.png",
     "static/media/ToDoListWebImage.png": "/static/media/ToDoListWebImage.9cb7a7efdd1a56fb6286.png",
     "index.html": "/index.html",
-    "main.4ec2318d.css.map": "/static/css/main.4ec2318d.css.map",
-    "main.7fa9377e.js.map": "/static/js/main.7fa9377e.js.map"
+    "main.b426a446.css.map": "/static/css/main.b426a446.css.map",
+    "main.84d3fd66.js.map": "/static/js/main.84d3fd66.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ec2318d.css",
-    "static/js/main.7fa9377e.js"
+    "static/css/main.b426a446.css",
+    "static/js/main.84d3fd66.js"
   ]
 }
