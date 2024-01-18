@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { CloseBtnIcon } from '../icon'
-import { ContactPopupContext } from '../Contexts/indext'
+import { ContactPopupContext } from '../contexts/indext'
 
 export const ContactPopup = () => {
 

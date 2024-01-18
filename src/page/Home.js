@@ -6,12 +6,11 @@ import {
   EducationSection,
   ExpertiseSection,
   HeroComponents,
-  LargeHeroSection,
   MoreAboutMeSection,
   Popup,
   ProjectSection,
 } from "../components";
-import { ContactPopupContext, ImagePopupContext } from "../Contexts/indext";
+import { ContactPopupContext, ImagePopupContext } from "../contexts/indext";
 
 export const Home = () => {
   document.title = "Raj Nirala";

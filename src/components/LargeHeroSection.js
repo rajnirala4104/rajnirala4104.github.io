@@ -1,8 +1,8 @@
 import React, { Fragment, Suspense, useContext } from "react";
 import Typed from "typed.js";
-import { allImages } from "../Assets/images";
+import { allImages } from "../assets/images";
 import { Icons } from "./sub-components";
-import { ContactPopupContext } from "../Contexts/indext";
+import { ContactPopupContext } from "../contexts/indext";
 
 export const LargeHeroSection = () => {
   const el = React.useRef(null);

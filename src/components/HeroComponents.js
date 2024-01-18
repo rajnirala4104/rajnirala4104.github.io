@@ -1,9 +1,9 @@
 import React, { Fragment, useContext } from "react";
 import Typed from "typed.js";
-import { allImages } from "../Assets/images";
+import { allImages } from "../assets/images";
 import { LargeHeroSection } from "./LargeHeroSection";
 import { Icons } from "./sub-components";
-import { ContactPopupContext, ImagePopupContext } from "../Contexts/indext";
+import { ContactPopupContext, ImagePopupContext } from "../contexts/indext";
 
 export const HeroComponents = () => {
    const el = React.useRef(null);

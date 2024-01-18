@@ -1,6 +1,6 @@
 import React, { Fragment, useContext } from "react";
 import { allImages } from "../Asserts/images";
-import { ImagePopupContext } from "../Contexts/indext";
+import { ImagePopupContext } from "../contexts/indext";
 
 export const Popup = () => {
    const { onPopup, setOnPopup } = useContext(ImagePopupContext);
