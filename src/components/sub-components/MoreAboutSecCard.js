@@ -1,5 +1,5 @@
 import React, { Fragment, Suspense, useState } from "react";
-import { extrenalFils } from "../../Asserts/extrenalFiles";
+// import { extrenalFils } from "../../Asserts/extrenalFiles";
 
 export const MoreAboutSecCard = (props) => {
   const [on, setOn] = useState(false);

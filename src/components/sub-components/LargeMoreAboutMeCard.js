@@ -19,7 +19,7 @@ export const LargeMoreAboutCard = (props) => {
     <Fragment>
       <Suspense fallback="loading..">
         <div
-          className="hidden bg-fixed rounded-md shadow-lg p-2 m-2  lg:bg-current h-[30rem] lg:w-[46%] lg:flex justify-center items-center mb-3 saturate-[60%] hover:saturate-[100%]  transition-all"
+          className="hidden bg-fixed rounded-md shadow-lg p-2 m-2  lg:bg-current h-[30rem] lg:w-[46%] lg:flex justify-center items-center mb-3 saturate-[100%] hover:saturate-[100%]  transition-all"
           style={{
             background: `linear-gradient(rgba(0, 0, 0, 0.094), rgba(0, 0, 0, 0.924)),
                   url(${props.cardImg}) center/cover`,

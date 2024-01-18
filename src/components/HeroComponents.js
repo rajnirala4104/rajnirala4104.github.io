@@ -11,7 +11,7 @@ export const HeroComponents = () => {
    React.useEffect(() => {
       const typed = new Typed(el.current, {
          strings: [
-            "Javascript Enthusiast",
+            "Javascript Developer",
             "Python Enthusiast",
             "Curious Person",
             "Great Learner",
