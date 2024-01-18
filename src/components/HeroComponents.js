@@ -40,7 +40,7 @@ export const HeroComponents = () => {
                   loading="lazy"
                />
             </div>
-            <div className=" flex flex-row justify-between ">
+            <div className="w-full flex justify-start relative">
                <div data-aos="fade-up" className="nameAndAbout py-3 pl-3">
                   <h2 className="text-2xl md:text-5xl">
                      <strong>Raj Nirala</strong>
@@ -67,7 +67,7 @@ export const HeroComponents = () => {
                      </a>
                   </div>
                </div>
-               <div className="profilePic border-4  bg-white w-[38%] rounded-full border-gray-400 -translate-y-[5.4rem]">
+               <div className="profilePic absolute -top-1/2 left-[61%] border-4 bg-white w-[39%] rounded-full border-gray-400 flex justify-center items-end ">
                   <img
                      src={allImages.rajProfileImage}
                      onClick={() => setOnPopup(!onPopup)}
