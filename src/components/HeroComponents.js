@@ -1,9 +1,9 @@
 import React, { Fragment, useContext } from "react";
 import Typed from "typed.js";
-import { allImages } from "../Asserts/images";
-import { ContactPopupContext, ImagePopupContext } from "../page/Home";
+import { allImages } from "../Assets/images";
 import { LargeHeroSection } from "./LargeHeroSection";
 import { Icons } from "./sub-components";
+import { ContactPopupContext, ImagePopupContext } from "../Contexts/indext";
 
 export const HeroComponents = () => {
    const el = React.useRef(null);
@@ -15,7 +15,6 @@ export const HeroComponents = () => {
             "Python Enthusiast",
             "Curious Person",
             "Great Learner",
-            "Backend Developer",
             "FullStack Developer",
          ],
          typeSpeed: 55,
@@ -54,7 +53,7 @@ export const HeroComponents = () => {
 
                   <div className="btns  flex justify-start py-2">
                      <button
-                        onClick={() => setContactPopup(true)}
+                        onClick={() => setContactPopup(!contactPopup)}
                         className="bg-gray-500 text-[12px] md:text-[15px] py-1 px-2 mr-2 text-white rounded"
                      >
                         Let's Work

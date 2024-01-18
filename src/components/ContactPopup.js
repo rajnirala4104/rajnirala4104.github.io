@@ -1,8 +1,6 @@
 import React, { useContext } from 'react'
 import { CloseBtnIcon } from '../icon'
-import { ContactPopupContext } from '../page/Home'
-
-
+import { ContactPopupContext } from '../Contexts/indext'
 
 export const ContactPopup = () => {
 
@@ -13,7 +11,7 @@ export const ContactPopup = () => {
 
         <div className='w-[70%] h-[50%] relative bg-white rounded-md flex justify-center items-center'>
           <h1>Contact popup</h1>
-          <CloseBtnIcon eventHandler={() => setContactPopup(!contactPopup)} classes={'cursor-pointer text-3xl absolute top-3 left-[14rem] text-gray-700'} />
+          <CloseBtnIcon eventHandler={() => setContactPopup(!contactPopup)} classes={'cursor-pointer text-3xl absolute top-3 left-[85%] lg:left-[95%] text-gray-700'} />
         </div>
       </section>
     </React.Fragment >

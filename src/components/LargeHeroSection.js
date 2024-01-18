@@ -1,7 +1,8 @@
-import React, { Fragment, Suspense } from "react";
+import React, { Fragment, Suspense, useContext } from "react";
 import Typed from "typed.js";
-import { allImages } from "../Asserts/images";
+import { allImages } from "../Assets/images";
 import { Icons } from "./sub-components";
+import { ContactPopupContext } from "../Contexts/indext";
 
 export const LargeHeroSection = () => {
   const el = React.useRef(null);
@@ -13,7 +14,6 @@ export const LargeHeroSection = () => {
         "Python Enthusiast",
         "Curious Person",
         "Great Learner",
-        "Backend Developer",
         "FullStack Developer",
       ],
       typeSpeed: 55,
@@ -23,6 +23,10 @@ export const LargeHeroSection = () => {
       typed.destroy();
     };
   }, []);
+
+
+  const { contactPopup, setContactPopup } = useContext(ContactPopupContext)
+
 
   return (
     <Fragment>
@@ -68,7 +72,7 @@ export const LargeHeroSection = () => {
 
                 <div className="btns space-x-3 flex justify-start py-2">
                   <button
-                    onClick={() => alert("wow its working")}
+                    onClick={() => setContactPopup(!contactPopup)}
                     className="bg-gray-500 lg:text-[20px] md:text-[15px] py-1 px-2 mr-2 text-white rounded"
                   >
                     Let's Work

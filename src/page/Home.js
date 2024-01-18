@@ -11,9 +11,8 @@ import {
   Popup,
   ProjectSection,
 } from "../components";
+import { ContactPopupContext, ImagePopupContext } from "../Contexts/indext";
 
-export const ImagePopupContext = createContext(false);
-export const ContactPopupContext = createContext(false)
 export const Home = () => {
   document.title = "Raj Nirala";
   React.useEffect(() => {
@@ -21,7 +20,7 @@ export const Home = () => {
   }, []);
 
   const [onPopup, setOnPopup] = useState(false);
-  const [contactPopup, setContactPopup] = useState(false)
+  const [contactPopup, setContactPopup] = useState(true);
   return (
     <Fragment>
       <Suspense fallback="loading..">
