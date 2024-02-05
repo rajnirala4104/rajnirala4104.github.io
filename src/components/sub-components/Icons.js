@@ -30,7 +30,7 @@ export const Icons = (props) => {
                   <i className="fa-brands text-2xl lg:text-3xl fa-github"></i>
                </a>
                <a
-                  href="https://www.instagram.com/_raj_nirala_/"
+                  href="https://www.instagram.com/raj_nirala_910/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`${
