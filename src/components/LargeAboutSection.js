@@ -5,7 +5,7 @@ export const LargeAboutSection = () => {
   return (
     <Fragment>
       <Suspense fallback="loading...">
-        <div id="aboutSection" className=" hidden lg:inline-block">
+        <section id="aboutSection" className=" hidden lg:inline-block">
           <h2 className="text-2xl text-gray-900 px-2 z-10 sticky top-0 lg:top-16 bg-gray-300 ">
             <strong>About Me</strong>
           </h2>
@@ -41,7 +41,7 @@ export const LargeAboutSection = () => {
               </p>
             </div>
           </div>
-        </div>
+        </section>
       </Suspense>
     </Fragment>
   );

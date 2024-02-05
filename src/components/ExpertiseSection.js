@@ -11,7 +11,7 @@ export const ExpertiseSection = () => {
             <strong>Expertise</strong>
           </h2>
           <div className="allContainer mx-2 lg:flex justify-between ">
-            <div className="skilsContainer my-5   lg:w-[50%] border-r border-r-black ">
+            <div className="skilsContainer my-5   lg:w-[50%]  lg:border-r border-r-black ">
               <span className="text-[20px] font-semibold">
                 Programming Languages
               </span>
@@ -21,7 +21,7 @@ export const ExpertiseSection = () => {
                 </Fragment>
               ))}
             </div>
-            <div className="skilsContainer my-5  lg:w-[50%] border-r border-r-black mx-2 ">
+            <div className="skilsContainer my-5  lg:w-[50%] lg:border-r border-r-black mx-2 ">
               <span className="text-[20px] font-semibold">Frameworks</span>
               {frameworkSkils.map((singleObject, i) => (
                 <Fragment key={i}>

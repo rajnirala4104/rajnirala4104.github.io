@@ -6,11 +6,7 @@ export const programingSkils = [
    {
       skillName: "JavaScript",
       percentage: 84,
-   },
-   {
-      skillName: "C",
-      percentage: 50,
-   },
+   }
 ];
 
 export const frameworkSkils = [

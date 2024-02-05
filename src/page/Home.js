@@ -30,9 +30,9 @@ export const Home = () => {
             <HeroComponents />
             <AboutSection />
             <EducationSection />
-            <MoreAboutMeSection />
             <ExpertiseSection />
             <ProjectSection />
+            <MoreAboutMeSection />
           </ContactPopupContext.Provider>
         </ImagePopupContext.Provider>
       </Suspense>

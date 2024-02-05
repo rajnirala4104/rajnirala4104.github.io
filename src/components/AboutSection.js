@@ -5,7 +5,7 @@ export const AboutSection = () => {
   return (
     <Fragment>
       <Suspense fallback="loading...">
-        <div id="aboutSection" className=" lg:hidden">
+        <section id="aboutSection" className=" lg:hidden">
           <h2 className="text-2xl text-gray-900 px-2 z-10 sticky top-0 lg:top-16 bg-gray-300 ">
             <strong>About Me</strong>
           </h2>
@@ -34,7 +34,7 @@ export const AboutSection = () => {
               </strong>{" "}
             </p>
           </div>
-        </div>
+        </section>
         <LargeAboutSection />
       </Suspense>
     </Fragment>
