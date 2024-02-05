@@ -1,43 +1,36 @@
+import { allSkillsImage } from "../assets/images/skillsImages";
+
 export const programingSkils = [
    {
       skillName: "Python",
-      percentage: 75,
+      logo: allSkillsImage.python,
    },
    {
       skillName: "JavaScript",
-      percentage: 84,
-   }
-];
-
-export const frameworkSkils = [
+      logo: allSkillsImage.js,
+   },
    {
       skillName: "React",
-      percentage: 85,
+      logo: allSkillsImage.reactJs,
    },
    {
       skillName: "Node Js",
-      percentage: 60,
+      logo: allSkillsImage.nodeJs,
    },
    {
       skillName: "Express Js",
-      percentage: 60,
+      logo: allSkillsImage.express,
    },
    {
       skillName: "Flask",
-      percentage: 40,
+      logo: allSkillsImage.flask,
    },
-];
-export const database = [
    {
       skillName: "MongoDB",
-      percentage: 80,
+      logo: allSkillsImage.mongoDb,
    },
    {
       skillName: "SQL",
-      percentage: 72,
-   },
-   {
-      skillName: "SQLite",
-      percentage: 45,
-   },
+      logo: allSkillsImage.sql,
+   }
 ];

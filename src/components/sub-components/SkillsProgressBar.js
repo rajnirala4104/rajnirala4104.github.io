@@ -1,19 +1,15 @@
 import React, { Fragment } from "react";
+import { allSkillsImage } from "../../assets/images/skillsImages";
 
 export const SkillsProgressBar = (props) => {
    return (
       <Fragment>
-         <div className="my-2  flex flex-col w-full overflow-hidden rounded bg-blue-gray-50 font-sans text-xs font-medium">
-            <div className="name my-1">
-               <span className="text-[17px] text-gray-800">
-                  <i>{props.skillName}</i>
-               </span>
-            </div>
-            <div
-               className="flex h-full items-center justify-center overflow-hidden break-all bg-gray-500 text-white "
+         <div className="my-2 flex flex-col overflow-hidden rounded bg-blue-gray-50 font-sans text-xs font-medium  w-[20%] mx-2">
+            <div 
+               className="flex my-2 h-full items-center justify-start overflow-hidden break-al bg-white text-white "
                style={{ width: `${props.percentage}%` }}
             >
-               {props.percentage}%
+               <img className="bg-white w-[7rem]" src={props.logo} />
             </div>
          </div>
       </Fragment>
