@@ -34,7 +34,7 @@ export const ProjectsData = [
       img: allProjectImages.snakeGameWindow,
       projName: "Snake Game",
       projDescription:
-         "This is Just a Fun Game Nothing More. This game is made in python - FUN PURPOSE",
+         "This is just a sanke game nothing more, built by using Python. - FUN PURPOSE",
       codeLink: "https://github.com/rajnirala4104/snake",
    },
    {

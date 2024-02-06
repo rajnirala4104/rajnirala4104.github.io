@@ -27,12 +27,14 @@ export const Home = () => {
           <ContactPopupContext.Provider value={{ contactPopup, setContactPopup }}>
             {contactPopup ? <ContactPopup /> : ""}
             {onPopup ? <Popup /> : ""}
-            <HeroComponents />
-            <AboutSection />
-            <EducationSection />
-            <ExpertiseSection />
-            <ProjectSection />
-            <MoreAboutMeSection />
+            <div className="lg:w-[85rem] lg:mx-auto lg:border-l lg:border-r lg:border-gray-600">
+              <HeroComponents />
+              <AboutSection />
+              <EducationSection />
+              <ExpertiseSection />
+              <ProjectSection />
+              <MoreAboutMeSection />
+            </div>
           </ContactPopupContext.Provider>
         </ImagePopupContext.Provider>
       </Suspense>
