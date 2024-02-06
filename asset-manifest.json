@@ -1,33 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.b426a446.css",
-    "main.js": "/static/js/main.7dc5570e.js",
+    "main.css": "/static/css/main.2252af0d.css",
+    "main.js": "/static/js/main.4b6ebd70.js",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/musicEnthusiest.jpg": "/static/media/musicEnthusiest.37c36293d09255dacb29.jpg",
     "static/media/rajniralasvg.png": "/static/media/rajniralasvg.c8dc229c306ccf241a6b.png",
     "static/media/travelerRaj2.jpg": "/static/media/travelerRaj2.09fa07383692a9f48f13.jpg",
     "static/media/bookLover.jpg": "/static/media/bookLover.2f3149e479995a89ea3b.jpg",
+    "static/media/nodeJs.png": "/static/media/nodeJs.e1d9233897fbe03fda7b.png",
     "static/media/E-LibProjectImage.png": "/static/media/E-LibProjectImage.e37a273975fee86d1038.png",
     "static/media/rajnirala.png": "/static/media/rajnirala.82a0ae478799a55532bf.png",
     "static/media/dogProject.png": "/static/media/dogProject.021e80049d685f1fc622.png",
     "static/media/myProtfolioWebImage.png": "/static/media/myProtfolioWebImage.97eb743ee2d78229ba25.png",
+    "static/media/flaskLogo.png": "/static/media/flaskLogo.0fc93d054f32089ec6a4.png",
     "static/media/problemSolverRaj.jpg": "/static/media/problemSolverRaj.d77cce5db6a9ea36a3f1.jpg",
+    "static/media/JavaScriptLogo.png": "/static/media/JavaScriptLogo.58b3f5d94e933a171bae.png",
     "static/media/bannerImage.png": "/static/media/bannerImage.c3e597dae409fa24526d.png",
     "static/media/TTN_TellTheNewsCodeImage.png": "/static/media/TTN_TellTheNewsCodeImage.3245d6227b93f1a56937.png",
     "static/media/dotNewsProjectWebImage.png": "/static/media/dotNewsProjectWebImage.3c695ea73e7601c71760.png",
     "static/media/rajniralasvg2.png": "/static/media/rajniralasvg2.95e94d66438533387f2a.png",
     "static/media/ULA_Project.png": "/static/media/ULA_Project.474d693db558de154a0b.png",
+    "static/media/pythonLogo.png": "/static/media/pythonLogo.390b327b41929bd58541.png",
+    "static/media/sqlDbLogo.png": "/static/media/sqlDbLogo.62edcf2e1bba44287ca8.png",
+    "static/media/mongoDbLogo.png": "/static/media/mongoDbLogo.5cfb7f9cd2c84e17b5de.png",
+    "static/media/reactLogo.png": "/static/media/reactLogo.eb16bc990d2a8a99ff02.png",
     "static/media/NoteApplicationProject.png": "/static/media/NoteApplicationProject.9bb2fc6312c01c558bb2.png",
     "static/media/TODO_web_App.png": "/static/media/TODO_web_App.3e4a00344539d92c796c.png",
     "static/media/snakeGameWindowImage.png": "/static/media/snakeGameWindowImage.a466ca4bcc5ae37154bd.png",
     "static/media/e-libProjectPhoto.png": "/static/media/e-libProjectPhoto.926d3bcbf3787157ce49.png",
     "static/media/ToDoListWebImage.png": "/static/media/ToDoListWebImage.9cb7a7efdd1a56fb6286.png",
     "index.html": "/index.html",
-    "main.b426a446.css.map": "/static/css/main.b426a446.css.map",
-    "main.7dc5570e.js.map": "/static/js/main.7dc5570e.js.map"
+    "main.2252af0d.css.map": "/static/css/main.2252af0d.css.map",
+    "main.4b6ebd70.js.map": "/static/js/main.4b6ebd70.js.map"
   },
   "entrypoints": [
-    "static/css/main.b426a446.css",
-    "static/js/main.7dc5570e.js"
+    "static/css/main.2252af0d.css",
+    "static/js/main.4b6ebd70.js"
   ]
 }
