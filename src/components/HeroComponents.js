@@ -67,7 +67,7 @@ export const HeroComponents = () => {
                      </a>
                   </div>
                </div>
-               <div className="profilePic absolute -top-1/2 left-[61%] border-4 bg-white w-[39%] rounded-full border-gray-400 flex justify-center items-end ">
+               <div data-aos="fade-left" className="profilePic absolute -top-1/2 left-[61%] border-4 bg-white w-[39%] rounded-full border-gray-400 flex justify-center items-end ">
                   <img
                      src={allImages.rajProfileImage}
                      onClick={() => setOnPopup(!onPopup)}

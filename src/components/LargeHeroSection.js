@@ -34,7 +34,7 @@ export const LargeHeroSection = () => {
         <section id="home" className="h-[90.4vh] ">
           <div className="content flex justify-evenly items-center  h-full ">
             <div
-              data-aos="fade-up"
+              data-aos="fade-right"
               className="nameAndAbout py-3 pl-3 h-full w-[40%] flex justify-end items-center  "
             >
               <div className=" w-[75%] px-[2rem] ">
@@ -87,7 +87,7 @@ export const LargeHeroSection = () => {
                 </div>
               </div>
             </div>
-            <div className="profilePic  bg-white w-[50%] h-[100%] flex justify-center items-end ">
+            <div data-aos="zoom-in" className="profilePic  bg-white w-[50%] h-[100%] flex justify-center items-end ">
               <img
                 src={allImages.rajProfileImage}
                 className=" w-[83%]"

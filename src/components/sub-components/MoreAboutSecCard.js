@@ -1,18 +1,6 @@
 import React, { Fragment, Suspense, useState } from "react";
 
 export const MoreAboutSecCard = (props) => {
-  const [on, setOn] = useState(false);
-
-  const play = () => {
-    if (!on) {
-      setOn(!on);
-      document.getElementById("myAudio").play();
-    }
-    if (on) {
-      setOn(!on);
-      document.getElementById("myAudio").pause();
-    }
-  };
 
   return (
     <Fragment>
@@ -28,14 +16,7 @@ export const MoreAboutSecCard = (props) => {
         >
           <div className="cardContent text-white w-[80%]">
             <div className="cardTitle my-2">
-              <span className="font-semibold text-xl">{props.cardTitle}</span>
-              <audio id="myAudio" src={props.voiceSound}></audio>
-              {/* <span
-                className={` ${
-                  on ? "fa-solid fa-pause" : "fa-solid fa-circle-play"
-                } cursor-pointer mx-2`}
-                onClick={() => play()}
-              ></span> */}
+              <span className="font-semibold text-2xl">{props.cardTitle}</span>
             </div>
             <div className="cardDescription">{props.cardDescription}</div>
           </div>

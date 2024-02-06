@@ -5,7 +5,7 @@ export const ProjectsCard = (props) => {
    return (
       <Fragment>
          <Suspense fallback="loading...">
-            <div className=" border p-2 my-2 w-[100%] lg:w-[30%] lg:mx-2">
+            <div data-aos="fade-up" className=" border p-2 my-2 w-[100%] lg:w-[30%] lg:mx-2">
                <img src={props.img} className="my-2" alt={props.projName} />
                <div className="projectCardContent">
                   <h2 className="text-[23px] text-gray-700">
