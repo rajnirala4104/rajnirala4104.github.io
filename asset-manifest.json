@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2252af0d.css",
-    "main.js": "/static/js/main.1511668a.js",
+    "main.js": "/static/js/main.40d854ec.js",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/musicEnthusiest.jpg": "/static/media/musicEnthusiest.37c36293d09255dacb29.jpg",
     "static/media/rajniralasvg.png": "/static/media/rajniralasvg.c8dc229c306ccf241a6b.png",
@@ -26,15 +26,16 @@
     "static/media/reactLogo.png": "/static/media/reactLogo.eb16bc990d2a8a99ff02.png",
     "static/media/NoteApplicationProject.png": "/static/media/NoteApplicationProject.9bb2fc6312c01c558bb2.png",
     "static/media/TODO_web_App.png": "/static/media/TODO_web_App.3e4a00344539d92c796c.png",
+    "static/media/communaProjectImage.png": "/static/media/communaProjectImage.935c2aa2a51bc1d88aa3.png",
     "static/media/snakeGameWindowImage.png": "/static/media/snakeGameWindowImage.a466ca4bcc5ae37154bd.png",
     "static/media/e-libProjectPhoto.png": "/static/media/e-libProjectPhoto.926d3bcbf3787157ce49.png",
     "static/media/ToDoListWebImage.png": "/static/media/ToDoListWebImage.9cb7a7efdd1a56fb6286.png",
     "index.html": "/index.html",
     "main.2252af0d.css.map": "/static/css/main.2252af0d.css.map",
-    "main.1511668a.js.map": "/static/js/main.1511668a.js.map"
+    "main.40d854ec.js.map": "/static/js/main.40d854ec.js.map"
   },
   "entrypoints": [
     "static/css/main.2252af0d.css",
-    "static/js/main.1511668a.js"
+    "static/js/main.40d854ec.js"
   ]
 }
