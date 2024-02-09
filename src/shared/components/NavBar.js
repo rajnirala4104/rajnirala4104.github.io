@@ -23,13 +23,13 @@ export const NavBar = () => {
                 <a href="#educationSection">Education</a>
               </li>
               <li className="cursor-pointer hover:text-slate-600 text-slate-800">
-                <a href="#moreAboutMeSection">MoreAboutMe</a>
-              </li>
-              <li className="cursor-pointer hover:text-slate-600 text-slate-800">
                 <a href="#expertiseSection">Expertise</a>
               </li>
               <li className="cursor-pointer hover:text-slate-600 text-slate-800">
                 <a href="#projectSection">Project</a>
+              </li>
+              <li className="cursor-pointer hover:text-slate-600 text-slate-800">
+                <a href="#moreAboutMeSection">MoreAboutMe</a>
               </li>
             </ul>
           </div>
