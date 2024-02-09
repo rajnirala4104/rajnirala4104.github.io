@@ -17,6 +17,13 @@ export const ProjectsData = [
       codeLink: "https://universallegalarena.com/",
    },
    {
+      img: allProjectImages.communaImage,
+      projName: "COMMUNA",
+      projDescription:
+         "This is a Web Application where we can communicate with each other by text or you want video you can",
+      codeLink: "https://github.com/rajnirala4104/COMMUNA",
+   },
+   {
       img: allProjectImages.dotNewsWebImage,
       projName: "Dot News",
       projDescription:

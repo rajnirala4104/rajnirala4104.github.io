@@ -11,4 +11,5 @@ export const allProjectImages = {
    dogProject: require("./dogProject.png"),
    todoWebApp: require("./TODO_web_App.png"),
    ula_LawFirm: require("./ULA_Project.png"),
+   communaImage: require('./communaProjectImage.png')
 };
