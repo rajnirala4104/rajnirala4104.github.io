@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff378ca9.css",
-    "main.js": "/static/js/main.a76ac804.js",
+    "main.js": "/static/js/main.f39d6258.js",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/musicEnthusiest.jpg": "/static/media/musicEnthusiest.37c36293d09255dacb29.jpg",
     "static/media/rajniralasvg.png": "/static/media/rajniralasvg.c8dc229c306ccf241a6b.png",
@@ -30,12 +30,14 @@
     "static/media/snakeGameWindowImage.png": "/static/media/snakeGameWindowImage.a466ca4bcc5ae37154bd.png",
     "static/media/e-libProjectPhoto.png": "/static/media/e-libProjectPhoto.926d3bcbf3787157ce49.png",
     "static/media/ToDoListWebImage.png": "/static/media/ToDoListWebImage.9cb7a7efdd1a56fb6286.png",
+    "static/media/phpLogo.png": "/static/media/phpLogo.0a564540c19c7189202e.png",
+    "static/media/expressLogo.svg": "/static/media/expressLogo.493a0dd08d8d77a341e2d22676607a29.svg",
     "index.html": "/index.html",
     "main.ff378ca9.css.map": "/static/css/main.ff378ca9.css.map",
-    "main.a76ac804.js.map": "/static/js/main.a76ac804.js.map"
+    "main.f39d6258.js.map": "/static/js/main.f39d6258.js.map"
   },
   "entrypoints": [
     "static/css/main.ff378ca9.css",
-    "static/js/main.a76ac804.js"
+    "static/js/main.f39d6258.js"
   ]
 }
