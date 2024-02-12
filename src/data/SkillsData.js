@@ -14,12 +14,16 @@ export const programingSkils = [
       logo: allSkillsImage.flask,
    },
    {
+      skillName: "PhP",
+      logo: allSkillsImage.php,
+   },
+   {
       skillName: "MongoDB",
       logo: allSkillsImage.mongoDb,
    },
    {
       skillName: "Express Js",
-      logo: allSkillsImage.express,
+      logo: allSkillsImage.expressSVG,
    },
    {
       skillName: "React",
