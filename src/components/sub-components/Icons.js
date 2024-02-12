@@ -9,49 +9,45 @@ export const Icons = (props) => {
                   href="https://www.linkedin.com/in/raj-nirala/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${
-                     props.color === "white"
-                        ? "text-gray-600 hover:text-gray-800"
-                        : "text-gray-400 hover:text-white"
-                  } `}
+                  className={` ${props.color === "white"
+                     ? "text-gray-600 hover:text-gray-800"
+                     : "text-gray-400 hover:text-white"
+                     } `}
                >
-                  <i className="fa-brands text-2xl lg:text-3xl fa-linkedin"></i>
+                  <i className={`fa-brands text-2xl lg:text-3xl fa-linkedin ${props.classes}`}></i>
                </a>
                <a
                   href="https://www.github.com/rajnirala4104/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${
-                     props.color === "white"
-                        ? "text-gray-600 hover:text-gray-800"
-                        : "text-gray-400 hover:text-white"
-                  } `}
+                  className={` ${props.color === "white"
+                     ? "text-gray-600 hover:text-gray-800"
+                     : "text-gray-400 hover:text-white"
+                     } `}
                >
-                  <i className="fa-brands text-2xl lg:text-3xl fa-github"></i>
+                  <i className={`fa-brands text-2xl lg:text-3xl fa-github ${props.classes}`}></i>
                </a>
                <a
                   href="https://www.instagram.com/raj_nirala_910/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${
-                     props.color === "white"
-                        ? "text-gray-600 hover:text-gray-800"
-                        : "text-gray-400 hover:text-white"
-                  } `}
+                  className={` ${props.color === "white"
+                     ? "text-gray-600 hover:text-gray-800"
+                     : "text-gray-400 hover:text-white"
+                     } `}
                >
-                  <i className="fa-brands text-2xl lg:text-3xl fa-instagram"></i>
+                  <i className={`fa-brands text-2xl lg:text-3xl fa-instagram ${props.classes}`}></i>
                </a>
                <a
                   href="https://wa.me/917827424823/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${
-                     props.color === "white"
-                        ? "text-gray-600 hover:text-gray-800"
-                        : "text-gray-400 hover:text-white"
-                  } `}
+                  className={` ${props.color === "white"
+                     ? "text-gray-600 hover:text-gray-800"
+                     : "text-gray-400 hover:text-white"
+                     } `}
                >
-                  <i className="fa-brands text-2xl lg:text-3xl fa-whatsapp"></i>
+                  <i className={`fa-brands text-2xl lg:text-3xl fa-whatsapp ${props.classes}`}></i>
                </a>
             </div>
          </Suspense>

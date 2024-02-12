@@ -10,18 +10,6 @@ export const programingSkils = [
       logo: allSkillsImage.js,
    },
    {
-      skillName: "React",
-      logo: allSkillsImage.reactJs,
-   },
-   {
-      skillName: "Node Js",
-      logo: allSkillsImage.nodeJs,
-   },
-   {
-      skillName: "Express Js",
-      logo: allSkillsImage.express,
-   },
-   {
       skillName: "Flask",
       logo: allSkillsImage.flask,
    },
@@ -30,7 +18,15 @@ export const programingSkils = [
       logo: allSkillsImage.mongoDb,
    },
    {
-      skillName: "SQL",
-      logo: allSkillsImage.sql,
-   }
+      skillName: "Express Js",
+      logo: allSkillsImage.express,
+   },
+   {
+      skillName: "React",
+      logo: allSkillsImage.reactJs,
+   },
+   {
+      skillName: "Node Js",
+      logo: allSkillsImage.nodeJs,
+   },
 ];
