@@ -11,10 +11,9 @@ export const LargeAboutSection = () => {
           </h2>
           <div
             className="aboutContent flex justify-between items-center bg-transparent"
-            data-aos="fade-up"
             data-aos-duration="1000"
             style={{
-              background: `url(${allImages.rajniralasvg2}) center/cover`,
+              background: `url(${allImages.rajniralasvg2}) center/cover `,
               backgroundAttachment: "fixed",
             }}
           >
