@@ -20,7 +20,7 @@ export const ProjectsData = [
       img: allProjectImages.communaImage,
       projName: "COMMUNA",
       projDescription:
-         "This is a Web Application where we can communicate with each other by text or you want video you can",
+         "A web application where you can communicate by text, basicaly this is a chat application like whatsapp",
       codeLink: "https://github.com/rajnirala4104/COMMUNA",
    },
    {
@@ -34,7 +34,7 @@ export const ProjectsData = [
       img: allProjectImages.dogProject,
       projName: "DOG-CEO",
       projDescription:
-         "n this Website you can generate Random Dogs Image by their breeds - API Concept - PRACTICE PURPOSE ",
+         "By using this website you can generate Random Dogs Image by their breeds - API Concept - PRACTICE PURPOSE ",
       codeLink: "https://github.com/rajnirala4104/DOGS",
    },
    {
@@ -56,7 +56,7 @@ export const ProjectsData = [
       projName: "Translator",
       projDescription:
          "This GUI is made of Python and its Logic as well, whatever you type in it, it will speak it in any language whatever you want. - PRACTICE PURPOSE",
-      codeLink: "https://github.com/rajnirala4104/TellTheNews",
+      codeLink: "https://github.com/rajnirala4104/translatorWithGUI",
    },
    {
       img: allProjectImages.ToDoListWebImage,
