@@ -73,14 +73,14 @@ export const LargeHeroSection = () => {
                 <div className="btns space-x-3 flex justify-start py-2">
                   <button
                     onClick={() => setContactPopup(!contactPopup)}
-                    className="bg-gray-500 lg:text-[20px] md:text-[15px] py-1 px-2 mr-2 text-white rounded"
+                    className="bg-gray-500 hover:bg-gray-600 transi duration-200 lg:text-[20px] md:text-[15px] py-1 px-2 mr-2 text-white rounded"
                   >
                     Let's Work
                   </button>
                   <a
                     target="_black"
                     href="https://docs.google.com/document/d/1erh9VMHEh4H6Aek61cXj5w_x0RAoFA_n03WCV0Y7LXA/edit?usp=sharing"
-                    className="bg-gray-500 lg:text-[20px] md:text-[15px] py-1 px-2 text-white rounded"
+                    className="bg-gray-500 hover:bg-gray-600 transitio duration-200 lg:text-[20px] md:text-[15px] py-1 px-2 text-white rounded"
                   >
                     Resume
                   </a>

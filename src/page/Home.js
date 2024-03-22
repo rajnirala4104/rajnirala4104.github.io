@@ -1,5 +1,5 @@
 import AOS from "aos";
-import React, { Fragment, Suspense, createContext, useState } from "react";
+import React, { Fragment, Suspense, useState } from "react";
 import {
   AboutSection,
   ContactPopup,

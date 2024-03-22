@@ -1,5 +1,5 @@
 import React, { Fragment, Suspense } from "react";
-import { database, frameworkSkils, programingSkils } from "../data/SkillsData";
+import { programingSkils } from "../data/SkillsData";
 import { SkillsProgressBar } from "./sub-components";
 
 export const ExpertiseSection = () => {
@@ -13,11 +13,11 @@ export const ExpertiseSection = () => {
           <div className="allContainer mx-2 lg:flex justify-between ">
             <div className="skilsContainer my-5  lg:w-[100%] mx-auto ">
               <div className="flex justify-start flex-wrap" >
-              {programingSkils.map((singleObject, i) => (
-                <Fragment key={i}>
-                  <SkillsProgressBar {...singleObject} />
-                </Fragment>
-              ))}
+                {programingSkils.map((singleObject, i) => (
+                  <Fragment key={i}>
+                    <SkillsProgressBar {...singleObject} />
+                  </Fragment>
+                ))}
               </div>
             </div>
           </div>

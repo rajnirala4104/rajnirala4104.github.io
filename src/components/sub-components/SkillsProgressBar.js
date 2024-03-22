@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { allSkillsImage } from "../../assets/images/skillsImages";
 
 export const SkillsProgressBar = (props) => {
    return (

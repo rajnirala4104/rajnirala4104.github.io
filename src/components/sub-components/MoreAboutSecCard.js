@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense, useState } from "react";
+import React, { Fragment, Suspense } from "react";
 
 export const MoreAboutSecCard = (props) => {
 
