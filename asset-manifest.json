@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.18e4d820.css",
-    "main.js": "/static/js/main.c3c2876e.js",
+    "main.css": "/static/css/main.5dd3957d.css",
+    "main.js": "/static/js/main.061e8c2d.js",
+    "static/media/rajwithclassicalguitar.jpg": "/static/media/rajwithclassicalguitar.2f6c6007305e69cc347a.jpg",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/musicEnthusiest.jpg": "/static/media/musicEnthusiest.37c36293d09255dacb29.jpg",
     "static/media/rajniralasvg.png": "/static/media/rajniralasvg.c8dc229c306ccf241a6b.png",
@@ -33,11 +34,11 @@
     "static/media/phpLogo.png": "/static/media/phpLogo.0a564540c19c7189202e.png",
     "static/media/expressLogo.svg": "/static/media/expressLogo.493a0dd08d8d77a341e2d22676607a29.svg",
     "index.html": "/index.html",
-    "main.18e4d820.css.map": "/static/css/main.18e4d820.css.map",
-    "main.c3c2876e.js.map": "/static/js/main.c3c2876e.js.map"
+    "main.5dd3957d.css.map": "/static/css/main.5dd3957d.css.map",
+    "main.061e8c2d.js.map": "/static/js/main.061e8c2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.18e4d820.css",
-    "static/js/main.c3c2876e.js"
+    "static/css/main.5dd3957d.css",
+    "static/js/main.061e8c2d.js"
   ]
 }
