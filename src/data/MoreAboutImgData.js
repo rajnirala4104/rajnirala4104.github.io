@@ -34,7 +34,7 @@ export const data = [
     cardTitle: "Music Enthusiast",
     cardDescription:
       "As a Music Enthusiast, I value its ability to amplify my emotional and introspective awareness by resonating with my deepest feelings. It serves as a powerful catalyst for self-reflection and connection with my innermost emotions.",
-    cardImg: allImages.musicLover,
+    cardImg: allImages.rajWithClassicalGuitar,
     voiceSound: "",
   },
 ];
