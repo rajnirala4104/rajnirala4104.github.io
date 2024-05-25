@@ -12,7 +12,7 @@ export const ExpertiseSection = () => {
           </h2>
           <div className="allContainer mx-2 lg:flex justify-between ">
             <div className="skilsContainer my-5  lg:w-[100%] mx-auto ">
-              <div className="flex justify-start flex-wrap" >
+              <div className="flex justify-between flex-wrap" >
                 {programingSkils.map((singleObject, i) => (
                   <Fragment key={i}>
                     <SkillsProgressBar {...singleObject} />

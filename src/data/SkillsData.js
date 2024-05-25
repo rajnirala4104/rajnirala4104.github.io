@@ -2,22 +2,6 @@ import { allSkillsImage } from "../assets/images/skillsImages";
 
 export const programingSkils = [
    {
-      skillName: "Python",
-      logo: allSkillsImage.python,
-   },
-   {
-      skillName: "JavaScript",
-      logo: allSkillsImage.js,
-   },
-   {
-      skillName: "Flask",
-      logo: allSkillsImage.flask,
-   },
-   {
-      skillName: "PhP",
-      logo: allSkillsImage.php,
-   },
-   {
       skillName: "MongoDB",
       logo: allSkillsImage.mongoDb,
    },
@@ -33,4 +17,13 @@ export const programingSkils = [
       skillName: "Node Js",
       logo: allSkillsImage.nodeJs,
    },
+   {
+      skillName: "Python",
+      logo: allSkillsImage.python,
+   },
+   {
+      skillName: "JavaScript",
+      logo: allSkillsImage.js,
+   },
+
 ];

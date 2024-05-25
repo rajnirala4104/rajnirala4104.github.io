@@ -6,7 +6,7 @@ export const MoreAboutSecCard = (props) => {
     <Fragment>
       <Suspense fallback="loading..">
         <div
-          className=" lg:hidden bg-fixed rounded-md shadow-lg p-2 mx-1 lg:bg-current h-[30rem] lg:w-[22%] flex justify-center items-center mb-3 saturate-[100%] lg:saturate-[0%] transition-all lg:hover:saturate-100"
+          className=" lg:hidden bg-fixed rounded-md shadow-lg p-2 mx-1 lg:bg-current h-[30rem] lg:w-[22%] flex justify-center items-center mb-3 saturate-[100%] transition-all duration-200 lg:hover:saturate-150"
           style={{
             background: `linear-gradient(rgba(0, 0, 0, 0.094), rgba(0, 0, 0, 0.924)),
                   url(${props.cardImg}) center/cover`,
