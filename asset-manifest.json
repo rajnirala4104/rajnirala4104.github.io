@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe241b79.css",
-    "main.js": "/static/js/main.b1230897.js",
+    "main.js": "/static/js/main.249733a3.js",
     "static/media/rajwithclassicalguitarForPhone.png": "/static/media/rajwithclassicalguitarForPhone.af259764d4500bd8420e.png",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/musicEnthusiest.jpg": "/static/media/musicEnthusiest.37c36293d09255dacb29.jpg",
@@ -11,6 +11,7 @@
     "static/media/nodeJs.png": "/static/media/nodeJs.e1d9233897fbe03fda7b.png",
     "static/media/E-LibProjectImage.png": "/static/media/E-LibProjectImage.e37a273975fee86d1038.png",
     "static/media/rajnirala.png": "/static/media/rajnirala.82a0ae478799a55532bf.png",
+    "static/media/ERA.png": "/static/media/ERA.54f8730f6b5aabf6da55.png",
     "static/media/dogProject.png": "/static/media/dogProject.021e80049d685f1fc622.png",
     "static/media/myProtfolioWebImage.png": "/static/media/myProtfolioWebImage.97eb743ee2d78229ba25.png",
     "static/media/flaskLogo.png": "/static/media/flaskLogo.0fc93d054f32089ec6a4.png",
@@ -35,10 +36,10 @@
     "static/media/expressLogo.svg": "/static/media/expressLogo.493a0dd08d8d77a341e2d22676607a29.svg",
     "index.html": "/index.html",
     "main.fe241b79.css.map": "/static/css/main.fe241b79.css.map",
-    "main.b1230897.js.map": "/static/js/main.b1230897.js.map"
+    "main.249733a3.js.map": "/static/js/main.249733a3.js.map"
   },
   "entrypoints": [
     "static/css/main.fe241b79.css",
-    "static/js/main.b1230897.js"
+    "static/js/main.249733a3.js"
   ]
 }
