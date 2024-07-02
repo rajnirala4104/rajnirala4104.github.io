@@ -4,10 +4,12 @@ import { allImages } from "../assets/images";
 
 export const Popup = () => {
    const { onPopup, setOnPopup } = useContext(ImagePopupContext);
+
+   document.body.style.overflow = onPopup ? "hidden" : "auto";
    return (
       <Fragment>
          <section
-            className="absolute flex justify-center items-center backdrop-blur-sm w-full h-[100%] "
+            className="absolute flex justify-center items-center backdrop-blur-sm w-full h-[100%]"
             style={{ background: "rgba(0,0,0,0.5)", zIndex: 30 }}
          >
             <div className="content p-4 relative ">

@@ -2,7 +2,7 @@ import React, { Fragment, Suspense, useContext } from "react";
 import Typed from "typed.js";
 import { allImages } from "../assets/images";
 import { Icons } from "./sub-components";
-import { ContactPopupContext } from "../contexts/indext";
+import { ContactPopupContext, ImagePopupContext } from "../contexts/indext";
 
 export const LargeHeroSection = () => {
   const el = React.useRef(null);
@@ -26,8 +26,9 @@ export const LargeHeroSection = () => {
 
 
   const { contactPopup, setContactPopup } = useContext(ContactPopupContext)
+  const { onPopup, setOnPopup } = useContext(ImagePopupContext);
 
-
+  document.body.style.overflow = onPopup ? "hidden" : "auto";
   return (
     <Fragment>
       <Suspense fallback="loading..">
