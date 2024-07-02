@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe241b79.css",
-    "main.js": "/static/js/main.c645962f.js",
+    "main.js": "/static/js/main.b1230897.js",
     "static/media/rajwithclassicalguitarForPhone.png": "/static/media/rajwithclassicalguitarForPhone.af259764d4500bd8420e.png",
     "static/media/friendlyNature.jpg": "/static/media/friendlyNature.27948780b1876a70d19d.jpg",
     "static/media/musicEnthusiest.jpg": "/static/media/musicEnthusiest.37c36293d09255dacb29.jpg",
@@ -35,10 +35,10 @@
     "static/media/expressLogo.svg": "/static/media/expressLogo.493a0dd08d8d77a341e2d22676607a29.svg",
     "index.html": "/index.html",
     "main.fe241b79.css.map": "/static/css/main.fe241b79.css.map",
-    "main.c645962f.js.map": "/static/js/main.c645962f.js.map"
+    "main.b1230897.js.map": "/static/js/main.b1230897.js.map"
   },
   "entrypoints": [
     "static/css/main.fe241b79.css",
-    "static/js/main.c645962f.js"
+    "static/js/main.b1230897.js"
   ]
 }
