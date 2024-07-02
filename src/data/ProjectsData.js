@@ -3,6 +3,13 @@ import { allProjectImages } from "../assets/images/projectsImages";
 
 export const ProjectsData = [
    {
+      img: allProjectImages.ERA,
+      projName: "ERA",
+      projDescription:
+         "This is a social media web application, with simple functionality like we can post an image, we can see other's post and do like, comment as well, and may be we'll make chat system. - DEVELOPING PHASE",
+      codeLink: "https://github.com/rajnirala4104/ERA",
+   },
+   {
       img: allProjectImages.eLibWebImage,
       projName: "E-Library",
       projDescription:
