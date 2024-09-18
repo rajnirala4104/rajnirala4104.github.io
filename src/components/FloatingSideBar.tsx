@@ -5,6 +5,67 @@ const FloatingSideBar: React.FC = () => {
       <Fragment>
          <div className="border w-full grid place-content-center place-items-center bg-white">
             <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
+            <span>Floating SideBar</span>
          </div>
       </Fragment>
    );

@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const MainContainer: React.FC = () => {
    return (
       <Fragment>
-         <div className="border w-full grid place-content-center place-items-center">
+         <div className="border w-full grid place-content-center place-items-center bg-white">
             <span>Main Container</span>
             <span>Main Container</span>
             <span>Main Container</span>
