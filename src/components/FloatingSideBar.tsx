@@ -1,7 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const FloatingSideBar: React.FC = () => {
-   return <div>FloatingSideBar</div>;
+   return (
+      <Fragment>
+         <div className="border w-full grid place-content-center place-items-center bg-white">
+            <span>Floating SideBar</span>
+         </div>
+      </Fragment>
+   );
 };
 
 export default FloatingSideBar;

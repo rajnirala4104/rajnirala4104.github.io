@@ -1,7 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const MainContainer: React.FC = () => {
-   return <div>MainContaier</div>;
+   return (
+      <Fragment>
+         <div className="border w-full grid place-content-center place-items-center bg-white">
+            <span>Main Container</span>
+         </div>
+      </Fragment>
+   );
 };
 
 export default MainContainer;
