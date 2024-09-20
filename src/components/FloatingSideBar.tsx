@@ -30,7 +30,7 @@ const FloatingSideBar: React.FC = () => {
 
    return (
       <Fragment>
-         <div className="border w-full bg-white flex flex-col justify-start">
+         <div className="w-full bg-white flex flex-col justify-start">
             <div className="header text-slate-800 border-b border-slate-600 h-[18rem] ">
                <div
                   className="h-[8rem] lg:h-[40%]"
