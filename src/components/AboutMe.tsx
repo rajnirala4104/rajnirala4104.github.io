@@ -9,7 +9,6 @@ const AboutMe: React.FC = () => {
             </h2>
             <div
                className="aboutContent flex justify-center items-center mx-2"
-               data-aos="fade-up"
                data-aos-duration="1000"
             >
                <p className="text-gray-600 my-2 text-[13px] text-justify">

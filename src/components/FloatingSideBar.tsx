@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Typed from "typed.js";
 import { AboutMe, SingleMenuBar } from ".";
 import { ALL_IMAGES } from "../assets";
+import { EducationSection } from "./EducationSection";
 import Projects from "./Projects";
 import SocialIcons from "./SocialIcons";
 
@@ -86,6 +87,7 @@ const FloatingSideBar: React.FC = () => {
             </div>
             <div className="lg:hidden">
                <AboutMe />
+               <EducationSection />
                <Projects />
             </div>
          </div>
