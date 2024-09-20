@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import Typed from "typed.js";
 import { AboutMe, SingleMenuBar } from ".";
 import { ALL_IMAGES } from "../assets";
@@ -58,7 +59,12 @@ const FloatingSideBar: React.FC = () => {
                            Let's Connect
                         </button>
                         <button className="bg-gray-600 text-white px-2 py-1 text-sm rounded-sm mx-2 shadow-lg hover:bg-gray-700">
-                           CV
+                           <Link
+                              target="_black"
+                              to="https://docs.google.com/document/d/1erh9VMHEh4H6Aek61cXj5w_x0RAoFA_n03WCV0Y7LXA/edit?usp=sharing"
+                           >
+                              CV
+                           </Link>
                         </button>
                      </div>
                   </div>

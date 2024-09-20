@@ -12,3 +12,10 @@ export interface EducationCardInterface {
       description?: string,
       duration?: string
 }
+
+export interface ProjectCardInterface {
+      img?: string,
+      projName?: string,
+      projDescription?: string,
+      codeLink?: string
+}

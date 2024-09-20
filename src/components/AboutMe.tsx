@@ -4,7 +4,7 @@ const AboutMe: React.FC = () => {
    return (
       <Fragment>
          <section className="my-2">
-            <h2 className="text-md text-gray-900 px-2 z-10 sticky top-0 lg:top-16 bg-gray-300 ">
+            <h2 className="text-lg text-gray-900 px-2 z-10 sticky top-0 lg:top-16 bg-gray-300 ">
                <strong>About Me</strong>
             </h2>
             <div
