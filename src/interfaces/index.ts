@@ -19,3 +19,10 @@ export interface ProjectCardInterface {
       projDescription?: string,
       codeLink?: string
 }
+
+export interface MoreAboutMeCardInterface {
+      cardTitle?: string,
+      cardDescription?: string,
+      cardImg?: string,
+      voiceSound?: string
+}

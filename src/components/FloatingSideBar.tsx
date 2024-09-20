@@ -4,6 +4,7 @@ import Typed from "typed.js";
 import { AboutMe, SingleMenuBar } from ".";
 import { ALL_IMAGES } from "../assets";
 import { EducationSection } from "./EducationSection";
+import MoreAboutMe from "./MoreAboutMe";
 import Projects from "./Projects";
 import SocialIcons from "./SocialIcons";
 
@@ -87,14 +88,19 @@ const FloatingSideBar: React.FC = () => {
             </div>
             <div className="menus mt-4 hidden lg:flex lg:flex-col">
                <SingleMenuBar menuTitle="About Me" />
-               <SingleMenuBar menuTitle="Experties" />
+               <SingleMenuBar menuTitle="Education" />
                <SingleMenuBar menuTitle="Projects" />
-               <SingleMenuBar menuTitle="More About Me" />
+               <SingleMenuBar menuTitle="Experties" />
+               <SingleMenuBar menuTitle="MoreAboutMe" />
+               <div className="lg:hidden">
+                  <MoreAboutMe />
+               </div>
             </div>
             <div className="lg:hidden">
                <AboutMe />
                <EducationSection />
                <Projects />
+               <MoreAboutMe />
             </div>
          </div>
       </Fragment>
