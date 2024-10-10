@@ -1,8 +1,9 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useContext } from "react";
 import { Link } from "react-router-dom";
 import Typed from "typed.js";
 import { AboutMe, SingleMenuBar } from ".";
 import { ALL_IMAGES } from "../assets";
+import { AboutMeContext, EducationSectionContext } from "../contexts";
 import { EducationSection } from "./EducationSection";
 import MoreAboutMe from "./MoreAboutMe";
 import Projects from "./Projects";
@@ -28,6 +29,12 @@ const FloatingSideBar: React.FC = () => {
       };
    }, []);
 
+   const { aboutMeContextOnOff, setAboutMeContextOnOff } =
+      useContext(AboutMeContext);
+   const { educationSectionOnOff, setEducationSectiOnOff } = useContext(
+      EducationSectionContext
+   );
+
    return (
       <Fragment>
          <div className="w-full bg-white flex flex-col justify-start">
@@ -38,7 +45,7 @@ const FloatingSideBar: React.FC = () => {
                      background: `url(${ALL_IMAGES.banner}) center center/cover `,
                   }}
                ></div>
-               <div className=" flex w-full">
+               <div className="flex w-full">
                   <div className="w-[120%] flex flex-col px-2 my-2">
                      <span
                         style={{
@@ -69,7 +76,7 @@ const FloatingSideBar: React.FC = () => {
                         </button>
                      </div>
                   </div>
-                  <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%] mx-3 -translate-y-[4rem] ">
+                  <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%]  mx-3 -translate-y-[4rem] ">
                      <div className="border-2 border-slate-400 bg-white rounded-full w-full shadow-xl">
                         <img
                            className="w-full rounded-full"
@@ -87,11 +94,37 @@ const FloatingSideBar: React.FC = () => {
                </div>
             </div>
             <div className="menus mt-4 hidden lg:flex lg:flex-col">
-               <SingleMenuBar menuTitle="About Me" />
-               <SingleMenuBar menuTitle="Education" />
-               <SingleMenuBar menuTitle="Projects" />
-               <SingleMenuBar menuTitle="Experties" />
-               <SingleMenuBar menuTitle="MoreAboutMe" />
+               <div
+                  onClick={() => {
+                     setAboutMeContextOnOff(true);
+                     setEducationSectiOnOff(false);
+                  }}
+               >
+                  <SingleMenuBar
+                     menuTitle="About Me"
+                     active={aboutMeContextOnOff}
+                  />
+               </div>
+               <div
+                  onClick={() => {
+                     setEducationSectiOnOff(true);
+                     setAboutMeContextOnOff(false);
+                  }}
+               >
+                  <SingleMenuBar
+                     menuTitle="Education"
+                     active={educationSectionOnOff}
+                  />
+               </div>
+               <div>
+                  <SingleMenuBar menuTitle="Projects" />
+               </div>
+               <div>
+                  <SingleMenuBar menuTitle="Experties" />
+               </div>
+               <div>
+                  <SingleMenuBar menuTitle="MoreAboutMe" />
+               </div>
                <div className="lg:hidden">
                   <MoreAboutMe />
                </div>

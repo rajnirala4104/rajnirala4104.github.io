@@ -8,3 +8,4 @@ export const MainContainer = lazy(() => import('./MainContainer'))
 export const SingleMenuBar = lazy(() => import('./SingleMenuBar'))
 export const EducationCard = lazy(() => import('./EducationCard'))
 export const FloatingSideBar = lazy(() => import('./FloatingSideBar'))
+

@@ -9,6 +9,7 @@ import FriendlyNature from './friendlyNature.jpg'
 import NoteApplication from './NoteApplicationProject.png'
 import ProblemSolverRaj from './problemSolverRaj.jpg'
 import rajniralaProfilePic from './rajnirala.png'
+import rajAboutMeImage from './rajniralasvg.png'
 import RajWithClassicalGuitar from './rajwithclassicalguitarForPhone.png'
 import snakeGameWindow from './snakeGameWindowImage.png'
 import ToDoListWebImage from './ToDoListWebImage.png'
@@ -30,6 +31,7 @@ export const ALL_IMAGES = {
       FriendlyNature,
       dotNewsWebImage,
       NoteApplication,
+      rajAboutMeImage,
       snakeGameWindow,
       ProblemSolverRaj,
       ToDoListWebImage,

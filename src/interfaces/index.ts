@@ -4,6 +4,7 @@ export interface Classes {
 
 export interface SingleMenuInterface {
       menuTitle?: string
+      active?: boolean
 }
 
 export interface EducationCardInterface {
@@ -25,4 +26,13 @@ export interface MoreAboutMeCardInterface {
       cardDescription?: string,
       cardImg?: string,
       voiceSound?: string
+}
+
+export interface AboutMeContextInterface {
+      aboutMeContextOnOff: boolean,
+      setAboutMeContextOnOff: React.Dispatch<React.SetStateAction<boolean>>;
+}
+export interface EducationSectionContextInterface {
+      educationSectionOnOff: boolean,
+      setEducationSectiOnOff: React.Dispatch<React.SetStateAction<boolean>>;
 }
