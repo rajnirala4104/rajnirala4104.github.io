@@ -1,7 +1,12 @@
 import { Fragment, useState } from "react";
 import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import { AboutMeContext, EducationSectionContext } from "./contexts";
+import {
+   AboutMeContext,
+   EducationSectionContext,
+   ExpertiesSectionContext,
+   ProjectsSectonContext,
+} from "./contexts";
 import { _ROUTER } from "./router";
 
 function App() {
@@ -9,18 +14,31 @@ function App() {
       useState<boolean>(true);
    const [educationSectionOnOff, setEducationSectiOnOff] =
       useState<boolean>(false);
+   const [projectSectionOnOff, setProjectSectionOnOff] =
+      useState<boolean>(false);
+
+   const [expertiseSectionOnOff, setExpertiseSectionOnOff] =
+      useState<boolean>(false);
 
    return (
       <Fragment>
-         <EducationSectionContext.Provider
-            value={{ educationSectionOnOff, setEducationSectiOnOff }}
+         <ExpertiesSectionContext.Provider
+            value={{ expertiseSectionOnOff, setExpertiseSectionOnOff }}
          >
-            <AboutMeContext.Provider
-               value={{ aboutMeContextOnOff, setAboutMeContextOnOff }}
+            <ProjectsSectonContext.Provider
+               value={{ projectSectionOnOff, setProjectSectionOnOff }}
             >
-               <RouterProvider router={_ROUTER} />
-            </AboutMeContext.Provider>
-         </EducationSectionContext.Provider>
+               <EducationSectionContext.Provider
+                  value={{ educationSectionOnOff, setEducationSectiOnOff }}
+               >
+                  <AboutMeContext.Provider
+                     value={{ aboutMeContextOnOff, setAboutMeContextOnOff }}
+                  >
+                     <RouterProvider router={_ROUTER} />
+                  </AboutMeContext.Provider>
+               </EducationSectionContext.Provider>
+            </ProjectsSectonContext.Provider>
+         </ExpertiesSectionContext.Provider>
       </Fragment>
    );
 }

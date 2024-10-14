@@ -36,3 +36,12 @@ export interface EducationSectionContextInterface {
       educationSectionOnOff: boolean,
       setEducationSectiOnOff: React.Dispatch<React.SetStateAction<boolean>>;
 }
+export interface ProjectSectionContextInterface {
+      projectSectionOnOff: boolean,
+      setProjectSectionOnOff: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+export interface ExpertiseSectionContextInterface {
+      expertiseSectionOnOff: boolean,
+      setExpertiseSectionOnOff: React.Dispatch<React.SetStateAction<boolean>>
+}

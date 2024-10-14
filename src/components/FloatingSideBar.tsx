@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 import Typed from "typed.js";
 import { AboutMe, SingleMenuBar } from ".";
 import { ALL_IMAGES } from "../assets";
-import { AboutMeContext, EducationSectionContext } from "../contexts";
+import {
+   AboutMeContext,
+   EducationSectionContext,
+   ExpertiesSectionContext,
+   ProjectsSectonContext,
+} from "../contexts";
 import { EducationSection } from "./EducationSection";
 import MoreAboutMe from "./MoreAboutMe";
 import Projects from "./Projects";
@@ -33,6 +38,12 @@ const FloatingSideBar: React.FC = () => {
       useContext(AboutMeContext);
    const { educationSectionOnOff, setEducationSectiOnOff } = useContext(
       EducationSectionContext
+   );
+   const { projectSectionOnOff, setProjectSectionOnOff } = useContext(
+      ProjectsSectonContext
+   );
+   const { expertiseSectionOnOff, setExpertiseSectionOnOff } = useContext(
+      ExpertiesSectionContext
    );
 
    return (
@@ -96,8 +107,10 @@ const FloatingSideBar: React.FC = () => {
             <div className="menus mt-4 hidden lg:flex lg:flex-col">
                <div
                   onClick={() => {
-                     setAboutMeContextOnOff(true);
                      setEducationSectiOnOff(false);
+                     setProjectSectionOnOff(false);
+                     setExpertiseSectionOnOff(false);
+                     setAboutMeContextOnOff(true);
                   }}
                >
                   <SingleMenuBar
@@ -107,8 +120,10 @@ const FloatingSideBar: React.FC = () => {
                </div>
                <div
                   onClick={() => {
-                     setEducationSectiOnOff(true);
                      setAboutMeContextOnOff(false);
+                     setProjectSectionOnOff(false);
+                     setExpertiseSectionOnOff(false);
+                     setEducationSectiOnOff(true);
                   }}
                >
                   <SingleMenuBar
@@ -116,11 +131,31 @@ const FloatingSideBar: React.FC = () => {
                      active={educationSectionOnOff}
                   />
                </div>
-               <div>
-                  <SingleMenuBar menuTitle="Projects" />
+               <div
+                  onClick={() => {
+                     setAboutMeContextOnOff(false);
+                     setEducationSectiOnOff(false);
+                     setExpertiseSectionOnOff(false);
+                     setProjectSectionOnOff(true);
+                  }}
+               >
+                  <SingleMenuBar
+                     menuTitle="Projects"
+                     active={projectSectionOnOff}
+                  />
                </div>
-               <div>
-                  <SingleMenuBar menuTitle="Experties" />
+               <div
+                  onClick={() => {
+                     setAboutMeContextOnOff(false);
+                     setEducationSectiOnOff(false);
+                     setProjectSectionOnOff(false);
+                     setExpertiseSectionOnOff(true);
+                  }}
+               >
+                  <SingleMenuBar
+                     menuTitle="Experties"
+                     active={expertiseSectionOnOff}
+                  />
                </div>
                <div>
                   <SingleMenuBar menuTitle="MoreAboutMe" />
