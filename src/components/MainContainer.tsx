@@ -14,14 +14,6 @@ const MainContainer: React.FC = () => {
    const { projectSectionOnOff } = useContext(ProjectsSectonContext);
    const { expertiseSectionOnOff } = useContext(ExpertiesSectionContext);
 
-   console.log("About, Education, Project, Expertise");
-   console.log(
-      aboutMeContextOnOff,
-      educationSectionOnOff,
-      projectSectionOnOff,
-      expertiseSectionOnOff
-   );
-
    return (
       <Fragment>
          <div className="w-full h-full  grid place-content-center place-items-center bg-white ">
