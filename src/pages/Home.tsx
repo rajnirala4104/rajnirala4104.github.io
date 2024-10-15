@@ -4,11 +4,11 @@ import { FloatingSideBar, Footer, MainContainer } from "../components";
 const Home: React.FC = () => {
    return (
       <Fragment>
-         <div className="w-full lg:hidden hidden md:grid h-screen bg-[rgba(0,0,0,0.5)] place-content-center place-items-center p-4 absolute top-0 z-10">
+         <div className="w-full hidden lg:grid h-screen bg-[rgba(0,0,0,0.5)] place-content-center place-items-center p-4 absolute top-0 z-10">
             <div className="bg-white grid place-content-center place-items-center m-4 w-[80%] h-[50vh] rounded-lg">
                <h1 className="text-2xl font-bold text-black text-center p-16">
                   Large Screen version is in progress, till then use mobile
-                  version You just need to open this page on your mobile.
+                  version You just need to open this page on your mobile phone.
                </h1>
             </div>
          </div>
