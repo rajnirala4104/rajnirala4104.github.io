@@ -3,7 +3,7 @@ export const educationDetailsArr = [
             title: "Diploma in Computer Science",
             whereInfo: "DSEU Univercity | Shakarpur Campus",
             description:
-                  "I build some strong academic foundations and an extensive professional network.",
+                  "I built some strong academic foundations and an extensive professional network.",
 
             duration: "2021-2024",
       },

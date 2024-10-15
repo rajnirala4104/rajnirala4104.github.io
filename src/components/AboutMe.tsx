@@ -29,9 +29,9 @@ const AboutMe: React.FC = () => {
                   multiple languages and frameworks.
                   <strong>
                      {" "}
-                     I specialized in JavaScript, Python. I'm also experienced
-                     in working with popular frameworks like React.js,
-                     Express.js, and Node.js for the backend.
+                     I specialized in JavaScript and Python. I'm also
+                     experienced in working with popular frameworks like
+                     React.js, Express.js, and Node.js for the backend.
                   </strong>{" "}
                   When it comes to databases, I'm well-versed in MongoDB. As a{" "}
                   <strong>MERN Stack developer </strong>, I love creating
