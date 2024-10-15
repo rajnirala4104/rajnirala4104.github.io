@@ -26,23 +26,31 @@ const MainContainer: React.FC = () => {
       <Fragment>
          <div className="w-full h-full  grid place-content-center place-items-center bg-white ">
             {aboutMeContextOnOff && (
-               <div className="w-full h-[83.5vh]">
-                  <AboutMe />
-               </div>
+               <Suspense fallback={"loading.."}>
+                  <div className="w-full h-[83.5vh]">
+                     <AboutMe />
+                  </div>
+               </Suspense>
             )}
             {educationSectionOnOff && (
-               <div className="w-full h-[83.5vh]">
-                  <EducationSection />
-               </div>
+               <Suspense fallback={"loading.."}>
+                  <div className="w-full h-[83.5vh]">
+                     <EducationSection />
+                  </div>
+               </Suspense>
             )}
             {projectSectionOnOff && (
                <Suspense fallback={"loading.."}>
-                  <Projects />
+                  <div className="w-full h-[83.5vh] bg-white">
+                     <Projects />
+                  </div>
                </Suspense>
             )}
             {expertiseSectionOnOff && (
                <Suspense fallback={"loading.."}>
-                  <ExpertiseSection />
+                  <div className="w-full h-[83.5vh]">
+                     <ExpertiseSection />
+                  </div>
                </Suspense>
             )}
          </div>
