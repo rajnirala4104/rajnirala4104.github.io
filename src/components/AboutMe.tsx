@@ -3,7 +3,7 @@ import { VoiceIconl } from "../icons";
 
 const AboutMe: React.FC = () => {
    const voiceHandler = () => {
-      alert("i haven't built this feature yet");
+      alert("I haven't built this feature yet but I'll build this soon");
    };
 
    return (
@@ -19,7 +19,10 @@ const AboutMe: React.FC = () => {
                </span>
             </h2>
             <div className="lg:flex hidden lg:justify-center lg:items-center lg:w-[100%] absolute top-0">
-               <span className="text-xl absolute top-4 left-[3%] cursor-pointer text-slate-600 hover:text-slate-800 transiation duration-300">
+               <span
+                  onClick={voiceHandler}
+                  className="text-xl absolute top-4 left-[3%] cursor-pointer text-slate-600 hover:text-slate-800 transiation duration-300"
+               >
                   <VoiceIconl />
                </span>
             </div>
