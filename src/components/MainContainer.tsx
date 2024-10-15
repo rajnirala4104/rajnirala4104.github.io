@@ -1,5 +1,5 @@
-import React, { Fragment, useContext } from "react";
-import { AboutMe } from ".";
+import React, { Fragment, Suspense, useContext } from "react";
+import { AboutMe, ExpertiseSection, Projects } from ".";
 import {
    AboutMeContext,
    EducationSectionContext,
@@ -35,8 +35,16 @@ const MainContainer: React.FC = () => {
                   <EducationSection />
                </div>
             )}
-            {projectSectionOnOff && <span>Projects</span>}
-            {expertiseSectionOnOff && <span>Expertise</span>}
+            {projectSectionOnOff && (
+               <Suspense fallback={"loading.."}>
+                  <Projects />
+               </Suspense>
+            )}
+            {expertiseSectionOnOff && (
+               <Suspense fallback={"loading.."}>
+                  <ExpertiseSection />
+               </Suspense>
+            )}
          </div>
       </Fragment>
    );

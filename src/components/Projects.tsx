@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import { ProjectCard } from ".";
 import { ProjectsData } from "../data/ProjectData";
+import ProjectCard from "./ProjectCard";
 
 const Projects: React.FC = () => {
    return (
