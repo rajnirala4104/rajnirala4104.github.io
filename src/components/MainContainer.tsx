@@ -1,12 +1,11 @@
 import React, { Fragment, Suspense, useContext } from "react";
-import { AboutMe, ExpertiseSection, Projects } from ".";
+import { AboutMe, EducationSection, ExpertiseSection, Projects } from ".";
 import {
    AboutMeContext,
    EducationSectionContext,
    ExpertiesSectionContext,
    ProjectsSectonContext,
 } from "../contexts";
-import { EducationSection } from "./EducationSection";
 
 const MainContainer: React.FC = () => {
    const { aboutMeContextOnOff } = useContext(AboutMeContext);

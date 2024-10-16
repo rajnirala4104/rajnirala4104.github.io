@@ -2,7 +2,7 @@ import React, { Fragment, Suspense } from "react";
 import { EducationCard } from ".";
 import { educationDetailsArr } from "../data/EducationData";
 
-export const EducationSection: React.FC = () => {
+const EducationSection: React.FC = () => {
    return (
       <Fragment>
          <Suspense fallback="loading...">
@@ -25,3 +25,5 @@ export const EducationSection: React.FC = () => {
       </Fragment>
    );
 };
+
+export default EducationSection;

@@ -1,7 +1,15 @@
 import React, { Fragment, useContext } from "react";
 import { Link } from "react-router-dom";
 import Typed from "typed.js";
-import { AboutMe, SingleMenuBar } from ".";
+import {
+   AboutMe,
+   EducationSection,
+   ExpertiseSection,
+   MoreAboutMe,
+   Projects,
+   SingleMenuBar,
+   SocialIcons,
+} from ".";
 import { ALL_IMAGES } from "../assets";
 import {
    AboutMeContext,
@@ -9,10 +17,6 @@ import {
    ExpertiesSectionContext,
    ProjectsSectonContext,
 } from "../contexts";
-import { EducationSection } from "./EducationSection";
-import MoreAboutMe from "./MoreAboutMe";
-import Projects from "./Projects";
-import SocialIcons from "./SocialIcons";
 
 const FloatingSideBar: React.FC = () => {
    const el = React.useRef(null);
@@ -168,6 +172,7 @@ const FloatingSideBar: React.FC = () => {
                <AboutMe />
                <EducationSection />
                <Projects />
+               <ExpertiseSection />
                <MoreAboutMe />
             </div>
          </div>
