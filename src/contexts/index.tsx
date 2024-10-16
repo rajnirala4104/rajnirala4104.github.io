@@ -3,6 +3,7 @@ import {
    AboutMeContextInterface,
    EducationSectionContextInterface,
    ExpertiseSectionContextInterface,
+   ProjectPopupContextInterface,
    ProjectSectionContextInterface,
 } from "../interfaces";
 
@@ -27,3 +28,8 @@ export const ExpertiesSectionContext =
       expertiseSectionOnOff: false,
       setExpertiseSectionOnOff: () => false,
    });
+
+export const ProjectPopupContext = createContext<ProjectPopupContextInterface>({
+   projectPopupOnOff: false,
+   setProjectPopupOnOff: () => false,
+});

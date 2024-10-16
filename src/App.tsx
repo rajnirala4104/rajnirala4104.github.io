@@ -5,6 +5,7 @@ import {
    AboutMeContext,
    EducationSectionContext,
    ExpertiesSectionContext,
+   ProjectPopupContext,
    ProjectsSectonContext,
 } from "./contexts";
 import { _ROUTER } from "./router";
@@ -20,25 +21,30 @@ function App() {
    const [expertiseSectionOnOff, setExpertiseSectionOnOff] =
       useState<boolean>(false);
 
+   const [projectPopupOnOff, setProjectPopupOnOff] = useState<boolean>(false);
    return (
       <Fragment>
-         <ExpertiesSectionContext.Provider
-            value={{ expertiseSectionOnOff, setExpertiseSectionOnOff }}
+         <ProjectPopupContext.Provider
+            value={{ projectPopupOnOff, setProjectPopupOnOff }}
          >
-            <ProjectsSectonContext.Provider
-               value={{ projectSectionOnOff, setProjectSectionOnOff }}
+            <ExpertiesSectionContext.Provider
+               value={{ expertiseSectionOnOff, setExpertiseSectionOnOff }}
             >
-               <EducationSectionContext.Provider
-                  value={{ educationSectionOnOff, setEducationSectiOnOff }}
+               <ProjectsSectonContext.Provider
+                  value={{ projectSectionOnOff, setProjectSectionOnOff }}
                >
-                  <AboutMeContext.Provider
-                     value={{ aboutMeContextOnOff, setAboutMeContextOnOff }}
+                  <EducationSectionContext.Provider
+                     value={{ educationSectionOnOff, setEducationSectiOnOff }}
                   >
-                     <RouterProvider router={_ROUTER} />
-                  </AboutMeContext.Provider>
-               </EducationSectionContext.Provider>
-            </ProjectsSectonContext.Provider>
-         </ExpertiesSectionContext.Provider>
+                     <AboutMeContext.Provider
+                        value={{ aboutMeContextOnOff, setAboutMeContextOnOff }}
+                     >
+                        <RouterProvider router={_ROUTER} />
+                     </AboutMeContext.Provider>
+                  </EducationSectionContext.Provider>
+               </ProjectsSectonContext.Provider>
+            </ExpertiesSectionContext.Provider>
+         </ProjectPopupContext.Provider>
       </Fragment>
    );
 }

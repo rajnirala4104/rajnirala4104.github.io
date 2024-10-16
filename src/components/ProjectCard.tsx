@@ -1,11 +1,17 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useContext } from "react";
 import { Link } from "react-router-dom";
+import { ProjectPopupContext } from "../contexts";
 import { ProjectCardInterface } from "../interfaces";
 
 const ProjectCard: React.FC<ProjectCardInterface> = (props) => {
+   const { projectPopupOnOff, setProjectPopupOnOff } =
+      useContext(ProjectPopupContext);
    return (
       <Fragment>
-         <div className=" border p-4 my-3 w-[100%] lg:w-[30%] lg:mx-2 lg:overflow-auto bg-white">
+         <div
+            onClick={() => setProjectPopupOnOff(!projectPopupOnOff)}
+            className=" border p-4 my-3 w-[100%] lg:w-[30%] lg:mx-2 lg:overflow-auto bg-white lg:cursor-pointer hover:shadow-lg trnasition duration-300 hover:backdrop-shadow-2xl"
+         >
             <img src={props.img} className="my-2" alt={props.projName} />
             <div className="projectCardContent">
                <h2 className="text-[18px] text-gray-700">{props.projName}</h2>

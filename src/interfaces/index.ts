@@ -45,3 +45,8 @@ export interface ExpertiseSectionContextInterface {
       expertiseSectionOnOff: boolean,
       setExpertiseSectionOnOff: React.Dispatch<React.SetStateAction<boolean>>
 }
+
+export interface ProjectPopupContextInterface {
+      projectPopupOnOff: boolean,
+      setProjectPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>
+}

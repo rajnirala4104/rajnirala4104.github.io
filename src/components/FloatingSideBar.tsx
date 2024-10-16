@@ -23,7 +23,7 @@ const FloatingSideBar: React.FC = () => {
             "Javascript Developer",
             "Python Enthusiast",
             "Curious Person",
-            "Great Learner and",
+            "Great Learner",
             "FullStack Developer",
          ],
          typeSpeed: 70,
