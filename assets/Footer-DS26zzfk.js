@@ -1,1 +1,0 @@
-import{j as e,r}from"./index-BUtf8mP9.js";const s=()=>e.jsx(r.Fragment,{children:e.jsx("div",{className:"grid place-content-center items-center bg-white w-full h-full rounded-lg",children:e.jsx("span",{children:"Footer"})})});export{s as default};
