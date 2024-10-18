@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { Link } from "react-router-dom";
 import {
    GithubIcon,
    InstagramIcon,
@@ -14,16 +15,30 @@ const SocialIcons: React.FC<Classes> = ({ classes }) => {
             className={`flex text-2xl text-slate-500 justify-between w-[50%] ${classes}`}
          >
             <div className="cursor-pointer hover:text-slate-800 transition duration-200">
-               <LinkedInIcon />
+               <Link
+                  to="https://www.linkedin.com/in/raj-nirala/"
+                  target="_blank"
+               >
+                  <LinkedInIcon />
+               </Link>
             </div>
             <div className="cursor-pointer ml-2 hover:text-slate-800 transition duration-200">
-               <GithubIcon />
+               <Link to="https://github.com/rajnirala4104" target="_blank">
+                  <GithubIcon />
+               </Link>
             </div>
             <div className="cursor-pointer hover:text-slate-800 transition duration-200 ml-2">
-               <InstagramIcon />
+               <Link
+                  to="https://www.instagram.com/raj_nirala_910"
+                  target="_blank"
+               >
+                  <InstagramIcon />
+               </Link>
             </div>
             <div className="cursor-pointer ml-2 hover:text-slate-800 transition duration-200">
-               <WhatsAppIcon />
+               <Link to="https://wa.me/917827424823" target="_blank">
+                  <WhatsAppIcon />
+               </Link>
             </div>
          </div>
       </Suspense>
