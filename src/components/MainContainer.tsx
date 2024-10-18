@@ -39,7 +39,7 @@ const MainContainer: React.FC = () => {
             )}
             {expertiseSectionOnOff && (
                <Suspense fallback={"loading.."}>
-                  <div className="w-full h-[83.5vh]">
+                  <div className="w-full h-[83.5vh] bg-white">
                      <ExpertiseSection />
                   </div>
                </Suspense>
