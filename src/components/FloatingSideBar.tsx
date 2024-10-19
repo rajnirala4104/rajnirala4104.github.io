@@ -13,6 +13,7 @@ import {
 import { ALL_IMAGES } from "../assets";
 import {
    AboutMeContext,
+   ConnectBtnPopupContext,
    EducationSectionContext,
    ExpertiesSectionContext,
    ProjectsSectonContext,
@@ -50,6 +51,10 @@ const FloatingSideBar: React.FC = () => {
       ExpertiesSectionContext
    );
 
+   const { connectBtnPopupOnOff, setConnectBtnPopupOnOff } = useContext(
+      ConnectBtnPopupContext
+   );
+
    return (
       <Fragment>
          <div className="w-full bg-white flex flex-col justify-start">
@@ -78,7 +83,12 @@ const FloatingSideBar: React.FC = () => {
                         <SocialIcons classes="text-gray-60" />
                      </div>
                      <div className="flex justify-start my-2">
-                        <button className="border border-gray-600 font-medium px-2 py-1 text-sm rounded-sm hover:bg-gray-600 transition duration-200 hover:text-white shadow-lg">
+                        <button
+                           onClick={() =>
+                              setConnectBtnPopupOnOff(!connectBtnPopupOnOff)
+                           }
+                           className="border border-gray-600 font-medium px-2 py-1 text-sm rounded-sm hover:bg-gray-600 transition duration-200 hover:text-white shadow-lg"
+                        >
                            Let's Connect
                         </button>
                         <button className="bg-gray-600 text-white px-2 py-1 text-sm rounded-sm mx-2 shadow-lg hover:bg-gray-700">

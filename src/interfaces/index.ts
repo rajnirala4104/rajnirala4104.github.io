@@ -51,6 +51,11 @@ export interface ProjectPopupContextInterface {
       setProjectPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>
 }
 
+export interface ConnectBtnPopupInterface {
+      connectBtnPopupOnOff: boolean,
+      setConnectBtnPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>
+}
+
 export interface ProgressBarProps {
       progressColor: string;
       progress: number;
