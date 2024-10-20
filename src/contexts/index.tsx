@@ -1,8 +1,10 @@
 import { createContext } from "react";
 import {
    AboutMeContextInterface,
+   ConnectBtnPopupInterface,
    EducationSectionContextInterface,
    ExpertiseSectionContextInterface,
+   ProjectPopupContextInterface,
    ProjectSectionContextInterface,
 } from "../interfaces";
 
@@ -27,3 +29,13 @@ export const ExpertiesSectionContext =
       expertiseSectionOnOff: false,
       setExpertiseSectionOnOff: () => false,
    });
+
+export const ConnectBtnPopupContext = createContext<ConnectBtnPopupInterface>({
+   connectBtnPopupOnOff: false,
+   setConnectBtnPopupOnOff: () => false,
+});
+
+export const ProjectPopupContext = createContext<ProjectPopupContextInterface>({
+   projectPopupOnOff: false,
+   setProjectPopupOnOff: () => false,
+});

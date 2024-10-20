@@ -3,10 +3,16 @@ import { lazy } from 'react'
 export const Footer = lazy(() => import('./Footer'))
 export const AboutMe = lazy(() => import('./AboutMe'))
 export const Projects = lazy(() => import('./Projects'))
+export const SkillCard = lazy(() => import('./SkillCard'))
+export const SocialIcons = lazy(() => import('./SocialIcons'))
+export const ProjectCard = lazy(() => import('./ProjectCard'))
+export const MoreAboutMe = lazy(() => import('./MoreAboutMe'))
+export const ProjectPopup = lazy(() => import('./ProjectPopup'))
 export const MainContainer = lazy(() => import('./MainContainer'))
 export const SingleMenuBar = lazy(() => import('./SingleMenuBar'))
 export const EducationCard = lazy(() => import('./EducationCard'))
+export const ConnectBtnPopup = lazy(() => import('./ConnectBtnPopup'))
 export const FloatingSideBar = lazy(() => import('./FloatingSideBar'))
+export const MoreAboutMeCard = lazy(() => import('./MoreAboutMeCard'))
 export const ExpertiseSection = lazy(() => import('./ExpertiseSection'))
-
-
+export const EducationSection = lazy(() => import('./EducationSection'))

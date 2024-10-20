@@ -3,8 +3,10 @@ import { RouterProvider } from "react-router-dom";
 import "./App.css";
 import {
    AboutMeContext,
+   ConnectBtnPopupContext,
    EducationSectionContext,
    ExpertiesSectionContext,
+   ProjectPopupContext,
    ProjectsSectonContext,
 } from "./contexts";
 import { _ROUTER } from "./router";
@@ -20,25 +22,42 @@ function App() {
    const [expertiseSectionOnOff, setExpertiseSectionOnOff] =
       useState<boolean>(false);
 
+   const [projectPopupOnOff, setProjectPopupOnOff] = useState<boolean>(false);
+   const [connectBtnPopupOnOff, setConnectBtnPopupOnOff] =
+      useState<boolean>(false);
    return (
       <Fragment>
-         <ExpertiesSectionContext.Provider
-            value={{ expertiseSectionOnOff, setExpertiseSectionOnOff }}
+         <ConnectBtnPopupContext.Provider
+            value={{ connectBtnPopupOnOff, setConnectBtnPopupOnOff }}
          >
-            <ProjectsSectonContext.Provider
-               value={{ projectSectionOnOff, setProjectSectionOnOff }}
+            <ProjectPopupContext.Provider
+               value={{ projectPopupOnOff, setProjectPopupOnOff }}
             >
-               <EducationSectionContext.Provider
-                  value={{ educationSectionOnOff, setEducationSectiOnOff }}
+               <ExpertiesSectionContext.Provider
+                  value={{ expertiseSectionOnOff, setExpertiseSectionOnOff }}
                >
-                  <AboutMeContext.Provider
-                     value={{ aboutMeContextOnOff, setAboutMeContextOnOff }}
+                  <ProjectsSectonContext.Provider
+                     value={{ projectSectionOnOff, setProjectSectionOnOff }}
                   >
-                     <RouterProvider router={_ROUTER} />
-                  </AboutMeContext.Provider>
-               </EducationSectionContext.Provider>
-            </ProjectsSectonContext.Provider>
-         </ExpertiesSectionContext.Provider>
+                     <EducationSectionContext.Provider
+                        value={{
+                           educationSectionOnOff,
+                           setEducationSectiOnOff,
+                        }}
+                     >
+                        <AboutMeContext.Provider
+                           value={{
+                              aboutMeContextOnOff,
+                              setAboutMeContextOnOff,
+                           }}
+                        >
+                           <RouterProvider router={_ROUTER} />
+                        </AboutMeContext.Provider>
+                     </EducationSectionContext.Provider>
+                  </ProjectsSectonContext.Provider>
+               </ExpertiesSectionContext.Provider>
+            </ProjectPopupContext.Provider>
+         </ConnectBtnPopupContext.Provider>
       </Fragment>
    );
 }

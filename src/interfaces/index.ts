@@ -45,3 +45,19 @@ export interface ExpertiseSectionContextInterface {
       expertiseSectionOnOff: boolean,
       setExpertiseSectionOnOff: React.Dispatch<React.SetStateAction<boolean>>
 }
+
+export interface ProjectPopupContextInterface {
+      projectPopupOnOff: boolean,
+      setProjectPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+export interface ConnectBtnPopupInterface {
+      connectBtnPopupOnOff: boolean,
+      setConnectBtnPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+export interface ProgressBarProps {
+      progressColor: string;
+      progress: number;
+      image: string;
+}
