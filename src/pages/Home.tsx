@@ -1,10 +1,16 @@
-import React, { Fragment, useContext } from "react";
-import { FloatingSideBar, Footer, MainContainer } from "../components";
+import React, { Fragment, Suspense, useContext } from "react";
+import {
+   ConnectBtnPopup,
+   FloatingSideBar,
+   Footer,
+   MainContainer,
+} from "../components";
 import ProjectPopup from "../components/ProjectPopup";
-import { ProjectPopupContext } from "../contexts";
+import { ConnectBtnPopupContext, ProjectPopupContext } from "../contexts";
 
 const Home: React.FC = () => {
    const { projectPopupOnOff } = useContext(ProjectPopupContext);
+   const { connectBtnPopupOnOff } = useContext(ConnectBtnPopupContext);
    return (
       <Fragment>
          <div className="w-full hidden md:hidden lg:grid h-screen backdrop-blur-sm bg-[rgba(0,0,0,0.5)] place-content-center place-items-center p-4 absolute top-0 z-20">
@@ -16,6 +22,11 @@ const Home: React.FC = () => {
             </div>
          </div>
          {projectPopupOnOff && <ProjectPopup />}
+         {connectBtnPopupOnOff && (
+            <Suspense fallback="loading..">
+               <ConnectBtnPopup />
+            </Suspense>
+         )}
          <div className="w-full h-screen bg-gray-500 lg:px-20 lg:pt-8 lg:pb-2 grid lg:grid-rows-10 gap-y-5 overflow-auto ">
             <div className="grid grid-cols-10 gap-5 w-full lg:row-span-9  lg:h-full md:h-full">
                <div className="lg:grid md:grid md:col-span-7 overflow-y-auto hidden rounded-lg `">
