@@ -3,19 +3,19 @@ import { AboutMe, EducationSection, ExpertiseSection, Projects } from ".";
 import {
    AboutMeContext,
    EducationSectionContext,
-   ExpertiesSectionContext,
-   ProjectsSectonContext,
+   ExpertiseSectionContext,
+   ProjectsSectorContext,
 } from "../contexts";
 
 const MainContainer: React.FC = () => {
    const { aboutMeContextOnOff } = useContext(AboutMeContext);
    const { educationSectionOnOff } = useContext(EducationSectionContext);
-   const { projectSectionOnOff } = useContext(ProjectsSectonContext);
-   const { expertiseSectionOnOff } = useContext(ExpertiesSectionContext);
+   const { projectSectionOnOff } = useContext(ProjectsSectorContext);
+   const { expertiseSectionOnOff } = useContext(ExpertiseSectionContext);
 
    return (
       <Fragment>
-         <div className="w-full h-full  grid place-content-center place-items-center bg-white ">
+         <div className="w-full h-full  grid place-content-center place-items-center bg-[#192524] ">
             {aboutMeContextOnOff && (
                <Suspense fallback={"loading.."}>
                   <div className="w-full h-[83.5vh]">

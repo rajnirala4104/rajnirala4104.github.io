@@ -15,8 +15,8 @@ import {
    AboutMeContext,
    ConnectBtnPopupContext,
    EducationSectionContext,
-   ExpertiesSectionContext,
-   ProjectsSectonContext,
+   ExpertiseSectionContext,
+   ProjectsSectorContext,
 } from "../contexts";
 
 const FloatingSideBar: React.FC = () => {
@@ -45,10 +45,10 @@ const FloatingSideBar: React.FC = () => {
       EducationSectionContext
    );
    const { projectSectionOnOff, setProjectSectionOnOff } = useContext(
-      ProjectsSectonContext
+      ProjectsSectorContext
    );
    const { expertiseSectionOnOff, setExpertiseSectionOnOff } = useContext(
-      ExpertiesSectionContext
+      ExpertiseSectionContext
    );
 
    const { connectBtnPopupOnOff, setConnectBtnPopupOnOff } = useContext(
@@ -57,14 +57,16 @@ const FloatingSideBar: React.FC = () => {
 
    return (
       <Fragment>
-         <div className="w-full bg-white flex flex-col justify-start">
+         <div className="w-full bg-[#efece9] flex flex-col justify-start">
             <div className="header text-slate-800 border-b border-slate-600 h-[18rem] ">
                <div
                   className="h-[8rem] lg:h-[40%]"
-                  style={{
-                     background: `url(${ALL_IMAGES.banner}) center center/cover `,
-                  }}
-               ></div>
+               // style={{
+               //    background: `url(${ALL_IMAGES.banner}) center center/cover `,
+               // }}
+               >
+                  <img src={ALL_IMAGES.banner} alt="profileBanner" className="w-full h-full" loading="lazy" />
+               </div>
                <div className="flex w-full">
                   <div className="w-[120%] flex flex-col px-2 my-2">
                      <span
@@ -72,26 +74,26 @@ const FloatingSideBar: React.FC = () => {
                            fontFamily: "'Dancing Script', cursive",
                            fontWeight: "bolder",
                         }}
-                        className="text-gray-500"
+                        className="text-[#192524]"
                      >
                         Hii.. I'm a
                      </span>
-                     <div className=" text-gray-600 text-sm my-1">
+                     <div className=" lg:text-[#192524] text-gray-600 text-sm my-1">
                         <span ref={el} className="font-mono"></span>
                      </div>
                      <div className="my-1">
-                        <SocialIcons classes="text-gray-60" />
+                        <SocialIcons classes="lg:text-[#192524] hover:text-[#3c5759] text-gray-60" />
                      </div>
                      <div className="flex justify-start my-2">
                         <button
                            onClick={() =>
                               setConnectBtnPopupOnOff(!connectBtnPopupOnOff)
                            }
-                           className="border border-gray-600 font-medium px-2 py-1 text-sm rounded-sm hover:bg-gray-600 transition duration-200 hover:text-white shadow-lg"
+                           className="border border-[#192524] font-medium px-2 py-1 text-sm rounded-sm hover:bg-[#192524] transition duration-200 hover:text-[#efece9] shadow-lg"
                         >
                            Let's Connect
                         </button>
-                        <button className="bg-gray-600 text-white px-2 py-1 text-sm rounded-sm mx-2 shadow-lg hover:bg-gray-700">
+                        <button className="bg-[#192524] text-[#efece9] px-2 py-1 text-sm rounded-sm mx-2 shadow-lg hover:bg-[#3c5759]">
                            <Link
                               target="_black"
                               to="https://docs.google.com/document/d/1erh9VMHEh4H6Aek61cXj5w_x0RAoFA_n03WCV0Y7LXA/edit?usp=sharing"
@@ -101,8 +103,8 @@ const FloatingSideBar: React.FC = () => {
                         </button>
                      </div>
                   </div>
-                  <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%]  mx-3 -translate-y-[4rem] ">
-                     <div className="border-2 border-slate-400 bg-white rounded-full w-full shadow-xl">
+                  <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%]  mx-3 lg:-translate-y-[4rem] -translate-y-[5rem] ">
+                     <div className="border-2 border-slate-400 lg:border-[#192524] bg-white rounded-full w-full shadow-xl">
                         <img
                            className="w-full rounded-full"
                            loading="lazy"
@@ -111,7 +113,7 @@ const FloatingSideBar: React.FC = () => {
                         />
                      </div>
                      <div className="mt-2">
-                        <span className="text-[1.4rem] font-medium text-slate-800">
+                        <span className="text-[1.4rem] font-medium text-[#192524]">
                            Raj Nirala
                         </span>
                      </div>
