@@ -13,7 +13,7 @@ const Home: React.FC = () => {
    const { connectBtnPopupOnOff } = useContext(ConnectBtnPopupContext);
    return (
       <Fragment>
-         <div className="w-full hidden md:hidden lg:grid h-screen backdrop-blur-sm bg-[rgba(0,0,0,0.5)] place-content-center place-items-center p-4 absolute top-0 z-20">
+         <div className="w-full hidden lg:hidden md:grid h-screen backdrop-blur-sm bg-[rgba(0,0,0,0.5)] place-content-center place-items-center p-4 absolute top-0 z-20">
             <div className="bg-white grid place-content-center place-items-center m-4 w-[80%] h-[50vh] rounded-lg">
                <h1 className="text-2xl font-bold text-black text-center p-16">
                   Desktop version is in progress, till then use mobile version
