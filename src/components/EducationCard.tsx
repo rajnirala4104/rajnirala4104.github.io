@@ -4,10 +4,10 @@ import { EducationCardInterface } from "../interfaces";
 const EducationCard: React.FC<EducationCardInterface> = (props) => {
    return (
       <Fragment>
-         <div className="relatives lg:w-[80%] hover:bg-gray-200 border flex flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700 shadow-lg m-3">
+         <div className="relatives lg:w-[80%] hover:bg-[#426062] text-[#d0d5ce] flex flex-col rounded-xl bg-[#3c5759] bg-clip-border shadow-lg m-3 tranlate transition duration-300">
             <div className="p-3">
                <div className="-space-y-2 my-2">
-                  <h5 className="mb-2 block font-sans text-[14px] lg:text-[18px] font-semibold text-left leading-snug tracking-normal text-blue-gray-900 antialiased">
+                  <h5 className="mb-2 block font-sans text-[14px] lg:text-[18px] font-semibold text-left leading-snug tracking-normal text-blue-gray-900 antialiased lg:text-[#efece9]">
                      {props.title}
                   </h5>
                   <p className="text-[12px] lg:text-[13px]">

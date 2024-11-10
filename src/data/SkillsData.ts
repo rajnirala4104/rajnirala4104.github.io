@@ -27,7 +27,7 @@ export const SkillsData: ProgressBarProps[] = [
         progressColor: "#1976D2"
     },
     {
-        progress: 60,
+        progress: 78,
         image: "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
         progressColor: "#FFC107"
     },
@@ -37,8 +37,12 @@ export const SkillsData: ProgressBarProps[] = [
         progressColor: "#FF4500"
     },
     {
-        progress: 78,
+        progress: 70,
         image: "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000",
         progressColor: "#09BDFF"
+<<<<<<< HEAD
     }
+=======
+    },
+>>>>>>> c085eebc9b66cbd1fb14dc40a54903fee02d51d1
 ]

@@ -27,7 +27,7 @@ const Home: React.FC = () => {
                <ConnectBtnPopup />
             </Suspense>
          )}
-         <div className="w-full h-screen bg-gray-500 lg:px-20 lg:pt-8 lg:pb-2 grid lg:grid-rows-10 gap-y-5 overflow-auto ">
+         <div className="w-full h-screen bg-[#3c5759]  lg:px-20 lg:pt-8 lg:pb-2 grid lg:grid-rows-10 gap-y-5 overflow-auto ">
             <div className="grid grid-cols-10 gap-5 w-full lg:row-span-9  lg:h-full md:h-full">
                <div className="lg:grid md:grid md:col-span-7 overflow-y-auto hidden rounded-lg `">
                   <MainContainer />

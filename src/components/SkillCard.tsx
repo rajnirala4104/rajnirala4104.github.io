@@ -12,9 +12,8 @@ const SkillCard: React.FC<ProgressBarProps> = (props) => {
             <div
                className={`absolute inset-0 rounded-full`}
                style={{
-                  clipPath: `inset(0 ${
-                     ((100 - props.progress) / 100) * 100
-                  }% 0 0)`,
+                  clipPath: `inset(0 ${((100 - props.progress) / 100) * 100
+                     }% 0 0)`,
                   transition: "clip-path 1s ease",
                   border: "5px solid " + props.progressColor,
                }}
@@ -27,7 +26,7 @@ const SkillCard: React.FC<ProgressBarProps> = (props) => {
                </div>
 
                {/* Progress Text */}
-               <div className="text-gray-600 text-lg font-bold">
+               <div className="text-[#d0d5ce] text-lg font-bold">
                   {props.progress}%
                </div>
             </div>
