@@ -5,9 +5,9 @@ import {
    AboutMeContext,
    ConnectBtnPopupContext,
    EducationSectionContext,
-   ExpertiesSectionContext,
+   ExpertiseSectionContext,
    ProjectPopupContext,
-   ProjectsSectonContext,
+   ProjectsSectorContext,
 } from "./contexts";
 import { _ROUTER } from "./router";
 
@@ -33,10 +33,10 @@ function App() {
             <ProjectPopupContext.Provider
                value={{ projectPopupOnOff, setProjectPopupOnOff }}
             >
-               <ExpertiesSectionContext.Provider
+               <ExpertiseSectionContext.Provider
                   value={{ expertiseSectionOnOff, setExpertiseSectionOnOff }}
                >
-                  <ProjectsSectonContext.Provider
+                  <ProjectsSectorContext.Provider
                      value={{ projectSectionOnOff, setProjectSectionOnOff }}
                   >
                      <EducationSectionContext.Provider
@@ -54,8 +54,8 @@ function App() {
                            <RouterProvider router={_ROUTER} />
                         </AboutMeContext.Provider>
                      </EducationSectionContext.Provider>
-                  </ProjectsSectonContext.Provider>
-               </ExpertiesSectionContext.Provider>
+                  </ProjectsSectorContext.Provider>
+               </ExpertiseSectionContext.Provider>
             </ProjectPopupContext.Provider>
          </ConnectBtnPopupContext.Provider>
       </Fragment>
