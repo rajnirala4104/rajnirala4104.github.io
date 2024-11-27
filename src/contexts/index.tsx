@@ -18,13 +18,13 @@ export const EducationSectionContext =
       setEducationSectiOnOff: () => false,
    });
 
-export const ProjectsSectorContext =
+export const ProjectsSectonContext =
    createContext<ProjectSectionContextInterface>({
       projectSectionOnOff: false,
       setProjectSectionOnOff: () => false,
    });
 
-export const ExpertiseSectionContext =
+export const ExpertiesSectionContext =
    createContext<ExpertiseSectionContextInterface>({
       expertiseSectionOnOff: false,
       setExpertiseSectionOnOff: () => false,
