@@ -4,6 +4,7 @@ import {
    GithubIcon,
    InstagramIcon,
    LinkedInIcon,
+   TwitterXIcon,
    WhatsAppIcon,
 } from "../icons";
 import { Classes } from "../interfaces";
@@ -33,6 +34,14 @@ const SocialIcons: React.FC<Classes> = ({ classes }) => {
                   target="_blank"
                >
                   <InstagramIcon />
+               </Link>
+            </div>
+            <div className="cursor-pointer hover:text-slate-800 transition duration-200 ml-2">
+               <Link
+                  to="https://x.com/rajnirala910"
+                  target="_blank"
+               >
+                  <TwitterXIcon />
                </Link>
             </div>
             <div className="cursor-pointer ml-2 hover:text-slate-800 transition duration-200">
