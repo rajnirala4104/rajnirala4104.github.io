@@ -4,6 +4,7 @@ import {
    ConnectBtnPopupInterface,
    EducationSectionContextInterface,
    ExpertiseSectionContextInterface,
+   MoreAboutMeContextInterface,
    ProjectPopupContextInterface,
    ProjectSectionContextInterface,
 } from "../interfaces";
@@ -12,6 +13,7 @@ export const AboutMeContext = createContext<AboutMeContextInterface>({
    aboutMeContextOnOff: true,
    setAboutMeContextOnOff: () => false,
 });
+
 export const EducationSectionContext =
    createContext<EducationSectionContextInterface>({
       educationSectionOnOff: false,
@@ -38,4 +40,9 @@ export const ConnectBtnPopupContext = createContext<ConnectBtnPopupInterface>({
 export const ProjectPopupContext = createContext<ProjectPopupContextInterface>({
    projectPopupOnOff: false,
    setProjectPopupOnOff: () => false,
+});
+
+export const MoreAboutMeContext = createContext<MoreAboutMeContextInterface>({
+   moreAboutMeContent: false,
+   setMoreAboutMeContent: () => false,
 });

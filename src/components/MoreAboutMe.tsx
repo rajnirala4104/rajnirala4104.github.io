@@ -10,7 +10,7 @@ const MoreAboutMe: React.FC = () => {
                <h2 className="text-lg text-gray-900 px-2 z-10 sticky top-0 bg-gray-300 mb-2">
                   <strong>More About Me</strong>
                </h2>
-               <div className="flex flex-col justify-center flex-wrap items-center relative top-0 ">
+               <div className="flex flex-col justify-center flex-wrap items-center relative top-0">
                   {data.map((singleObject, i) => (
                      <Fragment key={i}>
                         <MoreAboutMeCard {...singleObject} />

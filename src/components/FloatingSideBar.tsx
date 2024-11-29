@@ -16,6 +16,7 @@ import {
    ConnectBtnPopupContext,
    EducationSectionContext,
    ExpertiseSectionContext,
+   MoreAboutMeContext,
    ProjectsSectionContext,
 } from "../contexts";
 
@@ -39,21 +40,12 @@ const FloatingSideBar: React.FC = () => {
       };
    }, []);
 
-   const { aboutMeContextOnOff, setAboutMeContextOnOff } =
-      useContext(AboutMeContext);
-   const { educationSectionOnOff, setEducationSectiOnOff } = useContext(
-      EducationSectionContext
-   );
-   const { projectSectionOnOff, setProjectSectionOnOff } = useContext(
-      ProjectsSectionContext
-   );
-   const { expertiseSectionOnOff, setExpertiseSectionOnOff } = useContext(
-      ExpertiseSectionContext
-   );
-
-   const { connectBtnPopupOnOff, setConnectBtnPopupOnOff } = useContext(
-      ConnectBtnPopupContext
-   );
+   const { aboutMeContextOnOff, setAboutMeContextOnOff } = useContext(AboutMeContext);
+   const { educationSectionOnOff, setEducationSectiOnOff } = useContext(EducationSectionContext);
+   const { projectSectionOnOff, setProjectSectionOnOff } = useContext(ProjectsSectionContext);
+   const { expertiseSectionOnOff, setExpertiseSectionOnOff } = useContext(ExpertiseSectionContext);
+   const { connectBtnPopupOnOff, setConnectBtnPopupOnOff } = useContext(ConnectBtnPopupContext);
+   const { moreAboutMeContent, setMoreAboutMeContent } = useContext(MoreAboutMeContext)
 
    return (
       <Fragment>
@@ -125,6 +117,7 @@ const FloatingSideBar: React.FC = () => {
                      setProjectSectionOnOff(false);
                      setExpertiseSectionOnOff(false);
                      setAboutMeContextOnOff(true);
+                     setMoreAboutMeContent(false)
                   }}
                >
                   <SingleMenuBar
@@ -138,6 +131,7 @@ const FloatingSideBar: React.FC = () => {
                      setProjectSectionOnOff(false);
                      setExpertiseSectionOnOff(false);
                      setEducationSectiOnOff(true);
+                     setMoreAboutMeContent(false)
                   }}
                >
                   <SingleMenuBar
@@ -151,6 +145,7 @@ const FloatingSideBar: React.FC = () => {
                      setEducationSectiOnOff(false);
                      setExpertiseSectionOnOff(false);
                      setProjectSectionOnOff(true);
+                     setMoreAboutMeContent(false)
                   }}
                >
                   <SingleMenuBar
@@ -164,6 +159,7 @@ const FloatingSideBar: React.FC = () => {
                      setEducationSectiOnOff(false);
                      setProjectSectionOnOff(false);
                      setExpertiseSectionOnOff(true);
+                     setMoreAboutMeContent(false)
                   }}
                >
                   <SingleMenuBar
@@ -171,8 +167,14 @@ const FloatingSideBar: React.FC = () => {
                      active={expertiseSectionOnOff}
                   />
                </div>
-               <div>
-                  <SingleMenuBar menuTitle="MoreAboutMe" />
+               <div onClick={() => {
+                  setMoreAboutMeContent(true)
+                  setAboutMeContextOnOff(false);
+                  setEducationSectiOnOff(false);
+                  setProjectSectionOnOff(false);
+                  setExpertiseSectionOnOff(false);
+               }}>
+                  <SingleMenuBar menuTitle="MoreAboutMe" active={moreAboutMeContent} />
                </div>
                <div className="lg:hidden">
                   <MoreAboutMe />
@@ -186,7 +188,7 @@ const FloatingSideBar: React.FC = () => {
                <MoreAboutMe />
             </div>
          </div>
-      </Fragment>
+      </Fragment >
    );
 };
 

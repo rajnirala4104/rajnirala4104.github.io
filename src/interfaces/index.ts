@@ -56,6 +56,11 @@ export interface ConnectBtnPopupInterface {
       setConnectBtnPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>
 }
 
+export interface MoreAboutMeContextInterface {
+      moreAboutMeContent: boolean,
+      setMoreAboutMeContent: React.Dispatch<React.SetStateAction<boolean>>
+}
+
 export interface ProgressBarProps {
       progressColor: string;
       skillName: string;
