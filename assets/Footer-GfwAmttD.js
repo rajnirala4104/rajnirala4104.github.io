@@ -1,1 +1,0 @@
-import{j as e,r as t}from"./index-CLNTakQ5.js";const a=()=>e.jsx(t.Fragment,{children:e.jsx("div",{className:"grid place-content-center items-center bg-white w-full h-full rounded-lg",children:e.jsx("span",{className:"font-mono text-slate-700",children:"Raj Nirala | MERN Stack Developer"})})});export{a as default};

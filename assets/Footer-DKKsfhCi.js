@@ -1,0 +1,1 @@
+import{j as t,r as e}from"./index-CtfJ1Z-s.js";const n=()=>t.jsx(e.Fragment,{children:t.jsx("div",{className:"grid place-content-center items-center bg-white w-full h-full rounded-lg font-mono text-slate-700 hover:text-slate-800 transition duration-200 text-[15px]",children:t.jsx("span",{children:"Copyright © 2024 | Raj Nirala "})})});export{n as default};
