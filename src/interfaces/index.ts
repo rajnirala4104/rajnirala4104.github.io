@@ -58,6 +58,7 @@ export interface ConnectBtnPopupInterface {
 
 export interface ProgressBarProps {
       progressColor: string;
+      skillName: string;
       progress: number;
       image: string;
 }

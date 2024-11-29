@@ -17,9 +17,11 @@ import translatorWithGUI from './TranslatorWithGUIProjectImage.png'
 import travelerRaj from './travelerRaj2.jpg'
 import tellTheNews from './TTN_TellTheNewsCodeImage.png'
 import ula_LawFirm from './ULA_Project.png'
+import webBg from './webBg.jpg'
 
 export const ALL_IMAGES = {
       ERA,
+      webBg,
       banner,
       BookLover,
       dogProject,

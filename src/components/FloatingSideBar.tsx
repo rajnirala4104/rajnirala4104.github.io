@@ -15,8 +15,8 @@ import {
    AboutMeContext,
    ConnectBtnPopupContext,
    EducationSectionContext,
-   ExpertiesSectionContext,
-   ProjectsSectonContext,
+   ExpertiseSectionContext,
+   ProjectsSectionContext,
 } from "../contexts";
 
 const FloatingSideBar: React.FC = () => {
@@ -45,10 +45,10 @@ const FloatingSideBar: React.FC = () => {
       EducationSectionContext
    );
    const { projectSectionOnOff, setProjectSectionOnOff } = useContext(
-      ProjectsSectonContext
+      ProjectsSectionContext
    );
    const { expertiseSectionOnOff, setExpertiseSectionOnOff } = useContext(
-      ExpertiesSectionContext
+      ExpertiseSectionContext
    );
 
    const { connectBtnPopupOnOff, setConnectBtnPopupOnOff } = useContext(
@@ -167,7 +167,7 @@ const FloatingSideBar: React.FC = () => {
                   }}
                >
                   <SingleMenuBar
-                     menuTitle="Experties"
+                     menuTitle="Expertise"
                      active={expertiseSectionOnOff}
                   />
                </div>

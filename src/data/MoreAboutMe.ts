@@ -5,7 +5,7 @@ export const data = [
       {
             cardTitle: "Hodophile",
             cardDescription:
-                  "Traveling brings joy, solace, and a fresh perspective. Steppingbeyond comfort zones, embracing the world, and connecting with diverse people ignite happiness. Observing beauty, forging meaningful experiences, and seeking joy through human interaction make traveling an invaluable opportunity",
+                  "Traveling brings joy, solace, and a fresh perspective. Stepping beyond comfort zones, embracing the world, and connecting with diverse people ignite happiness. Observing beauty, forging meaningful experiences, and seeking joy through human interaction make traveling an invaluable opportunity",
             cardImg: ALL_IMAGES.travelerRaj,
             voiceSound: "",
       },

@@ -3,15 +3,15 @@ import { AboutMe, EducationSection, ExpertiseSection, Projects } from ".";
 import {
    AboutMeContext,
    EducationSectionContext,
-   ExpertiesSectionContext,
-   ProjectsSectonContext,
+   ExpertiseSectionContext,
+   ProjectsSectionContext,
 } from "../contexts";
 
 const MainContainer: React.FC = () => {
    const { aboutMeContextOnOff } = useContext(AboutMeContext);
    const { educationSectionOnOff } = useContext(EducationSectionContext);
-   const { projectSectionOnOff } = useContext(ProjectsSectonContext);
-   const { expertiseSectionOnOff } = useContext(ExpertiesSectionContext);
+   const { projectSectionOnOff } = useContext(ProjectsSectionContext);
+   const { expertiseSectionOnOff } = useContext(ExpertiseSectionContext);
 
    return (
       <Fragment>
