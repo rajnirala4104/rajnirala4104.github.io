@@ -64,7 +64,7 @@ export const LinkedInIcon: React.FC = () => {
    );
 };
 
-export const VoiceIconl: React.FC = () => {
+export const VoiceIcon: React.FC = () => {
    return (
       <svg
          stroke="currentColor"

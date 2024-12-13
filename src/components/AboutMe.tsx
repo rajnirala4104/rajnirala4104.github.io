@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { VoiceIconl } from "../icons";
+import { VoiceIcon } from "../icons";
 
 const AboutMe: React.FC = () => {
    const voiceHandler = () => {
@@ -13,20 +13,20 @@ const AboutMe: React.FC = () => {
                <strong>About Me</strong>
                <span
                   onClick={voiceHandler}
-                  className="text-xl absolute top-[15%] right-[3%] cursor-pointer text-slate-600 hover:text-slate-800 transiation duration-300"
+                  className="text-xl absolute top-[15%] right-[3%] cursor-pointer text-slate-600 hover:text-slate-800 transition duration-300"
                >
-                  <VoiceIconl />
+                  <VoiceIcon />
                </span>
             </h2>
             <div className="lg:flex hidden lg:justify-center lg:items-center lg:w-[100%] absolute top-0">
                <span
                   onClick={voiceHandler}
-                  className="text-xl absolute top-4 left-[3%] cursor-pointer text-slate-600 hover:text-slate-800 transiation duration-300"
+                  className="text-xl absolute top-4 left-[3%] cursor-pointer text-slate-600 hover:text-slate-800 transition duration-300"
                >
-                  <VoiceIconl />
+                  <VoiceIcon />
                </span>
             </div>
-            <div className="aboutContent flex justify-center items-center mx-2 lg:text-start text-justify lg:w-[50%]">
+            <div className="aboutContent flex justify-center items-center mx-2 lg:text-start text-justify lg:w-[60%]">
                <p className="text-gray-600 my-2 lg:text-[18px] text-[14px]">
                   Hey there! 👋 I'm a full-stack developer with expertise in
                   multiple languages and frameworks.

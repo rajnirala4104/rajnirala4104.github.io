@@ -8,6 +8,8 @@ import ERA from './ERA.png'
 import FriendlyNature from './friendlyNature.jpg'
 import NoteApplication from './NoteApplicationProject.png'
 import ProblemSolverRaj from './problemSolverRaj.jpg'
+import rajWithBagAndWaterBottle from './raj_traveler_bag_&_waterBottle.jpg'
+import rajInCapAndJacket from './rajInCapAndJacket.jpg'
 import rajniralaProfilePic from './rajnirala.png'
 import rajAboutMeImage from './rajniralasvg.png'
 import RajWithClassicalGuitar from './rajwithclassicalguitarForPhone.png'
@@ -38,6 +40,8 @@ export const ALL_IMAGES = {
       ProblemSolverRaj,
       ToDoListWebImage,
       translatorWithGUI,
+      rajInCapAndJacket,
       rajniralaProfilePic,
       RajWithClassicalGuitar,
+      rajWithBagAndWaterBottle,
 }

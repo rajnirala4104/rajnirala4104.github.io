@@ -51,12 +51,9 @@ const FloatingSideBar: React.FC = () => {
       <Fragment>
          <div className="w-full bg-white flex flex-col justify-start">
             <div className="header text-slate-800 border-b border-slate-600 h-[18rem] ">
-               <div
-                  className="h-[8rem] lg:h-[40%]"
-                  style={{
-                     background: `url(${ALL_IMAGES.banner}) center center/cover `,
-                  }}
-               ></div>
+               <div className="h-[9rem] lg:h-[40%]">
+                  <img src={ALL_IMAGES.banner} className="w-full h-full object-cover" loading="lazy" alt="raj nirala" />
+               </div>
                <div className="flex w-full">
                   <div className="w-[120%] flex flex-col px-2 my-2">
                      <span
@@ -93,7 +90,7 @@ const FloatingSideBar: React.FC = () => {
                         </button>
                      </div>
                   </div>
-                  <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%]  mx-3 -translate-y-[4rem] ">
+                  <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%]  mx-3 -translate-y-[40%] ">
                      <div className="border-2 border-slate-400 bg-white rounded-full w-full shadow-xl">
                         <img
                            className="w-full rounded-full"
