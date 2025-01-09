@@ -19,7 +19,7 @@ const MoreAboutMeCard: React.FC<MoreAboutMeCardInterface> = (props) => {
                         {props.cardTitle}
                      </span>
                   </div>
-                  <div className="cardDescription text-[15px] w-[80%]">
+                  <div className="cardDescription text-[15px] w-[84%]">
                      {props.cardDescription}
                   </div>
                </div>

@@ -6,7 +6,7 @@ export const data = [
             cardTitle: "Hodophile",
             cardDescription:
                   "Traveling brings joy, solace, and a fresh perspective. Stepping beyond comfort zones, embracing the world, and connecting with diverse people ignite happiness. Observing beauty, forging meaningful experiences, and seeking joy through human interaction make traveling an invaluable opportunity",
-            cardImg: ALL_IMAGES.rajInCapAndJacket,
+            cardImg: ALL_IMAGES.travelerRaj3,
             voiceSound: "",
       },
       {
@@ -27,7 +27,7 @@ export const data = [
             cardTitle: "Problem Solver",
             cardDescription:
                   "I derive great satisfaction from being a problem solver. The joy of finding solutions is unparalleled; it's a unique thrill. There are countless paths to explore, numerous solutions to discover. The process of problem-solving is an exciting adventure that fuels my passion",
-            cardImg: ALL_IMAGES.ProblemSolverRaj,
+            cardImg: ALL_IMAGES.dontHaveAnyPerfectPicture,
             voiceSound: "",
       },
       {
