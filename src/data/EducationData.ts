@@ -1,7 +1,7 @@
 export const educationDetailsArr = [
       {
             title: "Diploma in Computer Science",
-            whereInfo: "DSEU Univercity | Shakarpur Campus",
+            whereInfo: "DSEU University | Shakarpur Campus",
             description:
                   "I built some strong academic foundations and an extensive professional network.",
 
