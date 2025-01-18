@@ -34,7 +34,7 @@ const MoreAboutMeCard: React.FC<MoreAboutMeCardInterface> = (props) => {
                   boxShadow: "4px 6px 12px -6px black",
                }}
             >
-               <div className="cardContent text-white h-[50%] p-5 flex flex-col justify-center items-start w-full bg-gradient-to-b from-transparent to-black rounded-md ">
+               <div className="cardContent text-white h-[50%] p-5 flex flex-col justify-center items-start w-full rounded-md ">
                   <div className="cardTitle my-2">
                      <span className="font-semibold text-[27px]">
                         {props.cardTitle}

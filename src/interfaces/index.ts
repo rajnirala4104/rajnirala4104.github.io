@@ -61,6 +61,11 @@ export interface MoreAboutMeContextInterface {
       setMoreAboutMeContent: React.Dispatch<React.SetStateAction<boolean>>
 }
 
+export interface ProfilePicturePopupContextInterface {
+      profilePicturePopupOnOff: boolean,
+      setProfilePicturePopupOnOff: React.Dispatch<React.SetStateAction<boolean>>
+}
+
 export interface ProgressBarProps {
       progressColor: string;
       skillName: string;

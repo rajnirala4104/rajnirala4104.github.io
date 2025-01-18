@@ -5,6 +5,7 @@ import {
    EducationSectionContextInterface,
    ExpertiseSectionContextInterface,
    MoreAboutMeContextInterface,
+   ProfilePicturePopupContextInterface,
    ProjectPopupContextInterface,
    ProjectSectionContextInterface,
 } from "../interfaces";
@@ -45,4 +46,9 @@ export const ProjectPopupContext = createContext<ProjectPopupContextInterface>({
 export const MoreAboutMeContext = createContext<MoreAboutMeContextInterface>({
    moreAboutMeContent: false,
    setMoreAboutMeContent: () => false,
+});
+
+export const ProfilePicturePopupContext = createContext<ProfilePicturePopupContextInterface>({
+   profilePicturePopupOnOff: false,
+   setProfilePicturePopupOnOff: () => false
 });

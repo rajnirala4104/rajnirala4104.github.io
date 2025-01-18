@@ -17,6 +17,7 @@ import {
    EducationSectionContext,
    ExpertiseSectionContext,
    MoreAboutMeContext,
+   ProfilePicturePopupContext,
    ProjectsSectionContext,
 } from "../contexts";
 
@@ -46,6 +47,7 @@ const FloatingSideBar: React.FC = () => {
    const { expertiseSectionOnOff, setExpertiseSectionOnOff } = useContext(ExpertiseSectionContext);
    const { connectBtnPopupOnOff, setConnectBtnPopupOnOff } = useContext(ConnectBtnPopupContext);
    const { moreAboutMeContent, setMoreAboutMeContent } = useContext(MoreAboutMeContext)
+   const { profilePicturePopupOnOff, setProfilePicturePopupOnOff } = useContext(ProfilePicturePopupContext)
 
    return (
       <Fragment>
@@ -91,7 +93,9 @@ const FloatingSideBar: React.FC = () => {
                      </div>
                   </div>
                   <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%]  mx-3 -translate-y-[40%] ">
-                     <div className="border-2 border-slate-400 bg-white rounded-full w-full shadow-xl">
+                     <div
+                        onClick={() => setProfilePicturePopupOnOff(!profilePicturePopupOnOff)}
+                        className="border-2 border-slate-400 bg-white rounded-full w-full shadow-xl">
                         <img
                            className="w-full rounded-full"
                            loading="lazy"
