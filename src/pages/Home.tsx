@@ -4,13 +4,16 @@ import {
    FloatingSideBar,
    Footer,
    MainContainer,
+   ProfilePicturePopup,
 } from "../components";
 import ProjectPopup from "../components/ProjectPopup";
-import { ConnectBtnPopupContext, ProjectPopupContext } from "../contexts";
+import { ConnectBtnPopupContext, ProfilePicturePopupContext, ProjectPopupContext } from "../contexts";
 
 const Home: React.FC = () => {
    const { projectPopupOnOff } = useContext(ProjectPopupContext);
    const { connectBtnPopupOnOff } = useContext(ConnectBtnPopupContext);
+   const { profilePicturePopupOnOff } = useContext(ProfilePicturePopupContext);
+
    return (
       <Fragment>
          {/* ------ for emergency use ----- */}
@@ -22,6 +25,11 @@ const Home: React.FC = () => {
                </h1>
             </div>
          </div>
+         {profilePicturePopupOnOff && (
+            <Suspense fallback="loading..">
+               <ProfilePicturePopup />
+            </Suspense>
+         )}
          {projectPopupOnOff && <ProjectPopup />}
          {connectBtnPopupOnOff && (
             <Suspense fallback="loading..">

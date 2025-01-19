@@ -95,7 +95,7 @@ const FloatingSideBar: React.FC = () => {
                   <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%]  mx-3 -translate-y-[40%] ">
                      <div
                         onClick={() => setProfilePicturePopupOnOff(!profilePicturePopupOnOff)}
-                        className="border-2 border-slate-400 bg-white rounded-full w-full shadow-xl">
+                        className="border-2 border-slate-400 bg-white rounded-full w-full shadow-xl cursor-pointer">
                         <img
                            className="w-full rounded-full"
                            loading="lazy"

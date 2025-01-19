@@ -4,8 +4,7 @@ import { CloseIcon } from "../icons";
 import { ProjectCardInterface } from "../interfaces";
 
 const ProjectPopup: React.FC<ProjectCardInterface> = (props) => {
-   const { projectPopupOnOff, setProjectPopupOnOff } =
-      useContext(ProjectPopupContext);
+   const { projectPopupOnOff, setProjectPopupOnOff } = useContext(ProjectPopupContext);
 
    return (
       <Fragment>
