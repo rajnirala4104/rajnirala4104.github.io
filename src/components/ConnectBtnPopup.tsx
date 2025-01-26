@@ -11,7 +11,7 @@ const ConnectBtnPopup: React.FC = () => {
    return (
       <Fragment>
          <Suspense fallback="loading..">
-            <div className="w-full h-screen absolute top-0 z-20 overflow-hidden bg-[rgba(43,43,43,0.25)] backdrop-blur-sm flex justify-center items-center">
+            <div className="w-full h-screen absolute backdrop-blur-sm bg-gradient-to-t from-black to-transparent top-0 z-20 overflow-hidden bg-[rgba(43,43,43,0.25)] backdrop-blur-sm flex justify-center items-center">
                <div className="popupMainContainer relative flex justify-center items-center bg-white rounded-lg p-3 w-[80%] h-[50%]">
                   <span
                      onClick={() =>
