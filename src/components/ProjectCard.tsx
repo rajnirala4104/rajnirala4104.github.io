@@ -1,37 +1,31 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { ProjectCardInterface } from "../interfaces";
 
 const ProjectCard: React.FC<ProjectCardInterface> = (props) => {
    // const { projectPopupOnOff, setProjectPopupOnOff } = useContext(ProjectPopupContext);
-   return (
-      <Fragment>
-         <div
-            // TODO: fix project's card
-            // onClick={() => setProjectPopupOnOff(!projectPopupOnOff)}
-            className=" border p-4 my-3 w-[100%] lg:w-[30%] lg:mx-2 lg:overflow-auto bg-white lg:cursor-pointer hover:shadow-lg transition duration-300 hover:backdrop-shadow-2xl"
-         >
-            <img src={props.img} className="my-2" alt={props.projName} />
-            <div className="projectCardContent">
-               <h2 className="text-[18px] text-gray-700">{props.projName}</h2>
-               <p className="text-gray-700 text-[13px]">
-                  {props.projDescription}
-               </p>
-            </div>
-            <div className="btns mt-2">
-               <Link
-                  to={props.codeLink!}
-                  target="_blank"
-                  className="px-2 py-1 bg-gray-600 text-white text-[15px] rounded-[5px]"
-               >
-                  {props.codeLink?.split("/")[2] === "github.com"
-                     ? "Code"
-                     : "Show"}
-               </Link>
-            </div>
-         </div>
-      </Fragment>
-   );
+   
+  return (
+     <Fragment>
+       <div className="mx-3 my-3 pb-4 max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <img className="w-full h-48 object-cover" src={props.img} alt={props.projName} />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">{props.projName}</div>
+            <p className="text-gray-700 text-base">{props.projDescription}</p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <a
+              href={props.codeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+    </Fragment>
+  );
 };
 
 export default ProjectCard;
