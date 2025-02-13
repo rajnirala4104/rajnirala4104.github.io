@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardInterface> = (props) => {
               href={props.codeLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="inline-block bg-gray-600 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded"
             >
               View Project
             </a>
