@@ -7,7 +7,7 @@ const MoreAboutMeCard: React.FC<MoreAboutMeCardInterface> = (props) => {
          <Suspense fallback="loading..">
             {/* ---------- large screen ---------- */}
             <div
-               className="hidden border border-red-500 lg:bg-local bg-fixed rounded-md shadow-lg mx-1  h-[35rem] w-[96%] lg:flex justify-center items-end mb-3 saturate-[100%] transition-all duration-200 lg:hover:saturate-150"
+               className="hidden lg:bg-local bg-fixed rounded-md shadow-lg mx-1  h-[35rem] w-[96%] lg:flex justify-center items-end mb-3 saturate-[100%] transition-all duration-200 lg:hover:saturate-150"
                style={{
                   background: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1.6)), url(${props.cardImg}) center center/cover`,
                   boxShadow: "4px 6px 12px -6px black",
