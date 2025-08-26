@@ -16,6 +16,11 @@ export const data = [
             cardImg: ALL_IMAGES.BookLover,
             voiceSound: "",
       },
+    {
+        cardTitle: "Filmmaker",
+        cardDescription: "As a filmmaker, I love capturing memories and turning them into stories that feel personal and real. Through my perspective and point of view, I try to bring out emotions, moments, and ideas that connect with people in a simple yet meaningful way.",
+        cardImg: ALL_IMAGES.filmmaker
+    },
       {
             cardTitle: "Friendly Nature",
             cardDescription:

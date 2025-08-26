@@ -24,7 +24,7 @@ import travelerRaj3 from './travelerRaj3.png'
 import tellTheNews from './TTN_TellTheNewsCodeImage.png'
 import ula_LawFirm from './ULA_Project.png'
 import webBg from './webBg.jpg'
-
+import filmmaker from './filmmaker.jpg'
 export const ALL_IMAGES = {
       ERA,
       webBg,
@@ -37,6 +37,7 @@ export const ALL_IMAGES = {
       travelerRaj2,
       travelerRaj3,
       eLibWebImage,
+    filmmaker,
       communaImage,
       FriendlyNature,
       dotNewsWebImage,
