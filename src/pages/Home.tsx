@@ -1,23 +1,27 @@
 import React, { Fragment, Suspense, useContext } from "react";
 import {
    ConnectBtnPopup,
+   CV_Viewer,
    FloatingSideBar,
    Footer,
    MainContainer,
    ProfilePicturePopup,
 } from "../components";
 import ProjectPopup from "../components/ProjectPopup";
-import { ConnectBtnPopupContext, ProfilePicturePopupContext, ProjectPopupContext } from "../contexts";
+import { ConnectBtnPopupContext, CVPopupContext, CvViewerPopupContext, ProfilePicturePopupContext, ProjectPopupContext } from "../contexts";
+import CVPopup from "../components/CVPopup";
 
 const Home: React.FC = () => {
    const { projectPopupOnOff } = useContext(ProjectPopupContext);
    const { connectBtnPopupOnOff } = useContext(ConnectBtnPopupContext);
    const { profilePicturePopupOnOff } = useContext(ProfilePicturePopupContext);
+   const { cvPopupOnOff} = useContext(CVPopupContext);
+   const { cvViewerPopupOnOff } = useContext(CvViewerPopupContext)
 
    return (
       <Fragment>
          {/* ------ for emergency use ----- */}
-         <div className="w-full hidden md:hidden lg:grid h-screen backdrop-blur-sm bg-[rgba(0,0,0,0.5)] place-content-center place-items-center p-4 absolute top-0 z-20">
+         <div className="w-full hidden lg:hidden md:grid h-screen backdrop-blur-sm bg-[rgba(0,0,0,0.5)] place-content-center place-items-center p-4 absolute top-0 z-20">
             <div className="bg-white grid place-content-center place-items-center m-4 w-[80%] h-[50vh] rounded-lg">
                <h1 className="text-2xl font-bold text-black text-center p-16">
                   Desktop version is in progress, till then use mobile version
@@ -30,6 +34,14 @@ const Home: React.FC = () => {
                <ProfilePicturePopup />
             </Suspense>
          )}
+
+         {cvPopupOnOff && <CVPopup /> }
+         {cvViewerPopupOnOff && (
+            <Suspense fallback={"loading.."}>
+               <CV_Viewer />
+            </Suspense>
+         )}
+
          {projectPopupOnOff && <ProjectPopup />}
          {connectBtnPopupOnOff && (
             <Suspense fallback="loading..">

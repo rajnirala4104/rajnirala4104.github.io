@@ -4,6 +4,8 @@ import "./App.css";
 import {
    AboutMeContext,
    ConnectBtnPopupContext,
+   CVPopupContext,
+   CvViewerPopupContext,
    EducationSectionContext,
    ExpertiseSectionContext,
    MoreAboutMeContext,
@@ -22,6 +24,8 @@ function App() {
    const [connectBtnPopupOnOff, setConnectBtnPopupOnOff] = useState<boolean>(false);
    const [moreAboutMeContent, setMoreAboutMeContent] = useState<boolean>(false);
    const [profilePicturePopupOnOff, setProfilePicturePopupOnOff] = useState<boolean>(false);
+   const [cvPopupOnOff, setCvPopupOnOff] = useState<boolean>(false);
+   const [cvViewerPopupOnOff, setCvViewerPopupOnOff] = useState<boolean>(false);
 
    return (
       <Fragment>
@@ -33,7 +37,11 @@ function App() {
                         <ProjectsSectionContext.Provider value={{ projectSectionOnOff, setProjectSectionOnOff }}>
                            <EducationSectionContext.Provider value={{ educationSectionOnOff, setEducationSectiOnOff }}>
                               <AboutMeContext.Provider value={{ aboutMeContextOnOff, setAboutMeContextOnOff }}>
-                                 <RouterProvider router={_ROUTER} />
+                                 <CVPopupContext.Provider value={{cvPopupOnOff, setCvPopupOnOff}}>
+                                    <CvViewerPopupContext.Provider value={{cvViewerPopupOnOff, setCvViewerPopupOnOff}}>
+                                       <RouterProvider router={_ROUTER} />
+                                    </CvViewerPopupContext.Provider>
+                                 </CVPopupContext.Provider>
                               </AboutMeContext.Provider>
                            </EducationSectionContext.Provider>
                         </ProjectsSectionContext.Provider>

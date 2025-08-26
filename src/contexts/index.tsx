@@ -2,6 +2,8 @@ import { createContext } from "react";
 import {
    AboutMeContextInterface,
    ConnectBtnPopupInterface,
+   CVPopupContextInterface,
+   CvViewerPopupContextInterface,
    EducationSectionContextInterface,
    ExpertiseSectionContextInterface,
    MoreAboutMeContextInterface,
@@ -14,6 +16,11 @@ export const AboutMeContext = createContext<AboutMeContextInterface>({
    aboutMeContextOnOff: true,
    setAboutMeContextOnOff: () => false,
 });
+
+export const CvViewerPopupContext = createContext<CvViewerPopupContextInterface>({
+   cvViewerPopupOnOff: true,
+   setCvViewerPopupOnOff: () => false
+})
 
 export const EducationSectionContext =
    createContext<EducationSectionContextInterface>({
@@ -42,6 +49,11 @@ export const ProjectPopupContext = createContext<ProjectPopupContextInterface>({
    projectPopupOnOff: false,
    setProjectPopupOnOff: () => false,
 });
+
+export const CVPopupContext = createContext<CVPopupContextInterface>({
+   cvPopupOnOff: false,
+   setCvPopupOnOff: () => false,
+})
 
 export const MoreAboutMeContext = createContext<MoreAboutMeContextInterface>({
    moreAboutMeContent: false,

@@ -1,5 +1,4 @@
 import React, { Fragment, useContext } from "react";
-import { Link } from "react-router-dom";
 import Typed from "typed.js";
 import {
    AboutMe,
@@ -14,6 +13,7 @@ import { ALL_IMAGES } from "../assets";
 import {
    AboutMeContext,
    ConnectBtnPopupContext,
+   CVPopupContext,
    EducationSectionContext,
    ExpertiseSectionContext,
    MoreAboutMeContext,
@@ -48,8 +48,9 @@ const FloatingSideBar: React.FC = () => {
    const { connectBtnPopupOnOff, setConnectBtnPopupOnOff } = useContext(ConnectBtnPopupContext);
    const { moreAboutMeContent, setMoreAboutMeContent } = useContext(MoreAboutMeContext)
    const { profilePicturePopupOnOff, setProfilePicturePopupOnOff } = useContext(ProfilePicturePopupContext)
-
-   return (
+   const { cvPopupOnOff, setCvPopupOnOff } = useContext(CVPopupContext);
+   
+   return (   
       <Fragment>
          <div className="w-full bg-white flex flex-col justify-start">
             <div className="header text-slate-800 border-b border-slate-600 h-[18rem] ">
@@ -82,14 +83,12 @@ const FloatingSideBar: React.FC = () => {
                         >
                            Let's Connect
                         </button>
-                        <button className="bg-gray-600 text-white px-2 py-1 text-sm rounded-sm mx-2 shadow-lg hover:bg-gray-700">
-                           <Link
-                              target="_black"
-                              to="https://docs.google.com/document/d/1erh9VMHEh4H6Aek61cXj5w_x0RAoFA_n03WCV0Y7LXA/edit?usp=sharing"
-                           >
-                              CV
-                           </Link>
+                        <button
+                           onClick={() => setCvPopupOnOff(!cvPopupOnOff)}
+                           className="bg-gray-600 text-white px-2 py-1 text-sm rounded-sm mx-2 shadow-lg hover:bg-gray-700">
+                           CV                 
                         </button>
+                        
                      </div>
                   </div>
                   <div className="flex flex-col justify-start items-center w-[80%] xl:w-[70%]  mx-3 -translate-y-[40%] ">

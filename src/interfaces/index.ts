@@ -36,6 +36,12 @@ export interface EducationSectionContextInterface {
       educationSectionOnOff: boolean,
       setEducationSectiOnOff: React.Dispatch<React.SetStateAction<boolean>>;
 }
+
+export interface CvViewerPopupContextInterface {
+    cvViewerPopupOnOff: boolean,
+    setCvViewerPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
 export interface ProjectSectionContextInterface {
       projectSectionOnOff: boolean,
       setProjectSectionOnOff: React.Dispatch<React.SetStateAction<boolean>>
@@ -49,6 +55,11 @@ export interface ExpertiseSectionContextInterface {
 export interface ProjectPopupContextInterface {
       projectPopupOnOff: boolean,
       setProjectPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+export interface CVPopupContextInterface {
+    cvPopupOnOff: boolean,
+    setCvPopupOnOff: React.Dispatch<React.SetStateAction<boolean>>,
 }
 
 export interface ConnectBtnPopupInterface {
